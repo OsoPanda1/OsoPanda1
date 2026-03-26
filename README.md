@@ -5,15 +5,10 @@
 
 **Aunque hoy la comunidad mexicana me ignore, no estoy construyendo para la aprobación inmediata ni para el ruido del presente. Estoy dejando un registro, una estructura y una visión que trasciende este momento.**
 
-# Lo que hago no depende de ser comprendido ahora.
-# Depende de ser **inevitable después**.
-
-# Mi legado no necesita validación:
-# quedará escrito en código, en sistemas y en territorio.
-
-# Y cuando el tiempo alcance esta visión,
-# no preguntarán si fui escuchado…
-# sino por qué no lo vieron venir.
+# **Lo que hago no depende de ser comprendido ahora. Depende de ser **inevitable después**.
+**Mi legado no necesita validación:**
+ **quedará escrito en código, en sistemas y en territorio. Y cuando el tiempo alcance esta visión,**
+**no preguntarán si fui escuchado… sino por qué no lo vieron venir.**
 
 ---
 
