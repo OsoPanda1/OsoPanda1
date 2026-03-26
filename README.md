@@ -1,4 +1,4 @@
- ## RDM-TOS // SOVEREIGN TERRITORIAL OS (ULTRA BUILD)**:
+ ## RDM-TOS // SOVEREIGN TERRITORIAL OS:
 **Orgullosamente Realmontenses, del estado de Hidalgo para el Mundo**
 
 ---
