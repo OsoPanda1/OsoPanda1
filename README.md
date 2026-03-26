@@ -196,10 +196,14 @@ style F fill:#0F0F0F,stroke:#FFD700,color:#E5E4E2
 
 ---
 
-# ⚔️ DEPLOYMENT PHILOSOPHY
+# DEPLOYMENT PHILOSOPHY
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=NODE+ZERO+BOOTING...;TERRITORY+AS+A+PROGRAMMABLE+SYSTEM;ISABELLA+KERNEL+ONLINE;7-FEDERATION+MESH+ACTIVE;SOVEREIGNTY+IS+NOT+DECLARED+-+IT+IS+CODED" />
 
-No se despliega software.
-Se activa infraestructura viva.
+Aqui no se despliega software, ni se pelea por liderar carreras estupidas y sin sentido.
+Se activa infraestructura viva, resiliente, al servicio de la humanidad sin explotar su dignidad.
+
+---
+
 
 ### Fases:
 
