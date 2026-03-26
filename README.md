@@ -1,336 +1,225 @@
-
-# 🏛️ TAMV OS // RDM DIGITAL
-
-### ⚙️ Civilizational Systems Architect
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=900&lines=TAMV+OS+%2F+RDM+DIGITAL;Civilizational+Operating+System;Territory+as+a+Programmable+System;Event+Driven+Reality+Engine" />
-</p>
+**RDM-TOS // SOVEREIGN TERRITORIAL OS (ULTRA BUILD)**:
+# Orgullosamente Realmontenses, dl estado de Hidalgo para el Mundo
 
 ---
 
-```txt
-> Booting Civilizational Layer...
-> Loading Territorial Intelligence...
-> Initializing Event Streams...
-> Connecting Economy Engine...
-> System Status: OPERATIONAL
+````html
+<div align="center">
+
+# 🏛️ RDM-TOS // SOVEREIGN TERRITORIAL OPERATING SYSTEM
+
+### ⚙️ Master Architect: Edwin Oswaldo Castillo Trejo  
+### 🧬 Alias: Anubis Villaseñor | ORCID: 0009-0008-5050-1539  
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=NODE+ZERO+BOOTING...;TERRITORY+AS+A+PROGRAMMABLE+SYSTEM;ISABELLA+KERNEL+ONLINE;7-FEDERATION+MESH+ACTIVE;SOVEREIGNTY+IS+NOT+DECLARED+-+IT+IS+CODED" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0F0F,100:00F7FF&height=140&section=header&text=REAL%20DEL%20MONTE%20-%20NODE%20ZERO&fontSize=26&fontColor=E5E4E2&animation=twinkling&fontAlignY=40"/>
+
+</div>
+
+---
+
+# 📡 LIVE TERRITORIAL TELEMETRY
+
+> ⚠️ Este repositorio no muestra código.  
+> Expone el **estado operativo de un territorio en ejecución.**
+
+<table align="center" width="100%">
+<tr>
+<td align="center">
+
+<img src="https://img.shields.io/badge/System-Core_Online-0F0F0F?style=for-the-badge&logo=linux&logoColor=00F7FF"/>
+
+</td>
+<td align="center">
+
+<img src="https://img.shields.io/badge/Isabella-Kernel_Active-8A2BE2?style=for-the-badge&logo=probot&logoColor=white"/>
+
+</td>
+<td align="center">
+
+<img src="https://img.shields.io/badge/Alamexa-Economic_Layer-FFD700?style=for-the-badge&logo=bitcoin&logoColor=black"/>
+
+</td>
+<td align="center">
+
+<img src="https://img.shields.io/badge/Twin-4D_Rendering-00F7FF?style=for-the-badge&logo=unity&logoColor=black"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+```bash
+[root@rdm-tos /node-zero]# systemctl status isabella-kernel
+
+● isabella-kernel.service - Sovereign Intelligence Core
+   Loaded: enabled
+   Active: active (running)
+   Since: 2026-03-24 00:00:00 CST
+   Status: "DIGNITY PROTOCOL ENFORCED"
+   Process: Monitoring Territory Nodes...
+   Mode: Predictive Governance
+````
+
+---
+
+# 🧠 SYSTEM MANIFEST
+
+Esto no es una app.
+Esto no es una startup.
+
+Es una nueva categoría:
+
+## ⚙️ TERRITORIAL OPERATING SYSTEM
+
+Un sistema diseñado para ejecutar:
+
+* 🛡️ **Soberanía Digital**
+* 🪙 **Economía Autónoma**
+* 📜 **Gobernanza Ejecutable**
+* 👁️ **Inteligencia Territorial Predictiva**
+
+---
+
+# ⚙️ CORE ARCHITECTURE — 7 FEDERATION MESH
+
+```mermaid
+graph TD
+
+A[Isabella Kernel] --> B(Core Autonomy)
+A --> C(Economic Engine)
+A --> D(Knowledge System)
+A --> E(Spatial Twin)
+
+B --> F[TERRITORY]
+C --> F
+D --> F
+E --> F
+
+F --> A
+
+style A fill:#0F0F0F,stroke:#00F7FF,color:#E5E4E2
+style F fill:#0F0F0F,stroke:#FFD700,color:#E5E4E2
 ```
 
 ---
 
-## 📡 LIVE SYSTEM (REAL-TIME)
+# 🧬 ACTIVE SYSTEM MODULES
 
-<p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://TU_API/api/status" />
-  <img src="https://img.shields.io/endpoint?url=https://TU_API/api/ai" />
-  <img src="https://img.shields.io/endpoint?url=https://TU_API/api/economy" />
-  <img src="https://img.shields.io/endpoint?url=https://TU_API/api/events" />
-</p>
+<table align="center" width="100%">
+<tr>
+<th>Módulo</th>
+<th>Función</th>
+<th>Estado</th>
+</tr>
 
-```txt
-SYSTEM_UPTIME      → monitoring...
-EVENT_STREAM       → listening...
-AI_DECISIONS       → processing...
-ECONOMY_ENGINE     → arming...
+<tr>
+<td><b>Isabella Core</b></td>
+<td>Orquestación de IA Territorial</td>
+<td>🟢 ACTIVE</td>
+</tr>
+
+<tr>
+<td><b>2DBD Ledger</b></td>
+<td>Persistencia y Directorio Económico</td>
+<td>🟣 SYNCED</td>
+</tr>
+
+<tr>
+<td><b>RDM Twin 4D</b></td>
+<td>Gemelo Digital del Territorio</td>
+<td>🔵 RENDERING</td>
+</tr>
+
+<tr>
+<td><b>Elevated Interface</b></td>
+<td>Realidad Aumentada / Historia</td>
+<td>🟠 ARMED</td>
+</tr>
+
+<tr>
+<td><b>Explorer UI</b></td>
+<td>Interfaz del Usuario / Turista</td>
+<td>⚪ ONLINE</td>
+</tr>
+
+</table>
+
+---
+
+# 🛠️ SOVEREIGN TECH STACK
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40"/>
+
+</div>
+
+---
+
+# 🧠 SYSTEM CAPABILITIES
+
+| Capacidad      | Descripción                      |
+| -------------- | -------------------------------- |
+| IA Territorial | Predicción de flujo turístico    |
+| Economía Local | Transacciones sin intermediarios |
+| Gobernanza     | Reglas ejecutables en código     |
+| Digital Twin   | Simulación urbana en tiempo real |
+| Data Layer     | Sensores + comportamiento humano |
+
+---
+
+# 📊 ARCHITECT INTELLIGENCE
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=OsoPanda1&show_icons=true&bg_color=0F0F0F&title_color=00F7FF&text_color=E5E4E2&icon_color=00F7FF&hide_border=true"/>
+
+<img src="https://streak-stats.demolab.com?user=OsoPanda1&theme=dark&background=0F0F0F&ring=00F7FF&fire=FFD700&currStreakLabel=00F7FF&hide_border=true"/>
+
+</div>
+
+---
+
+# ⚔️ DEPLOYMENT PHILOSOPHY
+
+No se despliega software.
+Se activa infraestructura viva.
+
+### Fases:
+
+1. Node Zero Activation
+2. Sensorial Layer Injection
+3. Economic Layer Binding
+4. AI Governance Boot
+5. Territorial Synchronization
+
+---
+
+# 🚨 FINAL STATE
+
+> Este repositorio no representa un proyecto.
+
+Representa:
+
+## ⚙️ UN TERRITORIO EJECUTÁNDOSE COMO SISTEMA OPERATIVO
+
+---
+
+<div align="center">
+
+### "Sovereignty is not claimed. It is engineered."
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=00F7FF&height=60&section=footer&text=ANUBIS%20VILLASEÑOR&fontSize=22&fontColor=E5E4E2"/>
+
+</div>
 ```
-
-> Esto no es branding.
-> Es **telemetría de poder en tiempo real**.
-
----
-
-## 🧠 SYSTEM MANIFEST
-
-No estoy construyendo software.
-Estoy desplegando un **Sistema Operativo Territorial**:
-
-* identidad soberana
-* economía programable
-* gobernanza ejecutable
-* inteligencia territorial
-
----
-
-## ⚙️ CORE ARCHITECTURE
-
-```txt
-┌──────────────┐
-│  TERRITORY   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   EVENTS     │   ← captura total
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│  ISABELLA AI │   ← decisión explicable
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   ACTIONS    │   ← economía / ejecución
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   STATE      │   ← realidad modificada
-└──────────────┘
-```
-
----
-
-## 🧬 ACTIVE MODULES
-
-| Module      | Function                   | Status |
-| ----------- | -------------------------- | ------ |
-| TAMV Kernel | Núcleo del sistema         | 🟢     |
-| ISABELLA    | Inteligencia decisional    | 🟣     |
-| FÉNIX       | Economía programable       | 🟠     |
-| ATLAS       | Observabilidad territorial | 🔵     |
-| GUARDIAN    | Gobernanza humana (HITL)   | 🔴     |
-| DM-X7       | Gateway de integración     | ⚪      |
-
----
-
-## 🧠 CORE REPOSITORIES
-
-```txt
-rdm-smart-city-os   → Territorial OS
-tamv-core           → Civilizational kernel
-dm-x7               → Service gateway
-atlas               → System observability
-guardian            → Governance layer
-```
-
----
-
-## 🛠️ TECH STACK (STRATEGIC)
-
-**Core Engine**
-TypeScript · Node.js · PostgreSQL · Kafka
-
-**Infrastructure**
-Docker · Kubernetes · Supabase
-
-**Interface Layer**
-React · Tailwind · Vite
-
-**System Principles**
-Event-Driven · Idempotent · Observable · Explainable
-
----
-
-## 📊 SYSTEM TELEMETRY
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OsoPanda1&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=OsoPanda1&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OsoPanda1&theme=tokyo-night&hide_border=true" />
-</p>
-
----
-
-## 🌎 TERRITORIAL VISION
-
-Transformar territorios en **sistemas programables**:
-
-* identidad verificable
-* economía auditable
-* decisiones explicables
-* gobernanza ejecutable
-
----
-
-## ⚔️ SYSTEM POSITIONING
-
-Esto **no es**:
-
-* una app
-* un SaaS
-* un MVP
-
-Es:
-
-```txt
-⚙️ INFRAESTRUCTURA CIVILIZATORIA OPERABLE
-```
-
----
-
-## 🔥 CONTROL LAYER
-
-```ts
-if (control.events) {
-  control.state = true;
-}
-
-if (control.state) {
-  control.system = true;
-}
-
-if (control.system) {
-  control.territory = true;
-}
-```
-
----
-
-## 🧨 FINAL STATE
-
-Este perfil no describe habilidades.
-Describe un **sistema en ejecución**.
-
----
-
-# ⚙️ BACKEND DE TELEMETRÍA (BADGES)
-
-## 📦 server.ts
-
-```ts
-import express from "express";
-import cors from "cors";
-
-const app = express();
-app.use(cors());
-
-app.get("/api/status", (req, res) => {
-  res.json({
-    schemaVersion: 1,
-    label: "TAMV OS",
-    message: "ONLINE",
-    color: "00ffcc",
-  });
-});
-
-app.get("/api/economy", (req, res) => {
-  const transactions = 1243;
-  res.json({
-    schemaVersion: 1,
-    label: "FENIX",
-    message: `${transactions} TX`,
-    color: "orange",
-  });
-});
-
-app.get("/api/ai", (req, res) => {
-  res.json({
-    schemaVersion: 1,
-    label: "ISABELLA",
-    message: "RUNNING",
-    color: "purple",
-  });
-});
-
-app.get("/api/events", (req, res) => {
-  const eventsPerMinute = 87;
-  res.json({
-    schemaVersion: 1,
-    label: "EVENTS",
-    message: `${eventsPerMinute}/min`,
-    color: "blue",
-  });
-});
-
-app.listen(3000, () => console.log("SYSTEM ONLINE"));
-```
-
----
-
-## 📦 package.json
-
-```json
-{
-  "name": "tamv-telemetry-badges",
-  "version": "0.1.0",
-  "type": "module",
-  "scripts": {
-    "dev": "node server.ts",
-    "start": "node server.ts"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.0"
-  }
-}
-```
-
----
-
-# 🧠 CONTRATOS REALES (BASE DEL SISTEMA)
-
-## /api/status/raw
-
-```json
-{
-  "system": "TAMV OS",
-  "status": "ONLINE",
-  "uptime": "99.92%",
-  "territory": "RDM"
-}
-```
-
-## /api/economy/raw
-
-```json
-{
-  "engine": "FENIX",
-  "transactions": 1243,
-  "volume": 245000,
-  "currency": "MXN"
-}
-```
-
-## /api/ai/raw
-
-```json
-{
-  "ai": "ISABELLA",
-  "decisions_today": 342,
-  "mode": "EXPLAINABLE"
-}
-```
-
-## /api/events/raw
-
-```json
-{
-  "events_per_minute": 87,
-  "stream": "LISTENING",
-  "last_event": "payment_registered"
-}
-```
-
----
-
-# 🚀 DEPLOY
-
-Reemplaza:
-
-```txt
-https://TU_API
-```
-
-por:
-
-```txt
-https://tu-servicio.vercel.app
-```
-
-o Render / Railway.
-
----
-
-# ⚔️ ESTADO FINAL
-
-Esto ya no es un perfil de GitHub.
-
-Es:
-
-> ⚙️ **UN SISTEMA OPERATIVO EXPUESTO AL MUNDO EN TIEMPO REAL**
 
 ---
