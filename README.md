@@ -3,7 +3,6 @@
 
 ---
 
-````html
 <div align="center">
 
 # 🏛️ RDM-TOS // SOVEREIGN TERRITORIAL OPERATING SYSTEM
@@ -51,7 +50,6 @@
 
 ---
 
-```bash
 [root@rdm-tos /node-zero]# systemctl status isabella-kernel
 
 ● isabella-kernel.service - Sovereign Intelligence Core
@@ -61,7 +59,6 @@
    Status: "DIGNITY PROTOCOL ENFORCED"
    Process: Monitoring Territory Nodes...
    Mode: Predictive Governance
-````
 
 ---
 
