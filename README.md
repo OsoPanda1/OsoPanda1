@@ -214,7 +214,7 @@ Representa:
 
 ### "Sovereignty is not claimed. It is engineered."
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00F7FF&height=60&section=footer&text=ANUBIS%20VILLASEÑOR&fontSize=22&fontColor=E5E4E2"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=00F8FF&height=60&section=footer&text=ANUBIS%20VILLASEÑOR&fontSize=28&fontColor=E5E6E3"/>
 
 </div>
 ```
