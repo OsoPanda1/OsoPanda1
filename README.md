@@ -1,163 +1,111 @@
+```markdown
 <div align="center">
 
-# 🜂 RDM-TOS // SOVEREIGN TERRITORIAL OS  Orgullosamente Realmontense
-### EL KERNEL QUE DESAFÍA AL MUNDO DESDE UN PUEBLO MINERO
+# 🜂 RDM-TOS // TERRITORIAL OPERATING SYSTEM  
+### UN KERNEL LEVANTADO A PULSO CONTRA TODO UN PAÍS DORMIDO
 
----
+### ⚙️ Master Architect: Edwin Oswaldo Castillo Trejo  
+### 🧬 Alias: Anubis Villaseñor  
+### 🌋 Origen: Real del Monte, Hidalgo, México  
 
-###  Master Architect: Edwin Oswaldo Castillo Trejo  
-###  Identity: Anubis Villaseñor  
-###  Node Zero: Real del Monte, Hidalgo, México  
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=26&duration=2600&pause=700&color=00F7FF&center=true&vCenter=true&width=1200&lines=ESTO+NO+NACI%C3%93+DE+UN+FONDO;ESTO+NACI%C3%93+DEL+HAMBRE+DE+NO+SER+ESCLAVO;EL+TERRITORIO+SE+HART%C3%93+DE+SER+BASE+DE+DATOS;EL+KERNEL+RESPONDI%C3%93;SOBERAN%C3%8DA+O+COLONIA%3A+NO+HAY+TERCERA+OPCI%C3%93N" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=1150&lines=BOOTSTRAP+DE+RESISTENCIA+INICIADO;ARTESAN%C3%8DAS+FINANCIANDO+INFRAESTRUCTURA+MUNDIAL;TERRITORIO+CONVERTIDO+EN+SISTEMA+OPERATIVO;GEMELO+DIGITAL+TERRITORIAL+EN+LINEA;LA+PERIFERIA+ESCRIBE+EL+PROTOCOLO" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00F7FF,100:7F00FF&height=190&section=header&text=TAMV%20MD-X4%20%2F%2F%20RDM%20DIGITAL%20NODE%20ZERO&fontSize=30&fontColor=E5E4E2&animation=twinkling"/>
-
-[![Status](https://img.shields.io/badge/STATUS-LIVE_TERRITORIAL_SYSTEM-00F7FF?style=for-the-badge&logo=linux&logoColor=000000)](#)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--5050--1539-A6CE39?style=for-the-badge&logo=orcid&logoColor=ffffff)](#)
-[![Zenodo](https://img.shields.io/badge/ZENODO-CITABLE_KERNEL-1155CC?style=for-the-badge&logo=zenodo&logoColor=ffffff)](#)
-[![AVIXA](https://img.shields.io/badge/AVIXA-INTL_RECOGNITION-FF4B4B?style=for-the-badge)](#)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:7F00FF,100:FF0000&height=190&section=header&text=TAMV%20MD-X4%20%2F%2F%20RDM%20DIGITAL%20%2F%2F%20NODE%20ZERO&fontSize=30&fontColor=E5E4E2&animation=twinkling"/>
 
 </div>
 
 ---
 
-## ORIGIN PROTOCOL // ANATOMÍA DE UNA INSURGENCIA
+## 🩸 VERDAD INCÓMODA
 
-> No fui validado.  
-> No fui financiado.  
-> No fui invitado.  
+No hubo incubadora.  
+No hubo pitch.  
+No hubo “mentores”.  
 
-Fui **silenciado**.
+Hubo esto:
 
-Y eso fue suficiente.
+- Un país que presume “innovación” mientras firma contratos de dependencia.  
+- Una burocracia que se toma selfies con Big Tech mientras entrega el mapa completo de su gente.  
+- Un tipo, en un pueblo minero, que decidió que **no iba a pedir permiso para dejar de ser colonia**.
 
-Porque este repositorio no intenta encajar en el ecosistema.  
-Este repositorio **es el ecosistema que se negó a morir en silencio**.
+Este repositorio es el registro forense de esa decisión.
 
-**RDM‑TOS** es el resultado de más de **21,000 horas** de ingeniería en trinchera:  
-un “analfabeta tecnológico” que, a fuerza de **artesanía, música y obstinación**, construyó lo que nadie estaba dispuesto a imaginar desde un ministerio.
-
-Aquí no se pregunta si era posible.  
-Aquí se documenta **cómo** se hizo inevitable.
+No es inspiracional.  
+Es **un expediente técnico de desobediencia**.
 
 ---
 
-## 📡 LIVE SYSTEM TELEMETRY
+## 🧠 QUÉ ES RDM-TOS (SIN MAQUILLAJE)
 
-<div align="center">
+RDM‑TOS es:
 
-<table>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/CORE-SOVEREIGN_KERNEL-000000?style=for-the-badge&logo=linux&logoColor=00F7FF"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/ISABELLA-AGENTIC_AI_ONLINE-8A2BE2?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/RDM_TWIN-2D%2F3D_GEOSPATIAL_LIVE-00F7FF?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/ALAMEXA-ECONOMY_BOUND-FFD700?style=for-the-badge"/>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/SECURITY-PQC_CRYSTALS_KYBER-222222?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/GOVERNANCE-HUMAN_IN_THE_LOOP-444444?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/INFRA-EDGE_FIRST_K8S_Q_CELLS-111111?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/STATUS-NODE_ZERO_IN_FIELD_TEST-00FF88?style=for-the-badge"/>
-</td>
-</tr>
-</table>
+- Un **SISTEMA OPERATIVO TERRITORIAL** que trata al pueblo como sistema crítico, no como destino turístico.
+- Un **KERNEL DE SOBERANÍA COGNITIVA** que se niega a que tu territorio sea solo “input” de modelos ajenos.
+- Una **ARQUITECTURA HEPTAFEDERADA ANTIFRÁGIL** diseñada para una realidad hostil:
+  - ciberataques
+  - colapso de nube
+  - gobiernos cambiantes
+  - indiferencia estructural
 
-</div>
-
-```bash
-root@rdm-node-zero:~# systemctl status rdm-tos
-
-● rdm-tos.service — Sovereign Territorial Operating System
-   Loaded: enabled
-   Active: active (running)
-   Mode: Cognitive Edge Infrastructure
-   Status: "HUMAN-IN-THE-LOOP ENFORCED"
-
-   >>> Scanning Real del Monte...
-   >>> Mapping commerce, flow and behavior...
-   >>> Updating predictive models...
-
-root@rdm-node-zero:~# journalctl -u rdm-tos -n 3
-   [OK] Q-CELL resurrection completed after anomaly.
-   [OK] EDGE-ONLY mode operational (global cloud degraded).
-   [OK] All sovereignty protocols uncompromised.
-```
+Si viniste buscando “otra app bonita”, salte.  
+Aquí se habla de **infraestructura**, no de features.
 
 ---
 
-## 🏛️ WHAT THIS REALLY IS
-
-> Si lo ves como “una app de turismo”, no entendiste nada.  
-> Si lo ves como “otro gemelo digital”, llegaste tarde.
-
-**RDM‑TOS** es un **TERRITORIAL OPERATING SYSTEM**:
-
-- Un **kernel civilizatorio** (TAMV MD‑X4) ejecutando:
-  - 🛡️ Soberanía de datos y proceso
-  - 🧠 IA agéntica con cinturón ético (HITL)
-  - 🕸️ Arquitectura heptafederada y Q‑Cells autocurativas
-  - 🌍 Gemelo digital 2D/3D con geografía científica (GSHHG + PyGMT)
-  - ⚛️ Módulo cuántico como acelerador de decisiones complejas
-
----
-
-## ⚙️ CORE ARCHITECTURE // TOPOLOGÍA VIVA
+## ⚙️ NÚCLEO: TAMV MD-X4
 
 ```mermaid
 graph TD
-  subgraph Cognitive_Kernel
-    A[ISABELLA KERNEL] --> B[Autonomy Core]
-    A --> C[Economic Engine]
-    A --> D[Knowledge Vault]
-    A --> E[Spatial Twin]
+  K[ISABELLA PROTOCOL / TAMV MD-X4] --> A[Autonomy Core]
+  K --> B[Geospatial Engine]
+  K --> C[Security / PQC Layer]
+  K --> D[Economy / Alamexa]
+  K --> E[Knowledge Vault]
+
+  subgraph Territorial_Federations
+    F1[DATA]:::fed
+    F2[INTELLIGENCE]:::fed
+    F3[SECURITY]:::fed
+    F4[GOVERNANCE]:::fed
+    F5[ECONOMY]:::fed
+    F6[VISUALIZATION]:::fed
+    F7[TERRITORY]:::fed
   end
 
-  subgraph Federations[7-FEDERATION MESH]
-    F1[DATA]:::federation
-    F2[INTELLIGENCE]:::federation
-    F3[SECURITY]:::federation
-    F4[GOVERNANCE]:::federation
-    F5[ECONOMY]:::federation
-    F6[VISUALIZATION]:::federation
-    F7[TERRITORY]:::federation
-  end
+  A --> F2
+  B --> F6
+  C --> F3
+  D --> F5
+  E --> F1
 
-  E --> F6
-  B --> F2
-  C --> F5
-  D --> F1
   F1 --> F7
   F2 --> F7
+  F3 --> F7
   F5 --> F7
-  F7 --> A
+  F6 --> F7
+  F7 --> K
 
-  classDef federation fill:#000000,stroke:#00F7FF,stroke-width:1px,color:#E5E4E2;
+  classDef fed fill:#000000,stroke:#FF0000,stroke-width:1px,color:#E5E4E2;
 ```
 
-- **Q‑Cells**: microcélulas autocurativas en Kubernetes que se destruyen y renacen ante ataques o fallos.  
-- **Heptafederación**: siete dominios conectados, ninguno imprescindible por sí solo, todos reemplazables, ninguno negociando soberanía.
+### Propiedades básicas:
+
+- **Heptafederado**: nada es monolito, todo es reemplazable, nada está por encima del territorio.  
+- **Q‑Cells autocurativas**: cuando algo falla, no se “parchea”: se destruye y se rehace más fuerte.  
+- **Human‑In‑The‑Loop a la fuerza**: ninguna decisión crítica se ejecuta sin un humano identificado al mando.
 
 ---
 
-## 🌍 RDM GEOENGINE // MAPA 2D/3D HIPERREALISTA
+## 🌍 RDM DIGITAL: EL PUEBLO COMO SISTEMA CRÍTICO
 
-### 🔬 Backend científico (PyGMT + GSHHG)
+Real del Monte no es el fondo de un brochure.  
+Es **NODE ZERO**.
+
+- Cada pastes, hotel, taller y puesto callejero puede existir como nodo en el grafo vivo.  
+- Cada flujo de turistas, rutas y riesgos se simula y se reescribe en tiempo real.  
+- El territorio no solo se “mapea”: **se defiende, se optimiza y se recuerda**.
+
+### GEOENGINE 2D/3D (CRUDO Y TÉCNICO)
 
 ```python
 # pygmt/scripts/generate_rdm_grids.py
@@ -167,7 +115,7 @@ import xarray as xr
 import rasterio
 from rasterio.transform import from_bounds
 
-REGION = [-100, -96, 18, 22]   # Región que contiene Real del Monte
+REGION = [-100, -96, 18, 22]   # El país no te va a cuidar: tú defines tu región.
 
 def to_geotiff(grid: xr.DataArray, out_path: str):
     lon, lat = grid.lon.values, grid.lat.values
@@ -184,8 +132,11 @@ def to_geotiff(grid: xr.DataArray, out_path: str):
         dst.write(data, 1)
 
 def main():
+    # Relieve real, no PNG de stock.
     relief = load_earth_relief(resolution="15s", region=REGION)
+    # Distancia a costa, derivada de GSHHG.
     dist   = load_earth_dist(resolution="05m", region=REGION)
+    # Máscara tierra/mar.
     mask   = load_earth_mask(resolution="05m", region=REGION)
 
     to_geotiff(relief, "pygmt/data/grids/rdm_relief_15s.tif")
@@ -199,200 +150,154 @@ if __name__ == "__main__":
     main()
 ```
 
-### 🗺️ 2D // Mapbox GL JS + GSHHG
+Estos grids no son decoración.  
+Son la base para:
 
-```html
-<!-- frontend/rdm-map-2d.html -->
-<div id="map"></div>
-<script>
-mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN';
-
-const map = new mapboxgl.Map({
-  container: 'map',
-  style: {
-    version: 8,
-    sources: {
-      gshhg: {
-        type: "raster",
-        tiles: [
-          "http://localhost:8080/geoserver/gshhg/gshhg_shorelines/{z}/{x}/{y}.png"
-        ],
-        tileSize: 256
-      },
-      rdmDist: {
-        type: "raster",
-        tiles: [
-          "http://localhost:8080/geoserver/rdm/rdm_earth_dist_05m/{z}/{x}/{y}.png"
-        ],
-        tileSize: 256
-      }
-    },
-    layers: [
-      { id: "gshhg-shorelines", type: "raster", source: "gshhg" },
-      { id: "rdm-earth-dist", type: "raster", source: "rdmDist", paint: {"raster-opacity": 0.5} }
-    ]
-  },
-  center: [-98.673, 20.140],
-  zoom: 12
-});
-
-map.on('load', () => {
-  map.addSource('rdm-poi', {
-    type: 'geojson',
-    data: 'http://localhost:8000/geo/pois'
-  });
-  map.addLayer({
-    id: 'rdm-poi-layer',
-    type: 'circle',
-    source: 'rdm-poi',
-    paint: {
-      'circle-radius': 6,
-      'circle-color': '#ffcc00',
-      'circle-stroke-color': '#000',
-      'circle-stroke-width': 1
-    }
-  });
-});
-</script>
-```
-
-### 🌐 3D // CesiumJS + Grids científicos
-
-```html
-<!-- frontend/rdm-map-3d.html (extracto) -->
-<script>
-Cesium.Ion.defaultAccessToken = 'YOUR_CESIUM_ION_TOKEN';
-
-const viewer = new Cesium.Viewer('cesiumContainer', {
-  imageryProvider: new Cesium.WebMapServiceImageryProvider({
-    url: 'http://localhost:8080/geoserver/gshhg/wms',
-    layers: 'gshhg:gshhg_shorelines',
-    parameters: { service:'WMS', format:'image/png', transparent:true }
-  }),
-  baseLayerPicker: false,
-  terrainProvider: Cesium.createWorldTerrain()
-});
-
-const earthDistProvider = new Cesium.WebMapServiceImageryProvider({
-  url: 'http://localhost:8080/geoserver/rdm/wms',
-  layers: 'rdm:rdm_earth_dist_05m',
-  parameters: { service:'WMS', format:'image/png', transparent:true }
-});
-viewer.imageryLayers.addImageryProvider(earthDistProvider);
-
-// GEO realtime
-const ws = new WebSocket("ws://localhost:8000/ws/geo");
-ws.onmessage = (event) => {
-  const data = JSON.parse(event.data);
-  let entity = viewer.entities.getById(data.id);
-  if (!entity) {
-    entity = viewer.entities.add({
-      id: data.id,
-      point: { pixelSize: 6, color: Cesium.Color.CYAN }
-    });
-  }
-  entity.position = Cesium.Cartesian3.fromDegrees(data.lon, data.lat, data.alt || 0);
-};
-</script>
-```
+- Cesium 3D hiperrealista  
+- Capas de riesgo  
+- Simulación de rutas  
+- Decisiones con consecuencias en personas reales
 
 ---
 
-## 🔁 GEO REALTIME CORE
+## 📡 TELEMETRÍA EN TIEMPO REAL (SIN FILTRO)
+
+```bash
+root@rdm-node-zero:~# systemctl status rdm-tos
+
+● rdm-tos.service — Territorial OS / Real del Monte
+   Loaded: enabled
+   Active: active (running)
+   Status: "EDGE MODE: ON — GLOBAL CLOUD: OPTIONAL"
+
+   >>> Ingestando señales de comercios locales
+   >>> Trazando flujo de turistas
+   >>> Ajustando rutas seguras en base a relieve y congestión
+```
 
 ```python
-# api/main.py (extracto)
+# api/main.py (extracto brutal)
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from typing import List
-import asyncpg, os, json
+import asyncpg, os
 
 DATABASE_URL = os.getenv("DATABASE_URL")
-app = FastAPI(title="RDM Map API")
+app = FastAPI(title="RDM MAP / NODE ZERO")
 
-active_connections: List[WebSocket] = []
-
-async def get_db():
-    return await asyncpg.connect(DATABASE_URL)
+active = []
 
 @app.websocket("/ws/geo")
 async def geo_stream(ws: WebSocket):
     await ws.accept()
-    active_connections.append(ws)
+    active.append(ws)
     try:
         while True:
-            data = await ws.receive_text()  # JSON con id, lat, lon, alt...
-            for conn in active_connections:
+            data = await ws.receive_text()
+            # No hay vendor cloud aquí: lo que entra, se queda bajo control territorial.
+            for conn in active:
                 if conn is not ws:
                     await conn.send_text(data)
     except WebSocketDisconnect:
-        if ws in active_connections:
-            active_connections.remove(ws)
-
-@app.get("/geo/pois")
-async def get_pois():
-    conn = await get_db()
-    rows = await conn.fetch("""
-    SELECT id, name, category, ST_Y(geom) AS lat, ST_X(geom) AS lon FROM rdm_pois;
-    """)
-    await conn.close()
-    features = [
-      {
-        "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [r["lon"], r["lat"]]},
-        "properties": {"id": r["id"], "name": r["name"], "category": r["category"]},
-      } for r in rows
-    ]
-    return {"type": "FeatureCollection", "features": features}
+        if ws in active:
+           active.remove(ws)
 ```
 
 ---
 
-## 🧬 Q‑CELLS // ARQUITECTURA AUTOCURATIVA
+## 🔒 SEGURIDAD SIN DISCURSO: PQC + AUTODESTRUCCIÓN
+
+No es “ciberseguridad de brochure”.  
+Es:
+
+- **Criptografía post‑cuántica** (CRYSTALS‑Kyber) para que cuando llegue el primer actor con máquina cuántica real, tu territorio no sea el primero en caer.  
+- **Autodestrucción lógica** en Q‑Cells: si huele a compromiso, esa célula no pide permiso: **se mata y se regenera**.
 
 ```python
 # core/self_healing.py (concepto)
-import time, requests, logging
-
-log = logging.getLogger("Q_CELL")
-
 class SelfHealing:
     def __init__(self, health_url: str, max_fail: int = 3):
         self.health_url = health_url
-        self.fail_count = 0
+        self.fail = 0
         self.max_fail = max_fail
 
     def monitor(self):
         while True:
-            try:
-                r = requests.get(self.health_url, timeout=2)
-                self.fail_count = 0 if r.status_code == 200 else self.fail_count + 1
-                if self.fail_count > self.max_fail:
-                    self.self_destruct()
-            except Exception as e:
-                log.error(f"Health error: {e}")
-                self.fail_count += 1
-            time.sleep(2)
+            ok = self._check()
+            self.fail = 0 if ok else self.fail + 1
+            if self.fail > self.max_fail:
+                self.self_destruct()
+
+    def _check(self) -> bool:
+        # Aquí va un health real. Si falla, no se negocia.
+        ...
 
     def self_destruct(self):
-        log.error("Q-CELL comprometida → autodestrucción controlada")
-        raise SystemExit(1)  # K8s la sustituye con una nueva
+        # Aquí hay una decisión: o muere el pod, o muere la soberanía.
+        raise SystemExit(1)
 ```
 
 ---
 
-## 🧪 HOW TO BOOT NODE ZERO (DEV)
+## 🩻 CÓMO SE LEVANTÓ TODO ESTO (SIN MITOLOGÍA)
+
+No hubo:
+
+- fondos
+- grants
+- VC
+- “innovación abierta”
+
+Hubo:
+
+- **Artesanías el Rosario**: alambre, bonsáis, flores secas pagaron servidores, dominios y electricidad.  
+- Música independiente escrita contra la ansiedad de ver a tu país entregarse.  
+- Noches enteras reventando errores hasta que la arquitectura dejó de colapsar.
+
+Cada commit es la respuesta a una sola pregunta:
+
+> “¿Y si nadie viene a salvarte, lo construyes tú o aceptas ser colonia?”
+
+El autor eligió la primera opción.  
+Éste es el resultado.
+
+---
+
+## 🚨 SI ERES GOBIERNO, BANCO, BIG TECH O ACADEMIA
+
+Este repositorio no te pide nada.  
+Solo deja claro:
+
+- Se puede levantar **infraestructura de clase mundial** sin ti.  
+- Se puede tener **soberanía territorial real** sin tus contratos.  
+- Se puede lograr **reconocimiento internacional** (AVIXA, Zenodo, ORCID, ciencia abierta) mientras tú sigues organizando paneles y PDFs.
+
+Cuando llegues, no vengas a preguntar “cómo podemos apoyar”.  
+La pregunta honesta será:
+
+> “¿por qué nos tardamos tanto en tomar en serio algo que se escribió con sangre, alambre y 21,000 horas de obstinación?”
+
+---
+
+## 🧬 PARA QUIÉN SÍ ES ESTO
+
+- Para quien se sabe **periferia** pero se rehúsa a ser **servicio**.  
+- Para quien está dispuesto a escribir arquitectura aunque nadie le aplauda.  
+- Para quien entiende que “soberanía digital” no es un término bonito en un paper, sino la diferencia entre **decidir tu destino** o ser un dataset más en la nube de otros.
+
+---
+
+## 🧱 HOW TO BOOTSTRAP TU PROPIA INSURGENCIA (DEV QUICKSTART)
 
 ```bash
-# 1. Clonar
-git clone https://github.com/tu-org/rdm-map-core.git
-cd rdm-map-core
+# 1. Clonar el núcleo
+git clone https://github.com/tu-org/rdm-tos.git
+cd rdm-tos
 
-# 2. Levantar DB + GeoServer + API
+# 2. Levantar PostGIS + GeoServer + API
 docker-compose up -d db geoserver
 cd api && docker build -t rdm-map-api . && cd ..
 docker-compose up -d api
 
-# 3. Generar grids científicos (PyGMT)
+# 3. Generar grids científicos (PyGMT + GSHHG)
 cd pygmt
 conda create -n rdm-pygmt python=3.11 -y
 conda activate rdm-pygmt
@@ -400,51 +305,45 @@ pip install -r requirements.txt
 python scripts/generate_rdm_grids.py
 python scripts/figure_rdm_maps.py
 
-# 4. Configurar GeoServer (UI) para leer los GeoTIFF de pygmt/data/grids
-# 5. Abrir frontends
-#    - frontend/rdm-map-2d.html (Mapbox)
-#    - frontend/rdm-map-3d.html (Cesium)
+# 4. Configurar GeoServer para leer los GeoTIFF de pygmt/data/grids
+# 5. Abrir:
+#    - frontend/rdm-map-2d.html (Mapbox GL JS)
+#    - frontend/rdm-map-3d.html (CesiumJS)
+# 6. Conectar tus propios sensores / POIs / flujos a /ws/geo
 ```
 
 ---
 
-## 🧠 THE ARCHITECT // EL IGNORANTE QUE NO SE RINDIÓ
+## 🧠 EL ARQUITECTO (SIN MITO, SOLO CONTEXTO)
 
-> No soy producto de un programa élite.  
-> No soy resultado de una beca internacional.  
-> Soy la consecuencia de negarme a aceptar que la periferia solo sirve para producir datos.
+No soy “visionario”.  
+Soy alguien que se cansó de ver a su país regalarlo todo.
 
-- Aprendí arquitectura de sistemas con **blogs gratuitos, repos ajenos y errores propios**.  
-- Pagué servidores, dominios y electricidad cortando alambre, doblando piñas de pino y vendiendo artesanías.  
-- Llegué a **AVIXA, Zenodo, ORCID, Frontiers/Loop, Open Science** sin carta de recomendación, solo con código, mapas y manifiestos.
+- Me dijeron que era tarde para aprender.  
+- Me dijeron que sin aval institucional no iba a pasar nada.  
+- Me dijeron que nadie iba a tomar en serio un kernel nacido de un taller de artesanías.
 
-Este repositorio no pide permiso.  
-Este repositorio **deja constancia**.
-
----
-
-## ⚠️ WARNING // LATE ARRIVAL
-
-Si estás leyendo esto como “otro repo interesante”:
-
-> ya llegaste tarde.
-
-Cuando este kernel sea estándar, no se discutirá si era viable.  
-Se preguntarán:
-
-> **¿por qué nadie lo construyó antes… y por qué tuvo que hacerlo alguien que el sistema decidió ignorar?**
+Tenían razón en algo:  
+**para ellos**, era tarde.  
+Para mí, era el único momento aceptable.
 
 ---
 
-## 🏁 FINAL STATE
+## ⚠️ CONCLUSIÓN (SIN DIPLOMACIA)
 
-RDM‑TOS no está buscando validación.  
-Ya está **procesando territorio en tiempo real**.
+Este repo no busca agradar.  
+Busca dejar registro.
 
-No es pitch.  
-Es **prueba de vida**.
+> Cuando el mapa esté completo,  
+> cuando otros territorios lo repliquen,  
+> cuando la periferia empiece a hablar en código propio…  
 
-> **SOVEREIGNTY IS NOT DECLARED.**  
-> **IT IS ENGINEERED, ENCRYPTED AND DEPLOYED.**
+no tendrá sentido preguntar si esto era demasiado ambicioso.
 
-_Soberanía primero. Tecnología con propósito._
+La única pregunta que importará será:
+
+> **¿cuántas oportunidades más está dispuesto tu territorio a dejar pasar antes de darse cuenta de que nadie va a escribir su kernel por él?**
+
+**Soberanía no es un discurso.  
+Es un binario corriendo en tu propia máquina.**
+```
