@@ -45,37 +45,41 @@ En lugar de ciudades “smart” tercerizadas, se propone un **Kernel Territoria
 
 <div align="center">
 
+### 🔁 TAMV MD‑X4 // Diagrama de Soberanía
+
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#000000', 'edgeLabelBackground':'#000000', 'tertiaryColor': '#000000'}}}%%
 graph LR
-    U[\"👤 HUMAN_IN_THE_LOOP\n(Autoridad Estratégica)\"]:::human --> K
-    K[\"⚙️ KERNEL MD-X4\n(Isabella Protocol)\"]:::kernel
+    U["👤 HUMAN_IN_THE_LOOP\n(Autoridad Estratégica)"]:::human --> K
+    K["⚙️ KERNEL MD-X4\n(Isabella Protocol)"]:::kernel
 
     subgraph HEPTAFEDERATION_LAYER
-        F1[\"📂 F1 · DATA\n(Knowledge Vault / PostGIS / TimeSeries)\"]:::fed
-        F2[\"🧠 F2 · INTEL\n(Cognitive & Agentic AI Core)\"]:::fed
-        F3[\"🛡️ F3 · SEC\n(PQC · Zero-Trust · Q-Cells)\"]:::fed
-        F4[\"⚖️ F4 · GOV\n(Executable Governance / Audit Trails)\"]:::fed
-        F5[\"💰 F5 · ECON\n(Alamexa · Local Circular Economy)\"]:::fed
-        F6[\"📡 F6 · VIS\n(GeoEngine 2D/3D · Twin Renderer)\"]:::fed
-        F7[\"🌍 F7 · TERRITORY\n(Edge Nodes · Sensors · Human Mesh)\"]:::fed
+        F1["📂 F1 · DATA\n(Knowledge Vault / PostGIS / TimeSeries)"]:::fed
+        F2["🧠 F2 · INTEL\n(Cognitive & Agentic AI Core)"]:::fed
+        F3["🛡️ F3 · SEC\n(PQC · Zero-Trust · Q-Cells)"]:::fed
+        F4["⚖️ F4 · GOV\n(Executable Governance / Audit Trails)"]:::fed
+        F5["💰 F5 · ECON\n(Alamexa · Local Circular Economy)"]:::fed
+        F6["📡 F6 · VIS\n(GeoEngine 2D/3D · Twin Renderer)"]:::fed
+        F7["🌍 F7 · TERRITORY\n(Edge Nodes · Sensors · Human Mesh)"]:::fed
     end
 
-    K ==> F1
-    K ==> F2
-    K ==> F3
-    K ==> F4
-    K ==> F5
-    K ==> F6
-    K ==> F7
+    K --> F1
+    K --> F2
+    K --> F3
+    K --> F4
+    K --> F5
+    K --> F6
+    K --> F7
 
-    F7 ==>|Telemetría Cruda| K
+    F7 -->|Telemetría Cruda| K
     F2 -.->|Aprendizaje Antifrágil| F7
     F3 -.->|Autodestrucción Q-Cell| K
 
     classDef human stroke:#FF1717,stroke-width:2px,fill:#1A0000,color:#E5E4E2;
     classDef kernel stroke:#00F7FF,stroke-width:3px,fill:#001A1A,color:#E5E4E2,font-weight:bold;
-    classDef fed stroke:#555,stroke-width:1px,fill:#000000,color:#E5E4E2;
-    linkStyle default stroke:#555,stroke-width:1px;
+    classDef fed stroke:#555555,stroke-width:1px,fill:#000000,color:#E5E4E2;
+
+    linkStyle default stroke:#555555,stroke-width:1px;
     linkStyle 0,1,2,3,4,5,6 stroke:#00F7FF,stroke-width:2px;
-    linkStyle 7,8 stroke:#FF1717,stroke-width:2px,stroke-dasharray: 5 5;
+    linkStyle 7,8 stroke:#FF1717,stroke-width:2px,stroke-dasharray:5 5;
+```
