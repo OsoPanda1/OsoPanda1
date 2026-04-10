@@ -6,13 +6,13 @@
 
 <div align="center">
 
-### ⚙️ Master Architect  
+###  Master Architect  
 **Edwin Oswaldo Castillo Trejo**
 
-### 🧬 System Identity  
+###  System Identity  
 **Anubis Villaseñor**
 
-### 🧠 Research Identity  
+###  Research Identity  
 ORCID: 0009-0008-5050-1539
 
 ---
@@ -23,7 +23,7 @@ ORCID: 0009-0008-5050-1539
 
 ---
 
-# 🧠 MANIFEST
+# MANIFEST
 
 This is not a startup.  
 This is not a smart city.  
@@ -31,19 +31,19 @@ This is not a software product.
 
 ## This is a new category:
 
-# ⚙️ TERRITORIAL OPERATING SYSTEM
+#  TERRITORIAL OPERATING SYSTEM
 
 A system designed to transform a territory into a **computational entity** capable of:
 
-- 🛡️ Executing sovereignty  
-- 🪙 Operating its own economy  
-- 📜 Running governance as code  
-- 👁️ Learning through territorial intelligence  
-- 🌐 Simulating itself in real time  
+-  Executing sovereignty  
+-  Operating its own economy  
+-  Running governance as code  
+-  Learning through territorial intelligence  
+-  Simulating itself in real time  
 
 ---
 
-# 📡 SYSTEM STATE
+#  SYSTEM STATE
 
 > This repository does not expose source code.  
 > It exposes the **operational state of a territory in execution.**
@@ -84,7 +84,7 @@ F --> A
 
 ---
 
-# 🧠 SYSTEM LAYERS
+#  SYSTEM LAYERS
 
 | Layer              | Function                 |
 | ------------------ | ------------------------ |
@@ -98,7 +98,7 @@ F --> A
 
 ---
 
-# 🧩 ACTIVE MODULES
+#  ACTIVE MODULES
 
 | Module             | Description                 | Status       |
 | ------------------ | --------------------------- | ------------ |
@@ -109,7 +109,7 @@ F --> A
 
 ---
 
-# 🌍 TERRITORY AS A SYSTEM
+#  TERRITORY AS A SYSTEM
 
 Modern civilization digitized:
 
@@ -144,7 +144,7 @@ But the stack is not the innovation.
 
 ---
 
-# 🧠 CAPABILITIES
+#  CAPABILITIES
 
 * Predictive tourism intelligence
 * Autonomous local economy
@@ -154,7 +154,7 @@ But the stack is not the innovation.
 
 ---
 
-# 🧬 DEPLOYMENT MODEL
+#  DEPLOYMENT MODEL
 
 This system is not deployed.
 
@@ -185,7 +185,7 @@ It is:
 
 ---
 
-# 🧠 WHY THIS EXISTS
+#  WHY THIS EXISTS
 
 Cities fail not because of lack of technology.
 
@@ -202,7 +202,7 @@ RDM-TOS resolves this by turning territory into:
 
 ---
 
-# ⚠️ CURRENT STATUS
+# CURRENT STATUS
 
 RDM-TOS is not a concept.
 
@@ -210,7 +210,7 @@ It is an **active architectural process.**
 
 ---
 
-# 🚨 FINAL STATE
+#  FINAL STATE
 
 When mature, this system will not be seen as innovation.
 
@@ -220,7 +220,7 @@ It will be seen as:
 
 ---
 
-# 🧠 ARCHITECT
+#  ARCHITECT
 
 **Edwin Oswaldo Castillo Trejo**
 
@@ -244,7 +244,7 @@ Only:
 
 ---
 
-# 🌐 FUTURE
+#  FUTURE
 
 A network of territories operating as nodes:
 
