@@ -237,6 +237,56 @@ if __name__ == "__main__":
     generate_sovereignty_grids()
 ```
 
+---
+
+#### RDM‑MAP‑2D · Cartografía Operativa (Mapbox GL JS)
+
+```javascript
+// frontend/rdm-map-2d.js
+import mapboxgl from "mapbox-gl";
+
+mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
+
+const map = new mapboxgl.Map({
+  container: "rdm-map-2d",
+  style: "mapbox://styles/mapbox/dark-v11",
+  center: [-98.667, 20.135], // Real del Monte
+  zoom: 13.5,
+  pitch: 45,
+  bearing: -10,
+});
+
+// Capa base: relieve sombreado
+map.on("load", () => {
+  map.addSource("rdm-dem", {
+    type: "raster-dem",
+    url: "mapbox://mapbox.terrain-rgb"
+  });
+
+  map.setTerrain({ source: "rdm-dem", exaggeration: 1.4 });
+
+  // Nodos económicos locales (POIs del Vault territorial)
+  map.addSource("rdm-pois", {
+    type: "geojson",
+    data: "/vault/poi_nodes.json"
+  });
+
+  map.addLayer({
+    id: "rdm-pois-layer",
+    type: "circle",
+    source: "rdm-pois",
+    paint: {
+      "circle-radius": 4,
+      "circle-color": "#00F7FF",
+      "circle-stroke-width": 1,
+      "circle-stroke-color": "#111111"
+    }
+  });
+});
+```
+
+---
+
 Estos artefactos son la base para:
 
 - 🛰️ Render Cesium 3D hiperrealista  
