@@ -20,9 +20,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=500&color=FF1717&center=true&vCenter=true&width=1200&lines=INSTANCIANDO+PROTOCOLO+DE+SOBERAN%C3%8DA+COGNITIVA;%5B+%23+NODE+ZERO%3A+REAL+DEL+MONTE+%23+%5D;EL+KERNEL+HEPTAFEDERADO+HA+DESPERTADO;TECNOLOG%C3%8DA+DE+GUERRA+PARA+TIEMPOS+DE+PAZ;SOBERAN%C3%8DA+O+COLONIA%3A+EJECUTANDO+OPCI%C3%93N+A"/>
 
 </img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00F7FF,100:FF1717&height=120&section=footer&text=Master%20Architect%3A%20Anubis%20Villase%C3%B1or%20%2F%2F%20Hidalgo%2C%20M%C3%A9xico&fontSize=22&fontColor=E5E4E2"/>
-
 </div>
-
 ---
 
 ## 🩻 DIAGNÓSTICO DE RED (LA VERDAD SIN FILTRO)
