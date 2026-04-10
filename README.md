@@ -314,14 +314,15 @@ python scripts/figure_rdm_maps.py
 
 ---
 
-## 🧠 EL ARQUITECTO (SIN MITO, SOLO CONTEXTO)
+##  EL ARQUITECTO (SIN MITO, SOLO CONTEXTO)
 
-No soy “visionario”.  
-Soy alguien que se cansó de ver a su país regalarlo todo.
+No soy “visionario” ni una mente brillante. 
+Soy un orgulloso Realmontense, ¡Mexicano señores!
+que se cansó de ver a su país regalarlo todo.
 
 - Me dijeron que era tarde para aprender.  
 - Me dijeron que sin aval institucional no iba a pasar nada.  
-- Me dijeron que nadie iba a tomar en serio un kernel nacido de un taller de artesanías.
+- Me dijeron que nadie iba a tomar en serio un kernel nacido de un puesto callejero de artesanías.
 
 Tenían razón en algo:  
 **para ellos**, era tarde.  
