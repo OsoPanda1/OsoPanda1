@@ -531,7 +531,7 @@ He invertido más de **21,000 horas** en escribir arquitectura para demostrar qu
 ---
 
 ## 1️⃣ Diagrama Mermaid · Topografía de la Dependencia RDM
-```markdown
+
 ### 🩻 Topografía de la Dependencia · RDM vs Modelo Clásico
 
 ```mermaid
@@ -583,13 +583,11 @@ flowchart LR
     linkStyle 0,1,2,3 stroke:#FF1717,stroke-width:1.5px;
     linkStyle 4,5,6,7,8,9 stroke:#00F7FF,stroke-width:2px;
 ```
-```
+---
 
 ***
 ## 2️⃣ Badges dinámicos Shields.io para RDM‑TOS Realmontense
-Pega esto en la parte alta del README, debajo del título:
 
-```markdown
 <div align="center">
 
 ![Estado](https://img.shields.io/badge/RDM--TOS-INSURGENTE_ACTIVO-brightgreen?style=for-the-badge&logo=linux&logoColor=white)
@@ -599,19 +597,16 @@ Pega esto en la parte alta del README, debajo del título:
 ![Kernel](https://img.shields.io/badge/KERNEL-MD--X4_HEPTAFEDERADO-000000?style=for-the-badge&logo=gnometerminal&logoColor=00F7FF)
 
 </div>
-```
 
-Si luego quieres badges realmente dinámicos (endpoint JSON con stats de RDM‑TOS), podemos montarlo en una API o GitHub Action usando `endpoint?url=...`.
+---
 
  [github](https://github.com/marketplace/actions/dynamic-badges)
 
 ***
 ## 3️⃣ Expansión de módulos RDM 2D y 3D con código
-### 🌐 Módulo RDM‑MAP‑2D · Cartografía Operativa
-```markdown
 #### RDM‑MAP‑2D · Cartografía Operativa (Mapbox GL JS)
 
-```javascript
+```
 // frontend/rdm-map-2d.js
 import mapboxgl from "mapbox-gl";
 
@@ -654,12 +649,13 @@ map.on("load", () => {
   });
 });
 ```
-```
+
+---
+
 ### 🛰️ Módulo RDM‑MAP‑3D · Cabina de Mando (CesiumJS)
-```markdown
 #### RDM‑MAP‑3D · Cabina de Mando Territorial (CesiumJS)
 
-```javascript
+```
 // frontend/rdm-map-3d.js
 import * as Cesium from "cesium";
 import { RDM_VAULT_ENDPOINT, NODE_ZERO_COORDS } from "./config";
@@ -696,13 +692,13 @@ Cesium.GeoJsonDataSource.load(
   }
 ).then(ds => viewer.dataSources.add(ds));
 ```
-```
+
+---
 
 ***
 ## 4️⃣ Ciberdelitos concretos en el diagnóstico de red
 Para integrar en tu sección de “Diagnóstico de red”, puedes añadir este bloque:
 
-```markdown
 ### 🧨 Ciberdelitos y Riesgos Reales en la Topografía de la Dependencia
 
 La dependencia de nubes y plataformas externas no es sólo un problema filosófico;  
@@ -714,15 +710,13 @@ es una **superficie de ataque directa** que ya se ha explotado en la región:
 
 En este contexto, un territorio que delega todo su dato y lógica a infraestructuras externas  
 no es “moderno”: es **un objetivo de alto valor** sin capacidad de respuesta propia.
-```
 
-
+---
 
 ***
 ## 5️⃣ Diagrama de Soberanía TAMV MD‑X4 · Mermaid avanzado
 Versión avanzada, consistente con lo que ya tienes pero mejor estilizada y limpia:
 
-```markdown
 ### 🔁 TAMV MD‑X4 · Kernel de Soberanía (Mermaid Avanzado)
 
 ```mermaid
@@ -766,6 +760,8 @@ flowchart LR
     linkStyle 1,2,3,4,5,6,7 stroke:#00F7FF,stroke-width:2px;
     linkStyle 8,9 stroke:#FF1717,stroke-width:2px,stroke-dasharray:5 5;
 ```
+
+---
 
 ## ⚠️ EJECUTANDO PARADIGMA FINAL
 
