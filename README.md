@@ -1,16 +1,4 @@
-Aquí tienes el **README.md definitivo**, diseñado como una pieza híbrida entre:
-
-* manifiesto histórico
-* documento técnico
-* identidad de sistema
-* señal de ingeniería de alto nivel
-
-Optimizado para impacto en GitHub, credibilidad técnica y narrativa de fundador.
-
----
-
-````md
-# 🜂 RDM-TOS  
+# 🜂 RDM-TOS  Orgullosamente Realmontense
 ## Sovereign Territorial Operating System  
 ### Real del Monte, Hidalgo — Node Zero
 
