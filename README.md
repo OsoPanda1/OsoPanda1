@@ -530,6 +530,243 @@ He invertido más de **21,000 horas** en escribir arquitectura para demostrar qu
 
 ---
 
+## 1️⃣ Diagrama Mermaid · Topografía de la Dependencia RDM
+```markdown
+### 🩻 Topografía de la Dependencia · RDM vs Modelo Clásico
+
+```mermaid
+flowchart LR
+    subgraph EXTERNAL_STACK["Modelo Dependiente (Cloud-Céntrico)"]
+        A["🏙️ Ciudad / Territorio\n(Proveedor de Datos)"]:::territory
+        B["☁️ Nube Global\n(Operador Externo)"]:::cloud
+        C["📊 Plataformas Cerradas\n(Analytics / Ads / SaaS)"]:::saas
+        D["👤 Usuario Final\n(Consumidor / Perfilado)"]:::user
+
+        A -->|"Datos brutos\nmovilidad, consumo, comportamiento"| B
+        B -->|"Servicios empaquetados"| C
+        C -->|"Interfaz / Apps"| D
+        D -.->|"Más datos\nclicks, rutas, pagos"| B
+    end
+
+    subgraph RDM_TOS["RDM‑TOS · Nodo Cero Realmontense"]
+        T0["🌍 Nodo Cero\nRDM DIGITAL"]:::rdm
+        K["🜂 RDM‑TOS Kernel\n(Heptafederado)"]:::kernel
+        FDATA["F1 · DATA\n(Territorial Vault)"]:::fed
+        FINT["F2 · INTEL\n(Cognitive Core)"]:::fed
+        FSEC["F3 · SEC\n(PQC / Q‑Cells)"]:::fed
+        FECON["F5 · ECON\n(Alamexa Local)"]:::fed
+        FVIS["F6 · VIS\n(GeoEngine 2D/3D)"]:::fed
+
+        T0 -->|"Señales locales\ncomercio, turismo, sensores"| K
+        K --> FDATA
+        K --> FINT
+        K --> FSEC
+        K --> FECON
+        K --> FVIS
+        FDATA --> T0
+        FECON --> T0
+        FVIS --> T0
+    end
+
+    A -.->|"Extracción\nsin control"| B
+    T0 -.->|"Modelo propio\nSoberanía de datos"| FDATA
+
+    classDef territory fill:#150000,stroke:#FF1717,stroke-width:1.5px,color:#E5E4E2;
+    classDef cloud fill:#050818,stroke:#777777,stroke-width:1px,color:#E5E4E2;
+    classDef saas fill:#050818,stroke:#777777,stroke-width:1px,color:#E5E4E2;
+    classDef user fill:#111111,stroke:#555555,stroke-width:1px,color:#E5E4E2;
+    classDef rdm fill:#001112,stroke:#00F7FF,stroke-width:2px,color:#E5E4E2;
+    classDef kernel fill:#001A1A,stroke:#00F7FF,stroke-width:3px,color:#E5E4E2,font-weight:bold;
+    classDef fed fill:#000000,stroke:#00F7FF,stroke-width:1.2px,color:#E5E4E2;
+
+    linkStyle default stroke:#555555,stroke-width:1px;
+    linkStyle 0,1,2,3 stroke:#FF1717,stroke-width:1.5px;
+    linkStyle 4,5,6,7,8,9 stroke:#00F7FF,stroke-width:2px;
+```
+```
+
+***
+## 2️⃣ Badges dinámicos Shields.io para RDM‑TOS Realmontense
+Pega esto en la parte alta del README, debajo del título:
+
+```markdown
+<div align="center">
+
+![Estado](https://img.shields.io/badge/RDM--TOS-INSURGENTE_ACTIVO-brightgreen?style=for-the-badge&logo=linux&logoColor=white)
+![Nodo](https://img.shields.io/badge/NODE_ZERO-REAL_DEL_MONTE-00F7FF?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Arquitecto](https://img.shields.io/badge/ARQUITECTO-ANUBIS_VILLASE%C3%91OR-111111?style=for-the-badge&logo=github&logoColor=white)
+![Modo](https://img.shields.io/badge/MODO-EDGE_FIRST_%2B_HITL-FF1717?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Kernel](https://img.shields.io/badge/KERNEL-MD--X4_HEPTAFEDERADO-000000?style=for-the-badge&logo=gnometerminal&logoColor=00F7FF)
+
+</div>
+```
+
+Si luego quieres badges realmente dinámicos (endpoint JSON con stats de RDM‑TOS), podemos montarlo en una API o GitHub Action usando `endpoint?url=...`.
+
+ [github](https://github.com/marketplace/actions/dynamic-badges)
+
+***
+## 3️⃣ Expansión de módulos RDM 2D y 3D con código
+### 🌐 Módulo RDM‑MAP‑2D · Cartografía Operativa
+```markdown
+#### RDM‑MAP‑2D · Cartografía Operativa (Mapbox GL JS)
+
+```javascript
+// frontend/rdm-map-2d.js
+import mapboxgl from "mapbox-gl";
+
+mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
+
+const map = new mapboxgl.Map({
+  container: "rdm-map-2d",
+  style: "mapbox://styles/mapbox/dark-v11",
+  center: [-98.667, 20.135], // Real del Monte
+  zoom: 13.5,
+  pitch: 45,
+  bearing: -10,
+});
+
+// Capa base: relieve sombreado
+map.on("load", () => {
+  map.addSource("rdm-dem", {
+    type: "raster-dem",
+    url: "mapbox://mapbox.terrain-rgb"
+  });
+
+  map.setTerrain({ source: "rdm-dem", exaggeration: 1.4 });
+
+  // Nodos económicos locales (POIs del Vault territorial)
+  map.addSource("rdm-pois", {
+    type: "geojson",
+    data: "/vault/poi_nodes.json"
+  });
+
+  map.addLayer({
+    id: "rdm-pois-layer",
+    type: "circle",
+    source: "rdm-pois",
+    paint: {
+      "circle-radius": 4,
+      "circle-color": "#00F7FF",
+      "circle-stroke-width": 1,
+      "circle-stroke-color": "#111111"
+    }
+  });
+});
+```
+```
+### 🛰️ Módulo RDM‑MAP‑3D · Cabina de Mando (CesiumJS)
+```markdown
+#### RDM‑MAP‑3D · Cabina de Mando Territorial (CesiumJS)
+
+```javascript
+// frontend/rdm-map-3d.js
+import * as Cesium from "cesium";
+import { RDM_VAULT_ENDPOINT, NODE_ZERO_COORDS } from "./config";
+
+const viewer = new Cesium.Viewer("cesiumContainer", {
+  terrainProvider: Cesium.createWorldTerrain(),
+  baseLayerPicker: false,
+  geocoder: false,
+  animation: false,
+  timeline: false,
+});
+
+// Aproximación táctica
+viewer.camera.flyTo({
+  destination: Cesium.Cartesian3.fromDegrees(
+    NODE_ZERO_COORDS.lon,
+    NODE_ZERO_COORDS.lat,
+    2200
+  ),
+  orientation: {
+    heading: Cesium.Math.toRadians(0),
+    pitch: Cesium.Math.toRadians(-45),
+    roll: 0
+  }
+});
+
+// Ingesta de gemelo económico
+Cesium.GeoJsonDataSource.load(
+  `${RDM_VAULT_ENDPOINT}/poi_nodes.json`,
+  {
+    stroke: Cesium.Color.fromCssColorString("#00F7FF"),
+    fill: Cesium.Color.fromCssColorString("#001A1A").withAlpha(0.6),
+    strokeWidth: 2
+  }
+).then(ds => viewer.dataSources.add(ds));
+```
+```
+
+***
+## 4️⃣ Ciberdelitos concretos en el diagnóstico de red
+Para integrar en tu sección de “Diagnóstico de red”, puedes añadir este bloque:
+
+```markdown
+### 🧨 Ciberdelitos y Riesgos Reales en la Topografía de la Dependencia
+
+La dependencia de nubes y plataformas externas no es sólo un problema filosófico;  
+es una **superficie de ataque directa** que ya se ha explotado en la región:
+
+- **Ransomware a infraestructura pública:** campañas que cifran servidores municipales, registros civiles y plataformas de pago, dejando a ciudades completas operando “a ciegas”. [web:118]
+- **Infostealers y fraude financiero:** kits como LummaC2 exfiltran credenciales de banca, billeteras y backends de gobierno, permitiendo desvío de fondos y robo de identidad a escala masiva. [web:118]
+- **Intrusiones geopolíticas a gobiernos locales:** grupos vinculados a estados han vulnerado sistemas gubernamentales en la región para espionaje, manipulación de datos y preparación de operaciones híbridas. [web:54]
+
+En este contexto, un territorio que delega todo su dato y lógica a infraestructuras externas  
+no es “moderno”: es **un objetivo de alto valor** sin capacidad de respuesta propia.
+```
+
+
+
+***
+## 5️⃣ Diagrama de Soberanía TAMV MD‑X4 · Mermaid avanzado
+Versión avanzada, consistente con lo que ya tienes pero mejor estilizada y limpia:
+
+```markdown
+### 🔁 TAMV MD‑X4 · Kernel de Soberanía (Mermaid Avanzado)
+
+```mermaid
+flowchart LR
+    %% Núcleo HUMANO + KERNEL
+    HITL["👤 HUMAN_IN_THE_LOOP\nAutoridad Estratégica"]:::human --> KMD
+    KMD["🜂 KERNEL MD‑X4\nIsabella Protocol"]:::kernel
+
+    %% Heptafederaciones
+    subgraph HEPTA["Capa Heptafederada"]
+        F1["F1 · DATA\nKnowledge Vault / PostGIS / TimeSeries"]:::fed
+        F2["F2 · INTEL\nCognitive & Agentic AI Core"]:::fed
+        F3["F3 · SEC\nPQC · Zero‑Trust · Q‑Cells"]:::fed
+        F4["F4 · GOV\nExecutable Governance / Audit Logs"]:::fed
+        F5["F5 · ECON\nAlamexa · Economía Local"]:::fed
+        F6["F6 · VIS\nGeoEngine 2D/3D · Twin Renderer"]:::fed
+        F7["F7 · TERRITORY\nEdge Nodes · IoT · Human Mesh"]:::fed
+    end
+
+    %% Enlaces núcleo → federaciones
+    KMD --> F1
+    KMD --> F2
+    KMD --> F3
+    KMD --> F4
+    KMD --> F5
+    KMD --> F6
+    KMD --> F7
+
+    %% Bucles antifrágiles
+    F7 -->|"Telemetría Cruda"| KMD
+    F2 -.->|"Aprendizaje Antifrágil"| F7
+    F3 -.->|"Autodestrucción Q‑Cell"| KMD
+
+    %% Estilos
+    classDef human fill:#1A0000,stroke:#FF1717,stroke-width:2px,color:#E5E4E2;
+    classDef kernel fill:#001A1A,stroke:#00F7FF,stroke-width:3px,color:#E5E4E2,font-weight:bold;
+    classDef fed fill:#000000,stroke:#00F7FF,stroke-width:1.3px,color:#E5E4E2;
+
+    linkStyle default stroke:#555555,stroke-width:1px;
+    linkStyle 0 stroke:#FF1717,stroke-width:2px;
+    linkStyle 1,2,3,4,5,6,7 stroke:#00F7FF,stroke-width:2px;
+    linkStyle 8,9 stroke:#FF1717,stroke-width:2px,stroke-dasharray:5 5;
+```
+
 ## ⚠️ EJECUTANDO PARADIGMA FINAL
 
 Este repo no busca agradar.  
