@@ -106,6 +106,7 @@ Es **NODE ZERO**.
 
 ### GEOENGINE 2D/3D (CRUDO Y TÉCNICO)
 
+´´´
 # pygmt/scripts/generate_rdm_grids.py
 import pygmt
 from pygmt.datasets import load_earth_relief, load_earth_dist, load_earth_mask
@@ -146,6 +147,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+´´´
 
 Estos grids no son decoración.  
 Son la base para:
