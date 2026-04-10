@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🜂 RDM-TOS // TERRITORIAL OPERATING SYSTEM  
