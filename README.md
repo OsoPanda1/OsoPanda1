@@ -342,6 +342,48 @@ Cesium.GeoJsonDataSource.load(
 
 ---
 
+#### RDM‑MAP‑3D · Cabina de Mando Territorial (CesiumJS)
+
+```javascript
+// frontend/rdm-map-3d.js
+import * as Cesium from "cesium";
+import { RDM_VAULT_ENDPOINT, NODE_ZERO_COORDS } from "./config";
+
+const viewer = new Cesium.Viewer("cesiumContainer", {
+  terrainProvider: Cesium.createWorldTerrain(),
+  baseLayerPicker: false,
+  geocoder: false,
+  animation: false,
+  timeline: false,
+});
+
+// Aproximación táctica
+viewer.camera.flyTo({
+  destination: Cesium.Cartesian3.fromDegrees(
+    NODE_ZERO_COORDS.lon,
+    NODE_ZERO_COORDS.lat,
+    2200
+  ),
+  orientation: {
+    heading: Cesium.Math.toRadians(0),
+    pitch: Cesium.Math.toRadians(-45),
+    roll: 0
+  }
+});
+
+// Ingesta de gemelo económico
+Cesium.GeoJsonDataSource.load(
+  `${RDM_VAULT_ENDPOINT}/poi_nodes.json`,
+  {
+    stroke: Cesium.Color.fromCssColorString("#00F7FF"),
+    fill: Cesium.Color.fromCssColorString("#001A1A").withAlpha(0.6),
+    strokeWidth: 2
+  }
+).then(ds => viewer.dataSources.add(ds));
+```
+
+---
+
 ## 📡 TELEMETRÍA EN TIEMPO REAL · SIN VENDOR CLOUD
 
 ```bash
