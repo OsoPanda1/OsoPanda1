@@ -104,9 +104,9 @@ Es **NODE ZERO**.
 - Cada flujo de turistas, rutas y riesgos se simula y se reescribe en tiempo real.  
 - El territorio no solo se “mapea”: **se defiende, se optimiza y se recuerda**.
 
-### GEOENGINE 2D/3D (CRUDO Y TÉCNICO)
+### 🌐 GEOENGINE 2D/3D // CRUDO, CIENTÍFICO Y SIN PNG DE STOCK
 
-´´´
+```python
 # pygmt/scripts/generate_rdm_grids.py
 import pygmt
 from pygmt.datasets import load_earth_relief, load_earth_dist, load_earth_mask
@@ -114,50 +114,62 @@ import xarray as xr
 import rasterio
 from rasterio.transform import from_bounds
 
-REGION = [-100, -96, 18, 22]   # El país no te va a cuidar: tú defines tu región.
+# El país no te va a cuidar: tú defines tu región.
+REGION = [-100, -96, 18, 22]
 
-def to_geotiff(grid: xr.DataArray, out_path: str):
+def to_geotiff(grid: xr.DataArray, out_path: str) -> None:
     lon, lat = grid.lon.values, grid.lat.values
-    transform = from_bounds(float(lon.min()), float(lat.min()),
-                            float(lon.max()), float(lat.max()),
-                            grid.sizes["lon"], grid.sizes["lat"])
+    transform = from_bounds(
+        float(lon.min()), float(lat.min()),
+        float(lon.max()), float(lat.max()),
+        grid.sizes["lon"], grid.sizes["lat"],
+    )
     data = grid.values.astype("float32")
+    height, width = data.shape
     with rasterio.open(
-        out_path, "w", driver="GTiff",
-        height=data.shape, width=data.shape,
-        count=1, dtype="float32",
-        crs="EPSG:4326", transform=transform,
+        out_path,
+        "w",
+        driver="GTiff",
+        height=height,
+        width=width,
+        count=1,
+        dtype="float32",
+        crs="EPSG:4326",
+        transform=transform,
     ) as dst:
         dst.write(data, 1)
 
-def main():
-    # Relieve real, no PNG de stock.
+def main() -> None:
+    # Relieve real del terreno, no wallpapers.
     relief = load_earth_relief(resolution="15s", region=REGION)
-    # Distancia a costa, derivada de GSHHG.
+    # Distancia a costa derivada de GSHHG (para riesgos, accesibilidad, rutas).
     dist   = load_earth_dist(resolution="05m", region=REGION)
-    # Máscara tierra/mar.
+    # Máscara tierra/mar para no cometer el pecado de poner negocios en el mar.
     mask   = load_earth_mask(resolution="05m", region=REGION)
 
     to_geotiff(relief, "pygmt/data/grids/rdm_relief_15s.tif")
     to_geotiff(dist,   "pygmt/data/grids/rdm_earth_dist_05m.tif")
     to_geotiff(mask,   "pygmt/data/grids/rdm_earth_mask_05m.tif")
 
-    xr.Dataset({"relief": relief, "dist": dist, "mask": mask}) \
-      .to_netcdf("pygmt/data/grids/rdm_relief_dist_mask.nc")
+    xr.Dataset(
+        {
+            "relief": relief,
+            "dist":   dist,
+            "mask":   mask,
+        }
+    ).to_netcdf("pygmt/data/grids/rdm_relief_dist_mask.nc")
 
 if __name__ == "__main__":
     main()
-´´´
+```
 
-Estos grids no son decoración.  
-Son la base para:
+> Estos grids no son decoración.  
+> Son la base dura para:
 
-- Cesium 3D hiperrealista  
-- Capas de riesgo  
-- Simulación de rutas  
-- Decisiones con consecuencias en personas reales
-
----
+- 🛰️ Render Cesium 3D hiperrealista sobre relieve real  
+- ⚠️ Capas de riesgo y proximidad (barrancas, pendientes, costa)  
+- 🧭 Simulación de rutas y logística territorial con contexto físico real  
+- 🧠 Decisiones que afectan a personas, comercios y vidas, no a “usuarios” abstractos  
 
 ## 📡 TELEMETRÍA EN TIEMPO REAL (SIN FILTRO)
 
