@@ -1,11 +1,13 @@
 <div align="center">
 
-# 🜂 RDM-TOS // SOVEREIGN TERRITORIAL OS  
+# 🜂 RDM-TOS // SOVEREIGN TERRITORIAL OS  Orgullosamente Realmontense
 ### EL KERNEL QUE DESAFÍA AL MUNDO DESDE UN PUEBLO MINERO
 
-### ⚙️ Master Architect: Edwin Oswaldo Castillo Trejo  
-### 🧬 Identity: Anubis Villaseñor  
-### 🌍 Node Zero: Real del Monte, Hidalgo, México  
+---
+
+###  Master Architect: Edwin Oswaldo Castillo Trejo  
+###  Identity: Anubis Villaseñor  
+###  Node Zero: Real del Monte, Hidalgo, México  
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=1150&lines=BOOTSTRAP+DE+RESISTENCIA+INICIADO;ARTESAN%C3%8DAS+FINANCIANDO+INFRAESTRUCTURA+MUNDIAL;TERRITORIO+CONVERTIDO+EN+SISTEMA+OPERATIVO;GEMELO+DIGITAL+TERRITORIAL+EN+LINEA;LA+PERIFERIA+ESCRIBE+EL+PROTOCOLO" />
 
@@ -20,7 +22,7 @@
 
 ---
 
-## 🧠 ORIGIN PROTOCOL // ANATOMÍA DE UNA INSURGENCIA
+## ORIGIN PROTOCOL // ANATOMÍA DE UNA INSURGENCIA
 
 > No fui validado.  
 > No fui financiado.  
