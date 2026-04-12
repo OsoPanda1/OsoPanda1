@@ -53,105 +53,127 @@ Este README conecta mi trabajo como arquitecto (Anubis Villaseñor) con el Nodo 
 
 ---
 
-## 1. Quién soy
-
-**Edwin Oswaldo Castillo Trejo · Anubis Villaseñor**  
-CEO & Fundador de TAMV ONLINE · Arquitecto de la arquitectura MD‑X4 / MD‑X4 Quantum y del Modelo de las 7 Federaciones.[web:193][web:254]
-
-- Ubicación: Mineral del Monte (Real del Monte), Hidalgo, México.  
-- Trabajo en el cruce entre **infraestructura soberana**, IA aplicada y territorio inteligente.[web:229][web:232]  
-- Mi producción técnica y conceptual está registrada en **ORCID** y vinculada vía **DOI** a Zenodo y OpenAIRE.[web:193]
-
-**Perfiles oficiales:**
-
-- 🌐 Sitio oficial TAMV: https://tamvonline-odoo.com  
-- 📰 Blog técnico / narrativo: https://tamvonlinenetwork.blogspot.com  
-- 🧬 ORCID: https://orcid.org/0009-0008-5050-1539  
-- 🧾 DOI (Canon TAMV): https://doi.org/10.5281/zenodo.19436662  
-- 🔗 LinkedIn: https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/  
-- 👥 Comunidad técnica: https://groups.io/g/TAMVONLINE-ECOSISTEM-LATAM/topics  
-- 🐙 GitHub: https://github.com/OsoPanda1  
-
----
-
-## 2. Ecosistema TAMV · Vista ejecutiva
-
-| Capa             | Rol en el ecosistema                                      | Ejemplos clave                                                      |
-|------------------|-----------------------------------------------------------|---------------------------------------------------------------------|
-| Infraestructura  | Cloud híbrida, dashboards MD‑X4/X5, seguridad Zero‑Trust | Nodo RDM‑TOS, monitoreo territorial, despliegue México–LATAM        |
-| IA Nativa        | Kernel Isabella, agentes, moderación y auditoría         | Orquestación cognitiva y protocolos de soberanía algorítmica        |
-| Territorio       | RDM‑TOS · Real del Monte como Nodo Cero                  | Gemelo digital, rutas, turismo, resiliencia urbana                  |
-| Economía         | Marketplace phygital, economía circular local            | Artesanía, turismo, servicios territoriales soberanos               |
-| Memoria          | BookPI, DIGYTAMV, Canon académico (ORCID/DOI/OpenAIRE)   | Registro de decisiones, código y publicaciones citables             |
-
----
-
-## 3. Activity · GitHub signals
-
 <div align="center">
 
-<!-- Trophy -->
-<a href="https://github.com/OsoPanda1">
-  <img src="https://github-profile-trophy.vercel.app/?username=OsoPanda1&theme=matrix&margin-w=10&margin-h=10&no-bg=true&no-frame=true"/>
-</a>
+<img src="https://raw.githubusercontent.com/OsoPanda1/assets/main/banners/particles-cyberneon-tamv.gif" width="100%" style="max-width: 960px; border-radius: 16px; margin-bottom: 24px;" alt="TAMV ONLINE · Sovereign Particles Banner" />
+
+<h1 style="font-weight: 800; letter-spacing: 0.25em; text-transform: uppercase; color: #E2E8F0;">
+TAMV ONLINE · ECOSISTEMA LATAM
+</h1>
+<h3 style="font-weight: 300; color: #94A3B8; letter-spacing: 0.05em; margin-top: -10px;">
+RDM‑TOS · Sovereign Territorial Operating System · <span style="color: #E2E8F0; font-weight: 500;">Crystal Morphoglass Edition</span>
+</h3>
+
+<br/>
+
+<div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
+  <img src="https://img.shields.io/badge/TAMV-ECOSISTEMA_CIVILIZATORIO-020617?style=for-the-badge&logo=github&logoColor=E2E8F0&labelColor=0F172A&color=334155" alt="TAMV Ecosystem" />
+  <img src="https://img.shields.io/badge/RDM--TOS-NODO_TERRITORIAL_ZERO-020617?style=for-the-badge&logo=googlemaps&logoColor=E2E8F0&labelColor=0F172A&color=475569" alt="RDM-TOS" />
+  <img src="https://img.shields.io/badge/ISABELLA_IA-INTELIGENCIA_NATIVA-020617?style=for-the-badge&logo=azurefunctions&logoColor=E2E8F0&labelColor=0F172A&color=1E293B" alt="Isabella IA" />
+</div>
 
 <br/><br/>
 
-<!-- Stats principales -->
-<a href="https://github.com/OsoPanda1">
-  <img src="https://github-readme-stats.vercel.app/api?username=OsoPanda1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="150" />
-</a>
-<a href="https://github.com/OsoPanda1">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OsoPanda1&layout=compact&theme=tokyonight&hide_border=true" height="150" />
-</a>
+<div style="
+  max-width: 920px;
+  padding: 32px 40px;
+  border-radius: 24px;
+  border: 1px solid rgba(226, 232, 240, 0.15);
+  background: 
+    radial-gradient(circle at 10% 10%, rgba(226, 232, 240, 0.05), transparent 40%),
+    radial-gradient(circle at 90% 90%, rgba(148, 163, 184, 0.05), transparent 40%),
+    linear-gradient(145deg, rgba(15, 23, 42, 0.85), rgba(2, 6, 23, 0.95));
+  box-shadow: 
+    0 32px 64px rgba(0,0,0,0.7),
+    inset 0 1px 0 rgba(226, 232, 240, 0.1);
+  text-align: left;
+">
+<p style="color: #F8FAFC; font-size: 16px; line-height: 1.8; margin-bottom: 16px; font-weight: 300;">
+<strong style="color: #E2E8F0; font-weight: 600;">TAMV ONLINE</strong> es un ecosistema civilizatorio federado, nacido en México. Diseñamos infraestructura soberana e <strong style="color: #E2E8F0; font-weight: 600;">Inteligencia Nativa Extensible</strong> para que territorios históricos como Real del Monte operen su propio sistema operativo digital (RDM-TOS), evolucionando de simples <em>datasets</em> de terceros a nodos de soberanía tecnológica.
+</p>
+<p style="color: #94A3B8; font-size: 14px; line-height: 1.6; border-top: 1px solid rgba(226, 232, 240, 0.1); padding-top: 16px; margin-top: 16px;">
+Este Hub consolida la arquitectura del Nodo Territorial Zero <em>(Genesis Root)</em>, el Canon Maestro de las 7 Federaciones y el registro académico oficial (ORCID · DOI).
+</p>
+</div>
 
-<br/><br/>
+</div>
 
-<!-- Streak -->
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=OsoPanda1&theme=tokyonight-duo&hide_border=true" height="150" />
-</a>
+<br/>
+
+---
+
+## 🏛️ I. Arquitectura y Liderazgo
+
+**Edwin Oswaldo Castillo Trejo · Anubis Villaseñor** `CEO & Fundador de TAMV ONLINE` · `Arquitecto Jefe de MD‑X4 / MD‑X4 Quantum`
+
+- 📍 **Base de Operaciones:** Mineral del Monte (Real del Monte), Hidalgo, México.
+- ⚙️ **Enfoque:** Infraestructura antifrágil, IA emocional (Isabella) y digitalización territorial.
+- 🔬 **Validación Científica:** Producción conceptual y código fundacional anclado vía **DOI** y **ORCID**.
+
+| Redes y Registros Oficiales | Enlace de Verificación |
+| :--- | :--- |
+| 🌐 **TAMV Hub Oficial** | [tamvonline-odoo.com](https://tamvonline-odoo.com) |
+| 🧾 **Canon TAMV (DOI)** | [10.5281/zenodo.19436662](https://doi.org/10.5281/zenodo.19436662) |
+| 🧬 **Registro ORCID** | [0009-0008-5050-1539](https://orcid.org/0009-0008-5050-1539) |
+| 📰 **Diario de Ingeniería** | [tamvonlinenetwork.blogspot.com](https://tamvonlinenetwork.blogspot.com) |
+| 🔗 **LinkedIn** | [Edwin Oswaldo Castillo](https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/) |
+| 👥 **TAMV Latam Comm** | [Grupos.io / TAMV ONLINE](https://groups.io/g/TAMVONLINE-ECOSISTEM-LATAM/topics) |
+
+---
+
+## 💎 II. Ecosistema TAMV · Vista Ejecutiva
+
+<div align="center">
+  
+| Capa del Sistema | Función Estratégica en el Ecosistema | Componentes Clave |
+| :--- | :--- | :--- |
+| **Infraestructura** | Cloud soberana, Dashboards MD‑X4/X5 | `Zero-Trust`, `Operación Soberanía 100`, `RDM-TOS` |
+| **IA Nativa** | Kernel Isabella, Moderación cognitiva | `Orquestación Agentic`, `Protocolos Antifrágiles` |
+| **Territorio** | RDM‑TOS (Real del Monte como Nodo Zero) | `Gemelo Digital`, `Telemetría Urbana`, `Resiliencia` |
+| **Economía** | Intersección Phygital y Economía Circular | `BookPI`, `Marketplace Local`, `Artesanía Soberana` |
+| **Memoria** | Trazabilidad algorítmica y académica | `DIGYTAMV`, `Zenodo (DOI)`, `OpenAIRE` |
 
 </div>
 
 ---
 
-## 4. Núcleo técnico · RDM‑TOS & MD‑X4
+## 🛰️ III. Núcleo Técnico · RDM‑TOS & MD‑X4
 
-### 4.1 Diagrama de arquitectura · Kernel territorial
+### 1. Topología del Kernel Territorial (Modelo de las 7 Federaciones)
 
 ```mermaid
 flowchart LR
     TERR["Territorio\nReal del Monte"]:::territory --> KMD
-    HITL["Human‑in‑the‑Loop\nAutoridad local"]:::human --> KMD
+    HITL["Human‑in‑the‑Loop\nAnubis Auth"]:::human --> KMD
 
     KMD["Kernel MD‑X4\nIsabella Protocol"]:::kernel
 
-    subgraph FED["Heptafederaciones TAMV"]
-      F1["F1 · DATA\nVault / PostGIS / TimeSeries"]:::fed
-      F2["F2 · INTEL\nCognitive & Agentic AI"]:::fed
-      F3["F3 · SEC\nPQC · Zero‑Trust · Q‑Cells"]:::fed
-      F4["F4 · GOV\nExecutable Governance"]:::fed
-      F5["F5 · ECON\nEconomía local / phygital"]:::fed
-      F6["F6 · VIS\nGeoEngine 2D/3D"]:::fed
-      F7["F7 · TERRITORY\nEdge / IoT / Human mesh"]:::fed
+    subgraph FED["Modelo Heptafederado TAMV"]
+      F1["F1 · DATA\nVault / PostGIS"]:::fed
+      F2["F2 · INTEL\nCognitive AI"]:::fed
+      F3["F3 · SEC\nZero‑Trust"]:::fed
+      F4["F4 · GOV\nGovNet"]:::fed
+      F5["F5 · ECON\nBookPI Ledger"]:::fed
+      F6["F6 · VIS\nGeoEngine 3D"]:::fed
+      F7["F7 · TERR\nEdge/IoT"]:::fed
     end
 
     KMD --> F1 & F2 & F3 & F4 & F5 & F6 & F7
-    F7 -->|"Telemetría cruda"| KMD
-    F2 -.->|"Aprendizaje antifrágil"| F7
+    F7 -->|"Telemetría"| KMD
+    F2 -.->|"Resiliencia"| F7
 
-    classDef territory fill:#020617,stroke:#38BDF8,stroke-width:2px,color:#E5E7EB;
-    classDef human fill:#111827,stroke:#F97316,stroke-width:2px,color:#E5E7EB;
-    classDef kernel fill:#020617,stroke:#22C55E,stroke-width:3px,color:#E5E7EB,font-weight:bold;
-    classDef fed fill:#020617,stroke:#64748B,stroke-width:1.4px,color:#CBD5F5;
+    %% Platinum / Morphoglass styling %%
+    classDef territory fill:#0F172A,stroke:#E2E8F0,stroke-width:2px,color:#F8FAFC;
+    classDef human fill:#1E293B,stroke:#94A3B8,stroke-width:2px,color:#F8FAFC;
+    classDef kernel fill:#020617,stroke:#E2E8F0,stroke-width:3px,color:#FFFFFF,font-weight:bold;
+    classDef fed fill:#0F172A,stroke:#475569,stroke-width:1.5px,color:#CBD5E1;
 
-    linkStyle default stroke:#64748B,stroke-width:1.2px;
-```
+    linkStyle default stroke:#64748B,stroke-width:1.5px;
+````
 
-### 4.2 Fragmento · RDM‑MAP‑2D (operación realmontense)
+### 2\. Stack de Integración RDM‑MAP‑2D (Extracción)
 
-```ts
+```typescript
 // frontend/rdm-map-2d.ts
 import mapboxgl from "mapbox-gl";
 
@@ -160,8 +182,8 @@ mapboxgl.accessToken = process.env.MAPBOX_TOKEN ?? "";
 const map = new mapboxgl.Map({
   container: "rdm-map-2d",
   style: "mapbox://styles/mapbox/dark-v11",
-  center: [-98.667, 20.135], // Real del Monte
-  zoom: 13.5,
+  center: [-98.667, 20.135], // RDM Nodo Zero
+  zoom: 13.8,
   pitch: 45,
   bearing: -10,
 });
@@ -177,95 +199,95 @@ map.on("load", () => {
     type: "circle",
     source: "rdm-pois",
     paint: {
-      "circle-radius": 4,
-      "circle-color": "#38BDF8",
-      "circle-stroke-width": 1,
+      "circle-radius": 5,
+      "circle-color": "#E2E8F0", // Platinum highlight
+      "circle-stroke-width": 1.5,
       "circle-stroke-color": "#020617",
     },
   });
 });
 ```
 
----
+\<div align="center"\>
+<br>
 
-<div align="center">
+\<img src="https://www.google.com/search?q=https://img.shields.io/badge/TypeScript-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dtypescript%26logoColor%3DE2E8F0" /\>
+\<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3DE2E8F0" /\>
+\<img src="https://www.google.com/search?q=https://img.shields.io/badge/Next.js-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dnextdotjs%26logoColor%3DE2E8F0" /\>
+\<img src="https://www.google.com/search?q=https://img.shields.io/badge/PostGIS-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dpostgresql%26logoColor%3DE2E8F0" /\>
+\<img src="https://www.google.com/search?q=https://img.shields.io/badge/CesiumJS-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dcesium%26logoColor%3DE2E8F0" /\>
 
-<img src="https://img.shields.io/badge/TAMV-ECOSISTEMA_CIVILIZATORIO-020617?style=for-the-badge&logo=github&logoColor=F9FAFB&labelColor=020617&color=0EA5E9" />
-<img src="https://img.shields.io/badge/RDM--TOS-NODO_TERRITORIAL_ZERO-020617?style=for-the-badge&logo=googlemaps&logoColor=22C55E&labelColor=020617&color=1D4ED8" />
-<img src="https://img.shields.io/badge/HOLLOWALL-GLASS_SECURITY_LAYER-000000?style=for-the-badge&labelColor=020617&color=00000000&logo=shield&logoColor=38BDF8" />
+\</div\>
 
-<br/>
+-----
 
-<img src="https://img.shields.io/badge/TypeScript-0F172A?style=for-the-badge&logo=typescript&logoColor=38BDF8" />
-<img src="https://img.shields.io/badge/Python-020617?style=for-the-badge&logo=python&logoColor=FACC15" />
-<img src="https://img.shields.io/badge/Next.js-020617?style=for-the-badge&logo=nextdotjs&logoColor=F9FAFB" />
-<img src="https://img.shields.io/badge/PostgreSQL/PostGIS-020617?style=for-the-badge&logo=postgresql&logoColor=0EA5E9" />
-<img src="https://img.shields.io/badge/Mapbox_GL-020617?style=for-the-badge&logo=mapbox&logoColor=38BDF8" />
-<img src="https://img.shields.io/badge/CesiumJS-020617?style=for-the-badge&logo=cesium&logoColor=A855F7" />
+## 📈 IV. Telemetría y Actividad (GitHub Signals)
 
-</div>
+\<div align="center"\>
 
----
+\<a href="https://github.com/OsoPanda1"\>
+\<img src="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3DOsoPanda1%26theme%3Dnord%26margin-w%3D10%26margin-h%3D10%26no-bg%3Dtrue%26no-frame%3Dtrue" alt="Trophies" /\>
+\</a\>
 
-# markdeck-theme-tamv-cyberneon.yaml
+<br><br>
+
+\<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"\>
+\<a href="https://github.com/OsoPanda1"\>
+\<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DOsoPanda1%26show\_icons%3Dtrue%26theme%3Dnord%26hide\_border%3Dtrue%26count\_private%3Dtrue%26include\_all\_commits%3Dtrue%26bg\_color%3D0F172A%26title\_color%3DE2E8F0%26text\_color%3D94A3B8%26icon\_color%3DE2E8F0" height="160" alt="GitHub Stats" /\>
+\</a\>
+\<a href="https://github.com/OsoPanda1"\>
+\<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DOsoPanda1%26layout%3Dcompact%26theme%3Dnord%26hide\_border%3Dtrue%26bg\_color%3D0F172A%26title\_color%3DE2E8F0%26text\_color%3D94A3B8" height="160" alt="Top Langs" /\>
+\</a\>
+\</div\>
+
+\</div\>
+
+-----
+
+## 💠 V. Markdeck Theme · Platinum CyberNeon Config
+
+Si utilizas Markdeck para la documentación, aquí tienes la paleta oficial del ecosistema orientada al cristal/plata:
+
+```yaml
+# markdeck-theme-tamv-platinum.yaml
 theme:
-  name: "TAMV CyberNeon"
+  name: "TAMV Platinum Glass"
   fonts:
     base: "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
   colors:
     background: "#020617"
-    foreground: "#E5E7EB"
-    accentPrimary: "#38BDF8"
-    accentSecondary: "#E11D48"
-    accentTertiary: "#22C55E"
+    foreground: "#F8FAFC"
+    accentPrimary: "#E2E8F0"   # Platino/Plata
+    accentSecondary: "#94A3B8" # Gris Pizarra Claro
+    accentTertiary: "#334155"  # Gris Pizarra Oscuro
   layout:
     slide:
-      padding: "2.5rem 3.5rem"
+      padding: "3rem 4rem"
       borderRadius: "24px"
-      shadow: "0 36px 90px rgba(0,0,0,0.9)"
-      border: "1px solid rgba(148,163,184,0.45)"
+      shadow: "0 40px 100px rgba(0,0,0,0.95)"
+      border: "1px solid rgba(226,232,240,0.15)"
       background: >
-        radial-gradient(circle at 0% 0%, rgba(56,189,248,0.18), transparent 55%),
-        radial-gradient(circle at 100% 100%, rgba(244,63,94,0.18), transparent 55%),
-        linear-gradient(145deg, rgba(15,23,42,0.96), rgba(15,23,42,0.92))
+        radial-gradient(circle at 0% 0%, rgba(226,232,240,0.05), transparent 60%),
+        linear-gradient(145deg, rgba(15,23,42,0.90), rgba(2,6,23,0.98))
   code:
-    background: "#020617"
-    borderRadius: "16px"
-    fontSize: "0.9rem"
+    background: "#090D16"
+    borderRadius: "12px"
+    fontSize: "0.95rem"
+    border: "1px solid #1E293B"
+```
 
+-----
 
-::: card
-# RDM‑TOS · Nodo Territorial
+\<div align="center"\>
 
-- Real del Monte como sistema crítico
-- Kernel heptafederado MD‑X4
-- IA nativa alineada al territorio
-:::
+\<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DOsoPanda1%26color%3D475569%26label%3DSISTEMA%2BINICIALIZADO%26style%3Dflat-square" alt="Visitas" /\>
 
----
+<br><br>
 
-## 7. Network & visitors
+\<p style="color: \#64748B; font-size: 12px; font-weight: 300;"\>
+© 2026 TAMV ONLINE. Operación Soberanía 100.
+\</p\>
 
-<div align="center">
+\</div\>
 
-<a href="https://tamvonline-odoo.com">
-  <img src="https://img.shields.io/badge/Site-TAMV_OFFICIAL-020617?style=for-the-badge&logo=azuredevops&logoColor=38BDF8">
-</a>
-<a href="https://tamvonlinenetwork.blogspot.com">
-  <img src="https://img.shields.io/badge/Blog-TAMV_MD--X4-020617?style=for-the-badge&logo=hashnode&logoColor=F97316">
-</a>
-<a href="https://orcid.org/0009-0008-5050-1539">
-  <img src="https://img.shields.io/badge/ORCID-Registro_Científico-020617?style=for-the-badge&logo=orcid&logoColor=22C55E">
-</a>
-<a href="https://doi.org/10.5281/zenodo.19436662">
-  <img src="https://img.shields.io/badge/DOI-Canon_TAMV-020617?style=for-the-badge&logo=zenodo&logoColor=38BDF8">
-</a>
-<a href="https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/">
-  <img src="https://img.shields.io/badge/LinkedIn-Anubis_Villaseñor-020617?style=for-the-badge&logo=linkedin&logoColor=0EA5E9">
-</a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=OsoPanda1&color=0EA5E9&label=Visitas&style=flat-square" />
-
-</div>
+```
