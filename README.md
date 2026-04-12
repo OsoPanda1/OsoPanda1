@@ -188,8 +188,6 @@ map.on("load", () => {
 
 ---
 
-## 5. Tech & Ecosystem · CyberNeon badges
-
 <div align="center">
 
 <img src="https://img.shields.io/badge/TAMV-ECOSISTEMA_CIVILIZATORIO-020617?style=for-the-badge&logo=github&logoColor=F9FAFB&labelColor=020617&color=0EA5E9" />
@@ -209,11 +207,6 @@ map.on("load", () => {
 
 ---
 
-## 6. Tema MarkDeck · CyberNeon + glassmorphism
-
-Para presentaciones MD (MarkDeck / Slides MD), este tema mantiene coherencia con el README.
-
-```yaml
 # markdeck-theme-tamv-cyberneon.yaml
 theme:
   name: "TAMV CyberNeon"
@@ -239,9 +232,7 @@ theme:
     background: "#020617"
     borderRadius: "16px"
     fontSize: "0.9rem"
-```
 
-Uso en la presentación:
 
 ::: card
 # RDM‑TOS · Nodo Territorial
