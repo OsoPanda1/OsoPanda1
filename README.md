@@ -243,7 +243,6 @@ theme:
 
 Uso en la presentación:
 
-```markdown
 ::: card
 # RDM‑TOS · Nodo Territorial
 
@@ -251,7 +250,6 @@ Uso en la presentación:
 - Kernel heptafederado MD‑X4
 - IA nativa alineada al territorio
 :::
-```
 
 ---
 
