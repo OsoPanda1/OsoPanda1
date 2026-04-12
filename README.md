@@ -1,9 +1,7 @@
-<!-- HERO: Crystal Morphoglass + Particles Banner -->
-
 <div align="center">
 
-<!-- Banner tipo particles (sustituye por tu asset real si quieres) -->
-<img src="https://raw.githubusercontent.com/OsoPanda1/assets/main/banners/particles-cyberneon-tamv.gif" width="960" alt="TAMV ONLINE · CyberNeon Particles Banner" />
+<!-- Banner (puedes cambiar la URL cuando tengas tu asset real) -->
+<img src="https://raw.githubusercontent.com/OsoPanda1/assets/main/banners/particles-cyberneon-tamv.gif" width="960" alt="TAMV ONLINE · CyberNeon Banner" />
 
 <br/><br/>
 
@@ -11,7 +9,7 @@
 TAMV ONLINE · ECOSISTEMA LATAM
 </h1>
 <h3 style="font-weight:400; color:#CBD5F5; margin-top:4px;">
-RDM‑TOS · Sovereign Territorial Operating System · Crystal Morphoglass Edition
+MD‑X4 · RDM‑TOS · Inteligencia Nativa Extensible desde Real del Monte, México
 </h3>
 
 <br/>
@@ -38,14 +36,14 @@ RDM‑TOS · Sovereign Territorial Operating System · Crystal Morphoglass Editi
   text-align:left;
 ">
 <p style="color:#E5E7EB; font-size:14px; line-height:1.7;">
-<strong style="color:#38BDF8;">TAMV ONLINE</strong> es un ecosistema civilizatorio federado,
-nacido en México, que diseña infraestructura soberana e
-<strong>Inteligencia Nativa Extensible</strong> para que territorios como Real del Monte operen
-su propio sistema operativo digital, en lugar de ser solo datasets de terceros.
+<strong style="color:#38BDF8;">TAMV ONLINE</strong> (Tecnología Avanzada Mexicana Versátil) es un
+Ecosistema Civilizatorio Federado nacido en México, diseñado para que territorios, creadores y
+organizaciones de LATAM operen su propio sistema operativo digital en lugar de ser solo
+infraestructura de datos para terceros.[web:229][web:231][web:239]
 </p>
 <p style="color:#9CA3AF; font-size:13px; margin-top:6px;">
-Este README conecta mi trabajo como arquitecto (Anubis Villaseñor) con el Nodo Territorial
-<em>RDM‑TOS</em>, el Canon Maestro de TAMV y el registro académico asociado (ORCID · DOI · OpenAIRE).
+Este espacio reúne la arquitectura MD‑X4, el Nodo Territorial <em>RDM‑TOS</em>, la Inteligencia Nativa
+Extensible <em>Isabella IA</em> y el canon técnico‑académico asociado (ORCID · DOI · OpenAIRE).[web:229][web:232][web:193]
 </p>
 </div>
 
@@ -53,127 +51,95 @@ Este README conecta mi trabajo como arquitecto (Anubis Villaseñor) con el Nodo 
 
 ---
 
-<div align="center">
+## 1. Quién soy
 
-<img src="https://raw.githubusercontent.com/OsoPanda1/assets/main/banners/particles-cyberneon-tamv.gif" width="100%" style="max-width: 960px; border-radius: 16px; margin-bottom: 24px;" alt="TAMV ONLINE · Sovereign Particles Banner" />
+**Edwin Oswaldo Castillo Trejo · “Anubis Villaseñor”**  
+Arquitecto de ecosistemas digitales, fundador de TAMV ONLINE y creador del modelo MD‑X4 / RDM‑TOS.[web:231][web:239][web:232]
 
-<h1 style="font-weight: 800; letter-spacing: 0.25em; text-transform: uppercase; color: #E2E8F0;">
-TAMV ONLINE · ECOSISTEMA LATAM
-</h1>
-<h3 style="font-weight: 300; color: #94A3B8; letter-spacing: 0.05em; margin-top: -10px;">
-RDM‑TOS · Sovereign Territorial Operating System · <span style="color: #E2E8F0; font-weight: 500;">Crystal Morphoglass Edition</span>
-</h3>
+- Ubicación: Real del Monte, Hidalgo, México (Nodo RDM‑TOS).[web:229]  
+- Trayectoria: de la artesanía y el trabajo manual a la arquitectura de software, IA aplicada y sistemas territoriales soberanos.[web:231][web:239]  
+- Registro académico:  
+  - ORCID: https://orcid.org/0009-0008-5050-1539[web:193]  
+  - DOI Canon TAMV: https://doi.org/10.5281/zenodo.19436662[web:229]  
+  - OpenAIRE: https://explore.openaire.eu/my-orcid-links[web:193]  
 
-<br/>
+**Perfiles oficiales:**
 
-<div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
-  <img src="https://img.shields.io/badge/TAMV-ECOSISTEMA_CIVILIZATORIO-020617?style=for-the-badge&logo=github&logoColor=E2E8F0&labelColor=0F172A&color=334155" alt="TAMV Ecosystem" />
-  <img src="https://img.shields.io/badge/RDM--TOS-NODO_TERRITORIAL_ZERO-020617?style=for-the-badge&logo=googlemaps&logoColor=E2E8F0&labelColor=0F172A&color=475569" alt="RDM-TOS" />
-  <img src="https://img.shields.io/badge/ISABELLA_IA-INTELIGENCIA_NATIVA-020617?style=for-the-badge&logo=azurefunctions&logoColor=E2E8F0&labelColor=0F172A&color=1E293B" alt="Isabella IA" />
-</div>
-
-<br/><br/>
-
-<div style="
-  max-width: 920px;
-  padding: 32px 40px;
-  border-radius: 24px;
-  border: 1px solid rgba(226, 232, 240, 0.15);
-  background: 
-    radial-gradient(circle at 10% 10%, rgba(226, 232, 240, 0.05), transparent 40%),
-    radial-gradient(circle at 90% 90%, rgba(148, 163, 184, 0.05), transparent 40%),
-    linear-gradient(145deg, rgba(15, 23, 42, 0.85), rgba(2, 6, 23, 0.95));
-  box-shadow: 
-    0 32px 64px rgba(0,0,0,0.7),
-    inset 0 1px 0 rgba(226, 232, 240, 0.1);
-  text-align: left;
-">
-<p style="color: #F8FAFC; font-size: 16px; line-height: 1.8; margin-bottom: 16px; font-weight: 300;">
-<strong style="color: #E2E8F0; font-weight: 600;">TAMV ONLINE</strong> es un ecosistema civilizatorio federado, nacido en México. Diseñamos infraestructura soberana e <strong style="color: #E2E8F0; font-weight: 600;">Inteligencia Nativa Extensible</strong> para que territorios históricos como Real del Monte operen su propio sistema operativo digital (RDM-TOS), evolucionando de simples <em>datasets</em> de terceros a nodos de soberanía tecnológica.
-</p>
-<p style="color: #94A3B8; font-size: 14px; line-height: 1.6; border-top: 1px solid rgba(226, 232, 240, 0.1); padding-top: 16px; margin-top: 16px;">
-Este Hub consolida la arquitectura del Nodo Territorial Zero <em>(Genesis Root)</em>, el Canon Maestro de las 7 Federaciones y el registro académico oficial (ORCID · DOI).
-</p>
-</div>
-
-</div>
-
-<br/>
+- 🌐 Sitio TAMV: https://tamvonline-odoo.com[web:229]  
+- 📰 Blog técnico/narrativo: https://tamvonlinenetwork.blogspot.com[web:231][web:239]  
+- 👥 Comunidad: https://groups.io/g/TAMVONLINE-ECOSISTEM-LATAM/topics  
+- 🔗 LinkedIn: https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/[web:254]  
+- 🐙 GitHub: https://github.com/OsoPanda1  
 
 ---
 
-## 🏛️ I. Arquitectura y Liderazgo
+## 2. Qué es TAMV ONLINE
 
-**Edwin Oswaldo Castillo Trejo · Anubis Villaseñor** `CEO & Fundador de TAMV ONLINE` · `Arquitecto Jefe de MD‑X4 / MD‑X4 Quantum`
+TAMV ONLINE es un **ecosistema digital civilizatorio** que conecta contenidos, experiencias inmersivas y servicios en línea en una misma infraestructura federada.[web:229][web:232]  
 
-- 📍 **Base de Operaciones:** Mineral del Monte (Real del Monte), Hidalgo, México.
-- ⚙️ **Enfoque:** Infraestructura antifrágil, IA emocional (Isabella) y digitalización territorial.
-- 🔬 **Validación Científica:** Producción conceptual y código fundacional anclado vía **DOI** y **ORCID**.
+- Objetivo: ofrecer a LATAM un **sistema operativo civilizatorio** competitivo con infraestructuras globales, pero alineado a la dignidad humana, la soberanía de datos y el contexto territorial.[web:229][web:239]  
+- Casos de uso: turismo inteligente, academias digitales, plataformas de contenido, metaverso productivo y servicios públicos digitales.[web:229][web:231][web:232]  
 
-| Redes y Registros Oficiales | Enlace de Verificación |
-| :--- | :--- |
-| 🌐 **TAMV Hub Oficial** | [tamvonline-odoo.com](https://tamvonline-odoo.com) |
-| 🧾 **Canon TAMV (DOI)** | [10.5281/zenodo.19436662](https://doi.org/10.5281/zenodo.19436662) |
-| 🧬 **Registro ORCID** | [0009-0008-5050-1539](https://orcid.org/0009-0008-5050-1539) |
-| 📰 **Diario de Ingeniería** | [tamvonlinenetwork.blogspot.com](https://tamvonlinenetwork.blogspot.com) |
-| 🔗 **LinkedIn** | [Edwin Oswaldo Castillo](https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/) |
-| 👥 **TAMV Latam Comm** | [Grupos.io / TAMV ONLINE](https://groups.io/g/TAMVONLINE-ECOSISTEM-LATAM/topics) |
+**Modelo de adopción y negocio (visión preliminar):**[web:229]  
+
+- Adopción esperada LATAM: 1–3 % de mercado, equivalente a 500,000–1,500,000 usuarios activos.  
+- ARPU estimado: 15–35 USD por usuario activo mensual (según vertical y nivel de servicio).  
+- Punto de equilibrio: entre 8,500 y 12,000 usuarios activos mensuales.  
 
 ---
 
-## 💎 II. Ecosistema TAMV · Vista Ejecutiva
+## 3. MD‑X4 · Kernel heptafederado
 
-<div align="center">
-  
-| Capa del Sistema | Función Estratégica en el Ecosistema | Componentes Clave |
-| :--- | :--- | :--- |
-| **Infraestructura** | Cloud soberana, Dashboards MD‑X4/X5 | `Zero-Trust`, `Operación Soberanía 100`, `RDM-TOS` |
-| **IA Nativa** | Kernel Isabella, Moderación cognitiva | `Orquestación Agentic`, `Protocolos Antifrágiles` |
-| **Territorio** | RDM‑TOS (Real del Monte como Nodo Zero) | `Gemelo Digital`, `Telemetría Urbana`, `Resiliencia` |
-| **Economía** | Intersección Phygital y Economía Circular | `BookPI`, `Marketplace Local`, `Artesanía Soberana` |
-| **Memoria** | Trazabilidad algorítmica y académica | `DIGYTAMV`, `Zenodo (DOI)`, `OpenAIRE` |
-
-</div>
-
----
-
-## 🛰️ III. Núcleo Técnico · RDM‑TOS & MD‑X4
-
-### 1. Topología del Kernel Territorial (Modelo de las 7 Federaciones)
+MD‑X4 es el **kernel de soberanía** que organiza el ecosistema en siete federaciones funcionales, con un modelo antifrágil y Zero‑Trust.[web:231][web:239][web:232]
 
 ```mermaid
 flowchart LR
     TERR["Territorio\nReal del Monte"]:::territory --> KMD
-    HITL["Human‑in‑the‑Loop\nAnubis Auth"]:::human --> KMD
+    HITL["Human‑in‑the‑Loop\nAutoridad local"]:::human --> KMD
 
     KMD["Kernel MD‑X4\nIsabella Protocol"]:::kernel
 
-    subgraph FED["Modelo Heptafederado TAMV"]
-      F1["F1 · DATA\nVault / PostGIS"]:::fed
-      F2["F2 · INTEL\nCognitive AI"]:::fed
-      F3["F3 · SEC\nZero‑Trust"]:::fed
-      F4["F4 · GOV\nGovNet"]:::fed
-      F5["F5 · ECON\nBookPI Ledger"]:::fed
-      F6["F6 · VIS\nGeoEngine 3D"]:::fed
-      F7["F7 · TERR\nEdge/IoT"]:::fed
+    subgraph FED["Heptafederaciones TAMV"]
+      F1["F1 · DATA\nVault / PostGIS / TimeSeries"]:::fed
+      F2["F2 · INTEL\nCognitive & Agentic AI"]:::fed
+      F3["F3 · SEC\nPQC · Zero‑Trust · Q‑Cells"]:::fed
+      F4["F4 · GOV\nExecutable Governance"]:::fed
+      F5["F5 · ECON\nEconomía local / phygital"]:::fed
+      F6["F6 · VIS\nGeoEngine 2D/3D"]:::fed
+      F7["F7 · TERRITORY\nEdge / IoT / Human mesh"]:::fed
     end
 
     KMD --> F1 & F2 & F3 & F4 & F5 & F6 & F7
-    F7 -->|"Telemetría"| KMD
-    F2 -.->|"Resiliencia"| F7
+    F7 -->|"Telemetría cruda"| KMD
+    F2 -.->|"Aprendizaje antifrágil"| F7
 
-    %% Platinum / Morphoglass styling %%
-    classDef territory fill:#0F172A,stroke:#E2E8F0,stroke-width:2px,color:#F8FAFC;
-    classDef human fill:#1E293B,stroke:#94A3B8,stroke-width:2px,color:#F8FAFC;
-    classDef kernel fill:#020617,stroke:#E2E8F0,stroke-width:3px,color:#FFFFFF,font-weight:bold;
-    classDef fed fill:#0F172A,stroke:#475569,stroke-width:1.5px,color:#CBD5E1;
+    classDef territory fill:#020617,stroke:#38BDF8,stroke-width:2px,color:#E5E7EB;
+    classDef human fill:#111827,stroke:#F97316,stroke-width:2px,color:#E5E7EB;
+    classDef kernel fill:#020617,stroke:#22C55E,stroke-width:3px,color:#E5E7EB,font-weight:bold;
+    classDef fed fill:#020617,stroke:#64748B,stroke-width:1.4px,color:#CBD5F5;
 
-    linkStyle default stroke:#64748B,stroke-width:1.5px;
-````
+    linkStyle default stroke:#64748B,stroke-width:1.2px;
+```
 
-### 2\. Stack de Integración RDM‑MAP‑2D (Extracción)
+**Propiedades clave:**  
 
-```typescript
+- Heptafederado: ningún módulo es monolito; todo puede evolucionar sin romper el sistema.[web:231]  
+- Human‑in‑the‑loop: decisiones civilizatorias siempre tienen responsable humano identificado.[web:239]  
+- Seguridad: uso de criptografía post‑cuántica (PQC) y células lógicas autocurativas (Q‑Cells).[web:232]  
+
+---
+
+## 4. RDM‑TOS · Nodo Territorial Realmontense
+
+RDM‑TOS es el **Sovereign Territorial Operating System** que instancia MD‑X4 sobre el territorio físico de Real del Monte.[web:229][web:231][web:232]
+
+- Modela el pueblo como **sistema crítico de alta disponibilidad**, no como “destino turístico” abstracto.[web:231]  
+- Integra datos de comercios, turismo, movilidad y riesgos en un gemelo digital 2D/3D.[web:231][web:239]  
+- Permite tomar decisiones sobre rutas, servicios y experiencias con base en datos propios, no en dashboards externos.[web:229][web:232]  
+
+Ejemplo de módulo de mapa 2D:
+
+```ts
 // frontend/rdm-map-2d.ts
 import mapboxgl from "mapbox-gl";
 
@@ -182,8 +148,8 @@ mapboxgl.accessToken = process.env.MAPBOX_TOKEN ?? "";
 const map = new mapboxgl.Map({
   container: "rdm-map-2d",
   style: "mapbox://styles/mapbox/dark-v11",
-  center: [-98.667, 20.135], // RDM Nodo Zero
-  zoom: 13.8,
+  center: [-98.667, 20.135], // Real del Monte
+  zoom: 13.5,
   pitch: 45,
   bearing: -10,
 });
@@ -199,95 +165,106 @@ map.on("load", () => {
     type: "circle",
     source: "rdm-pois",
     paint: {
-      "circle-radius": 5,
-      "circle-color": "#E2E8F0", // Platinum highlight
-      "circle-stroke-width": 1.5,
+      "circle-radius": 4,
+      "circle-color": "#38BDF8",
+      "circle-stroke-width": 1,
       "circle-stroke-color": "#020617",
     },
   });
 });
 ```
 
-\<div align="center"\>
-<br>
+---
 
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/TypeScript-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dtypescript%26logoColor%3DE2E8F0" /\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3DE2E8F0" /\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/Next.js-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dnextdotjs%26logoColor%3DE2E8F0" /\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/PostGIS-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dpostgresql%26logoColor%3DE2E8F0" /\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/CesiumJS-0F172A%3Fstyle%3Dfor-the-badge%26logo%3Dcesium%26logoColor%3DE2E8F0" /\>
+## 5. TAMV vs metaversos tipo Decentraland
 
-\</div\>
+**Decentraland** es un metaverso sobre Ethereum centrado en la propiedad de tierra virtual (LAND), tokens y experiencias principalmente lúdicas y especulativas.[web:295][web:302][web:304]  
 
------
+**TAMV**, en cambio:
 
-## 📈 IV. Telemetría y Actividad (GitHub Signals)
+- No vende parcelas virtuales; trata el **territorio físico real** como sistema operativo (RDM‑TOS).[web:229][web:231][web:239]  
+- Pone el foco en economía real (turismo, comercio local, servicios) y en políticas públicas digitales, no en trading de NFTs.[web:229][web:231][web:232]  
+- Usa XR y metaverso como **capa productiva** (navegación, operación, educación, turismo) anclada a datos y población reales.[web:229][web:231][web:239]  
+- Se apoya en un marco académico y documental (ORCID, DOI, OpenAIRE) en lugar de depender solo de marketing cripto.[web:229][web:232][web:193]  
 
-\<div align="center"\>
+En resumen: TAMV no compite por “tiempo de pantalla”, compite por **soberanía y utilidad territorial**.
 
-\<a href="https://github.com/OsoPanda1"\>
-\<img src="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3DOsoPanda1%26theme%3Dnord%26margin-w%3D10%26margin-h%3D10%26no-bg%3Dtrue%26no-frame%3Dtrue" alt="Trophies" /\>
-\</a\>
+---
 
-<br><br>
+## 6. Integración XR y metaverso en TAMV
 
-\<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"\>
-\<a href="https://github.com/OsoPanda1"\>
-\<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DOsoPanda1%26show\_icons%3Dtrue%26theme%3Dnord%26hide\_border%3Dtrue%26count\_private%3Dtrue%26include\_all\_commits%3Dtrue%26bg\_color%3D0F172A%26title\_color%3DE2E8F0%26text\_color%3D94A3B8%26icon\_color%3DE2E8F0" height="160" alt="GitHub Stats" /\>
-\</a\>
-\<a href="https://github.com/OsoPanda1"\>
-\<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DOsoPanda1%26layout%3Dcompact%26theme%3Dnord%26hide\_border%3Dtrue%26bg\_color%3D0F172A%26title\_color%3DE2E8F0%26text\_color%3D94A3B8" height="160" alt="Top Langs" /\>
-\</a\>
-\</div\>
+TAMV integra XR y metaverso como **interfaces** del sistema operativo, no como producto aislado.[web:229][web:231][web:232]
 
-\</div\>
+- 2D/3D Web (Mapbox / Cesium): dashboards tácticos para operación urbana, turismo y logística.[web:231]  
+- DreamSpaces / XR: espacios inmersivos para formación, exhibiciones, recorridos guiados y simulación de escenarios.[web:229][web:232]  
+- Filosofía: menos “avatar party”, más **cabinas de mando** para personas que toman decisiones sobre ciudades reales.[web:231][web:239]  
 
------
+---
 
-## 💠 V. Markdeck Theme · Platinum CyberNeon Config
+## 7. Modelo de ingresos · visión
 
-Si utilizas Markdeck para la documentación, aquí tienes la paleta oficial del ecosistema orientada al cristal/plata:
+A partir de lo ya publicado, el modelo TAMV se perfila así:[web:229][web:231][web:232]
 
-```yaml
-# markdeck-theme-tamv-platinum.yaml
-theme:
-  name: "TAMV Platinum Glass"
-  fonts:
-    base: "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
-  colors:
-    background: "#020617"
-    foreground: "#F8FAFC"
-    accentPrimary: "#E2E8F0"   # Platino/Plata
-    accentSecondary: "#94A3B8" # Gris Pizarra Claro
-    accentTertiary: "#334155"  # Gris Pizarra Oscuro
-  layout:
-    slide:
-      padding: "3rem 4rem"
-      borderRadius: "24px"
-      shadow: "0 40px 100px rgba(0,0,0,0.95)"
-      border: "1px solid rgba(226,232,240,0.15)"
-      background: >
-        radial-gradient(circle at 0% 0%, rgba(226,232,240,0.05), transparent 60%),
-        linear-gradient(145deg, rgba(15,23,42,0.90), rgba(2,6,23,0.98))
-  code:
-    background: "#090D16"
-    borderRadius: "12px"
-    fontSize: "0.95rem"
-    border: "1px solid #1E293B"
-```
+- **Licencias territoriales**  
+  - Implementación de RDM‑TOS / MD‑X4 en otras ciudades y regiones.  
+- **Servicios de plataforma**  
+  - Hosting soberano, IA nativa (Isabella), dashboards y gemelos digitales como servicio.  
+- **Economía creativa y turismo**  
+  - Marketplaces phygital, experiencias XR de pago, rutas y paquetes turísticos inteligentes.  
+- **Consultoría y transferencia de modelo**  
+  - Diseño de modelos de gobernanza, soberanía de datos y arquitectura antifrágil para gobiernos y organizaciones.  
 
------
+---
 
-\<div align="center"\>
+## 8. Activity · GitHub signals
 
-\<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DOsoPanda1%26color%3D475569%26label%3DSISTEMA%2BINICIALIZADO%26style%3Dflat-square" alt="Visitas" /\>
+<div align="center">
 
-<br><br>
+<a href="https://github.com/OsoPanda1">
+  <img src="https://github-profile-trophy.vercel.app/?username=OsoPanda1&theme=matrix&margin-w=10&margin-h=10&no-bg=true&no-frame=true" />
+</a>
 
-\<p style="color: \#64748B; font-size: 12px; font-weight: 300;"\>
-© 2026 TAMV ONLINE. Operación Soberanía 100.
-\</p\>
+<br/><br/>
 
-\</div\>
+<a href="https://github.com/OsoPanda1">
+  <img src="https://github-readme-stats.vercel.app/api?username=OsoPanda1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="150" />
+</a>
+<a href="https://github.com/OsoPanda1">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OsoPanda1&layout=compact&theme=tokyonight&hide_border=true" height="150" />
+</a>
 
-```
+<br/><br/>
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=OsoPanda1&theme=tokyonight-duo&hide_border=true" height="150" />
+</a>
+
+</div>
+
+---
+
+## 9. Contacto y enlaces clave
+
+<div align="center">
+
+<a href="https://tamvonline-odoo.com">
+  <img src="https://img.shields.io/badge/Sitio-TAMV_OFFICIAL-020617?style=for-the-badge&logo=azuredevops&logoColor=38BDF8">
+</a>
+<a href="https://tamvonlinenetwork.blogspot.com">
+  <img src="https://img.shields.io/badge/Blog-TAMV_MD--X4-020617?style=for-the-badge&logo=hashnode&logoColor=F97316">
+</a>
+<a href="https://orcid.org/0009-0008-5050-1539">
+  <img src="https://img.shields.io/badge/ORCID-Registro_Científico-020617?style=for-the-badge&logo=orcid&logoColor=22C55E">
+</a>
+<a href="https://doi.org/10.5281/zenodo.19436662">
+  <img src="https://img.shields.io/badge/DOI-Canon_TAMV-020617?style=for-the-badge&logo=zenodo&logoColor=38BDF8">
+</a>
+<a href="https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/">
+  <img src="https://img.shields.io/badge/LinkedIn-Anubis_Villaseñor-020617?style=for-the-badge&logo=linkedin&logoColor=0EA5E9">
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=OsoPanda1&color=0EA5E9&label=Visitas&style=flat-square" />
+
+</div>
