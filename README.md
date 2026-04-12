@@ -92,7 +92,7 @@ CEO & Fundador de TAMV ONLINE · Arquitecto de la arquitectura MD‑X4 / MD‑X4
 
 <!-- Trophy -->
 <a href="https://github.com/OsoPanda1">
-  <img src="https://github-profile-trophy.vercel.app/?username=OsoPanda1&theme=matrix&margin-w=10&margin-h=10&no-bg=true&no-frame=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=OsoPanda1&theme=matrix&margin-w=10&margin-h=10&no-bg=true&no-frame=true"/>
 </a>
 
 <br/><br/>
