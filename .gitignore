@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# Monorepo integration workspace
+sources/
+cache/
+logs/

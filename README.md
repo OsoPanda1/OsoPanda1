@@ -384,3 +384,23 @@ Sugerida (puede variar según el avance):
   <img src="https://komarev.com/ghpvc/?username=OsoPanda1&color=0EA5E9&label=Visitas&style=flat-square" />
 
 </div>
+
+---
+
+## 13. Bootstrap técnico del monorepo (nuevo)
+
+Para iniciar la unificación operativa de repositorios de `OsoPanda1` dentro de `tamv-digital-nexus`:
+
+```bash
+# Genera manifiesto (hasta 177 repos) sin clonar
+make dry-run
+
+# Clona/sincroniza repos en ./sources
+make bootstrap
+```
+
+Archivos clave agregados:
+
+- `scripts/unify_repos.py`: descubrimiento por API + sincronización git.
+- `config/repos.json`: manifiesto autogenerado de repositorios.
+- `docs/UNIFICACION.md`: plan de ejecución por fases.
