@@ -422,3 +422,15 @@ python -m tamv_digital_nexus.cli integrate \
 ```
 
 Este comando integra repos reales (git) en `sources/` y crea índices (`sqlite + json`) para el Nexus.
+
+## 15. API funcional del Nexus (código ejecutable)
+
+Tras integrar repos, puedes levantar una API local para consultar el índice:
+
+```bash
+make serve
+# Endpoints:
+# GET /health
+# GET /repos
+# GET /repos/<nombre>
+```
