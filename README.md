@@ -384,3 +384,41 @@ Sugerida (puede variar según el avance):
   <img src="https://komarev.com/ghpvc/?username=OsoPanda1&color=0EA5E9&label=Visitas&style=flat-square" />
 
 </div>
+
+---
+
+## 13. Bootstrap técnico del monorepo (nuevo)
+
+Para iniciar la unificación operativa de repositorios de `OsoPanda1` dentro de `tamv-digital-nexus`:
+
+```bash
+# Genera manifiesto (hasta 177 repos) sin clonar
+make dry-run
+
+# Clona/sincroniza repos en ./sources
+make bootstrap
+```
+
+Archivos clave agregados:
+
+- `scripts/unify_repos.py`: descubrimiento por API + sincronización git.
+- `config/repos.json`: manifiesto autogenerado de repositorios.
+- `docs/UNIFICACION.md`: plan de ejecución por fases.
+
+## 14. Integración funcional inmediata (modo offline)
+
+Si tu entorno bloquea GitHub API/clone, ya puedes integrar snapshots locales del proyecto de perfil `OsoPanda1`:
+
+```bash
+# Estructura esperada de snapshots locales
+# imports/OsoPanda1/...
+
+python -m tamv_digital_nexus.cli integrate \
+  --inventory config/repos_seed.json \
+  --cache-root cache/repos \
+  --workspace-root sources \
+  --index-db cache/nexus_index.db \
+  --index-json cache/nexus_index.json
+```
+
+Este comando integra repos reales (git) en `sources/` y crea índices (`sqlite + json`) para el Nexus.

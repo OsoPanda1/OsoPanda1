@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tamv-digital-nexus"
+version = "0.2.0"
+description = "Toolkit base para unificar repositorios de OsoPanda1 en un monorepo funcional"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "OsoPanda1"}
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+tamv-nexus = "tamv_digital_nexus.cli:main"
