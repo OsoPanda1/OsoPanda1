@@ -1,0 +1,11 @@
+{
+  "schema": "tamv-digital-nexus/repo-manifest@v1",
+  "repositories": [
+    {
+      "name": "OsoPanda1",
+      "clone_url": "https://github.com/OsoPanda1/OsoPanda1.git",
+      "default_branch": "main",
+      "tags": ["perfil", "anubis-villasenor", "tamv"]
+    }
+  ]
+}
