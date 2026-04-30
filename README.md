@@ -503,4 +503,3 @@ Archivos clave agregados:
 - `docs/UNIFICACION.md`: plan de ejecución por fases.
 - `db/tamv_nexus_schema.sql`: grafo/núcleo de datos del monorepo.
 - `docs/PDOS_CORE.md`: guía de arranque del servicio ejecutable `tamv-pdos-core`.
-- `CHECKLIST_TAMV_MDX4_RDM.md`: checklist maestro auditable para ejecución TAMV/MD‑X4/X5/RDM.
