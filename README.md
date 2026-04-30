@@ -463,6 +463,13 @@ Sugerida (puede variar según el avance):
 
 ## 13. Bootstrap técnico del monorepo (nuevo)
 
+### Rol dual del ecosistema
+
+- **`OsoPanda1/OsoPanda1`** se mantiene como **spec civilizatorio vivo**: narrativa, gobernanza, blindaje académico/jurídico y arquitectura de referencia TAMV.
+- **`tamv-digital-nexus`** se prioriza como **núcleo operativo** para materializar la convergencia de código, datos y modelos del stack MD‑X4 / RDM‑TOS.
+
+### Ejecución inicial
+
 Para iniciar la unificación operativa de repositorios de `OsoPanda1` dentro de `tamv-digital-nexus`:
 
 ```bash
@@ -471,6 +478,22 @@ make dry-run
 
 # Clona/sincroniza repos en ./sources
 make bootstrap
+
+# Inicializa el núcleo SQL del nexus
+psql "$DATABASE_URL" -f db/tamv_nexus_schema.sql
+```
+
+### Estructura objetivo (faseada)
+
+```text
+code/
+  mdx4-kernel/
+  rdm-tos-frontend/
+  isabella-kernel-demo/
+data/
+models/
+docs/
+ethics/
 ```
 
 Archivos clave agregados:
@@ -478,3 +501,5 @@ Archivos clave agregados:
 - `scripts/unify_repos.py`: descubrimiento por API + sincronización git.
 - `config/repos.json`: manifiesto autogenerado de repositorios.
 - `docs/UNIFICACION.md`: plan de ejecución por fases.
+- `db/tamv_nexus_schema.sql`: grafo/núcleo de datos del monorepo.
+- `docs/PDOS_CORE.md`: guía de arranque del servicio ejecutable `tamv-pdos-core`.
