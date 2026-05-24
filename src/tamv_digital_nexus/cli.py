@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 
 from .inventory import load_inventory
+from .linear_plan import build_repo_sequence, export_linear_plan, render_markdown
 from .orchestrator import NexusIntegrator
 from .server import serve_index
 
@@ -18,6 +19,11 @@ def build_parser() -> argparse.ArgumentParser:
     integrate.add_argument("--workspace-root", default="sources")
     integrate.add_argument("--index-db", default="cache/nexus_index.db")
     integrate.add_argument("--index-json", default="cache/nexus_index.json")
+
+    linear = sub.add_parser("linear-plan", help="Genera plan secuencial para cargar issues en Linear")
+    linear.add_argument("--inventory", default="config/repos_seed.json")
+    linear.add_argument("--out-json", default="cache/linear_plan.json")
+    linear.add_argument("--out-md", default="docs/integraciones/LINEAR_PLAN.md")
 
     serve = sub.add_parser("serve", help="Sirve API local sobre el índice sqlite")
     serve.add_argument("--index-db", default="cache/nexus_index.db")
@@ -46,6 +52,15 @@ def main() -> int:
             for failure in report.failures:
                 print(f" - {failure}")
         return 0 if report.failed == 0 else 2
+
+    if args.command == "linear-plan":
+        artifacts = load_inventory(Path(args.inventory))
+        export_linear_plan(Path(args.out_json), artifacts)
+        sequence = build_repo_sequence(artifacts)
+        Path(args.out_md).parent.mkdir(parents=True, exist_ok=True)
+        Path(args.out_md).write_text(render_markdown(sequence), encoding="utf-8")
+        print(f"Plan Linear generado: {args.out_json} y {args.out_md}")
+        return 0
 
     if args.command == "serve":
         serve_index(Path(args.index_db), host=args.host, port=args.port)
