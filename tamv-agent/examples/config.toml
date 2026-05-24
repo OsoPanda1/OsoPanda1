@@ -1,0 +1,13 @@
+[node]
+id = 1
+next_id = 2
+prev_id = 206
+
+[mesh]
+interface = "wlan0"
+gossip_interval_ms = 1500
+secret_key = "tamv-shared-secret-change-me"
+
+[agent]
+retry_limit = 3
+chain_timeout_ms = 12000
