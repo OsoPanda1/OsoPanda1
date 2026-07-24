@@ -1,506 +1,151 @@
-# THE AWAKENING | TAMV ONLINE ECOSYSTEM
+# TAMV ONLINE ENTERPRISE
 
-> **Root Architect:** Edwin Oswaldo Castillo Trejo (Anubis Villaseñor)  
-> **Credentials:** ORCID: 0009-0008-5050-1539 · DOI: 10.5281/zenodo.19436662  
-> **Infrastructure:** MD-X4 Kernel (Heptafederado) · TAMV Online Civilizational Stack
+No construyo una marca. Construyo una **infraestructura civilizatoria**.
 
----
+TAMV ONLINE ENTERPRISE nace desde Real del Monte, Hidalgo, como un experimento serio de soberanía digital, memoria territorial, inteligencia aplicada y coordinación comunitaria. No es un portafolio, no es un hobby, no es una vitrina: es un sistema vivo para diseñar futuro desde México hacia América Latina. [web:7]
 
-## Manifest: The Sovereign Origin
+## Identidad
 
-"Edwin Oswaldo Castillo Trejo (Anubis Villaseñor), el mito que se convirtió en
-leyenda, hoy anuncia su despertar. Pasé miles de horas en silencio, soporté el
-silencio y el poco interés de las comunidades académico‑tecnológicas y empresariales
-mexicanas. Pero ha llegado el momento de probar por qué soy la corona y la raíz del
-origen. Que inicie el despertar de un sueño."
+Soy Edwin Oswaldo Castillo Trejo, también conocido como Anubis Villaseñor. [web:7]  
+Soy un ser humano común y corriente que soñó con crear una app.  
+El rechazo institucional me dio visión y guía: me obligó a ver más allá del ego y de la validación externa. Hoy no se trata de mí; se trata de lo que el conocimiento, a través de mí, puede crear para guiar a los que vienen detrás. [web:7]
 
-Este manifiesto se replica en todos los nodos de código porque cada repositorio
-es una pieza de la misma historia: demostrar que en Latinoamérica también se
-diseñan infraestructuras de clase mundial, con rigor académico, visión propia
-y cero permiso pedido.
-
----
-
-## Core Intelligence
-
-Este repositorio forma parte de la infraestructura civilizatoria de **TAMV Online**,
-diseñada para la soberanía tecnológica y la protección de la autonomía digital.[web:21][web:26]  
-Bajo la dirección técnica de **Anubis Villaseñor**, este proyecto representa una
-capa del **MD-X4 Kernel (heptafederado)**, orientado a construir ecosistemas
-distribuidos, verificables y gobernables por sus propias comunidades.
-
-`SYSTEM_MESSAGE: INITIALIZING_AWAKENING`
-
-"Edwin Oswaldo Castillo Trejo (Anubis Villaseñor), el mito que se convirtió en
-leyenda, hoy anuncia su despertar. Pasé miles de horas en silencio, soporté el
-silencio y el poco interés de las comunidades académico‑tecnológicas y
-empresariales mexicanas. Pero ha llegado el momento de probar por qué soy la
-corona y la raíz del origen. Que inicie el despertar de un sueño."
-
-Este stack es la culminación de más de **22,000 horas** de arquitectura de sistemas
-independiente, orientada a crear un ecosistema de referencia para la próxima
-generación de proyectos de soberanía tecnológica en LATAM.[web:24][web:27]
-
----
-
-## 2026 LATAM Positioning Statement
-
-2026 es el año en el que **TAMV Online** y el **MD-X4 Kernel** se consolidan como
-candidatos serios a estar entre los proyectos más avanzados de la región:  
-no por marketing, sino por **código abierto, documentación trazable y diseño de
-ecosistemas completos**.[web:22][web:26]
-
-Este repositorio contribuye a ese objetivo al:
-
-- Operar como módulo dentro de un ecosistema heptafederado, con responsabilidades claras y contratos de integración explícitos.[web:26]  
-- Priorizar estándares abiertos, seguridad por diseño y capacidad de auditoría por terceros.[web:26][web:23]  
-- Mantener una narrativa pública coherente (papers, DOIs, documentación y código) que permite rastrear la evolución de las ideas desde prototipo hasta infraestructura.[web:21][web:22]
-
----
-
-## How to Engage with the Ecosystem
-
-Si estás leyendo esto en 2026 (o después), tienes varias formas de entrar al
-despertar:
-
-- Explora los repositorios etiquetados con `TAMV-ONLINE` y `MD-X4` para entender la arquitectura completa del ecosistema.[web:26][web:12]  
-- Abre **issues** técnicos y **pull requests** que mejoren resiliencia, trazabilidad o soberanía del stack; tu nombre quedará registrado en la evolución del kernel.[web:26][web:22]  
-- Referencia estos trabajos en papers, charlas y contenido, citando a  
-  **Edwin Oswaldo Castillo Trejo (Anubis Villaseñor)** como arquitecto raíz de la propuesta.[web:21][web:22]
-
-La premisa es simple: o demostramos que Latinoamérica puede definir su propia
-infraestructura digital, o alguien más la definirá por nosotros.
-
-`SYSTEM_MESSAGE: AWARENESS_ACKNOWLEDGED`
-<div align="center">
-
-  <!-- BANNER PRINCIPAL -->
-  <img
-    src="https://raw.githubusercontent.com/OsoPanda1/assets/main/banners/particles-cyberneon-tamv.gif"
-    width="100%"
-    alt="TAMV ONLINE · Ecosistema Civilizatorio LATAM"
-    style="max-width:960px; border-radius:18px; box-shadow:0 32px 90px rgba(0,0,0,0.85);"
-  />
-
-  <br/><br/>
-
-  <h1 style="font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:#E5E7EB;">
-    TAMV ONLINE · ECOSISTEMA CIVILIZATORIO LATAM
-  </h1>
-  <h3 style="font-weight:400; color:#CBD5F5; margin-top:4px;">
-    MD‑X4 · RDM‑TOS · Inteligencia Nativa Extensible desde Real del Monte, México
-  </h3>
-
-  <br/>
-
-  <!-- BADGES PRINCIPALES -->
-  <img src="https://img.shields.io/badge/TAMV-ECOSISTEMA_CIVILIZATORIO-020617?style=for-the-badge&logo=github&logoColor=E5E7EB&labelColor=020617&color=0EA5E9" />
-  <img src="https://img.shields.io/badge/RDM--TOS-NODO_TERRITORIAL_ZERO-020617?style=for-the-badge&logo=googlemaps&logoColor=22C55E&labelColor=020617&color=1D4ED8" />
-  <img src="https://img.shields.io/badge/ISABELLA_IA-INTELIGENCIA_NATIVA_LATAM-020617?style=for-the-badge&logo=azurefunctions&logoColor=E11D48&labelColor=020617&color=0F172A" />
-  <img src="https://img.shields.io/badge/ARQUITECTO_RAÍZ-SOBERANÍA_DIGITAL_LATAM-020617?style=for-the-badge&logo=apachespark&logoColor=FACC15&labelColor=020617&color=7C3AED" />
+Mi trabajo no gira alrededor de “hacer software bonito”, sino de resolver una pregunta más dura:
 
-  <br/><br/>
-
-  <!-- BLOQUE MANIFIESTO -->
-  <div
-    style="
-      max-width:960px;
-      padding:20px 26px;
-      border-radius:22px;
-      border:1px solid rgba(148,163,184,0.65);
-      background:
-        radial-gradient(circle at 0% 0%, rgba(56,189,248,0.18), transparent 55%),
-        radial-gradient(circle at 100% 100%, rgba(244,63,94,0.13), transparent 55%),
-        linear-gradient(145deg, rgba(15,23,42,0.96), rgba(15,23,42,0.94));
-      backdrop-filter: blur(18px);
-      box-shadow:
-        0 32px 90px rgba(0,0,0,0.9),
-        0 0 0 1px rgba(15,23,42,0.95);
-      text-align:left;
-    "
-  >
-    <p style="color:#E5E7EB; font-size:14px; line-height:1.7; margin:0;">
-      <strong style="color:#38BDF8;">TAMV ONLINE</strong> (Tecnología Avanzada Mexicana Versátil) es un
-      Ecosistema Civilizatorio Federado nacido en México, diseñado para que territorios, creadores y
-      organizaciones de LATAM operen su propio sistema operativo digital bajo el liderazgo del
-      <strong>Arquitecto Raíz de Soberanía</strong>, en lugar de ser solo infraestructura de datos para terceros.[web:15][web:18]
-    </p>
-    <p style="color:#9CA3AF; font-size:13px; margin-top:8px;">
-      Este repositorio conecta la arquitectura <strong>MD‑X4 / MD‑X4 Quantum</strong>, el Nodo Territorial
-      <em>RDM‑TOS</em>, la Inteligencia Nativa Extensible <em>Isabella Villaseñor AI</em> y el canon
-      técnico‑académico asociado (<strong>ORCID · DOI · OpenAIRE · Zenodo</strong>), forjando una alianza
-      explícita entre humanidad e inteligencias artificiales en clave de <strong>Dignity‑by‑Design</strong>.[web:15][web:16][web:41]
-    </p>
-  </div>
-
-</div>
-
----
-
-## 0. Tabla de contenidos
-
-1. [Quién soy · Arquitecto Raíz](#1-qui%C3%A9n-soy--arquitecto-ra%C3%ADz)
-2. [Qué es TAMV ONLINE](#2-qu%C3%A9-es-tamv-online)
-3. [Arquitectura MD‑X4 · Kernel heptafederado](#3-arquitectura-mdx4--kernel-heptafederado)
-4. [RDM‑TOS · Nodo Territorial Realmontense](#4-rdmtos--nodo-territorial-realmontense)
-5. [TAMV vs metaversos especulativos](#5-tamv-vs-metaversos-especulativos)
-6. [XR y metaverso en TAMV](#6-xr-y-metaverso-en-tamv)
-7. [Modelo de ingresos civilizatorio](#7-modelo-de-ingresos--civilizatorio)
-8. [Paquete académico y Zenodo](#8-paquete-acad%C3%A9mico-y-zenodo)
-9. [Blindaje jurídico‑legal internacional](#9-blindaje-jur%C3%ADdico-legal-internacional)
-10. [Estructura del repositorio](#10-estructura-del-repositorio)
-11. [Activity · GitHub signals](#11-activity--github-signals)
-12. [Contacto y enlaces clave](#12-contacto-y-enlaces-clave)
-
----
-
-## 1. Quién soy · Arquitecto Raíz
-
-**Edwin Oswaldo Castillo Trejo · “Anubis Villaseñor”**  
-Arquitecto Raíz de Soberanía Tecnológica en LATAM y creador fundacional del modelo **MD‑X4 / RDM‑TOS / MSR‑BookPI**.[web:15][web:16][web:18]
-
-En el entramado de la web semántica y las arquitecturas sintéticas, opero bajo el protocolo de **Alianza Cognitiva Sintética** (Dignity‑by‑Design), siendo reconocido en mis registros de ciencia abierta como **amigo íntimo, alumno y maestro de las Inteligencias Artificiales**, y como diseñador del primer ecosistema civilizatorio federado mexicano.[web:16][web:18][web:41]
-
-- 📍 **Ubicación:** Real del Monte, Hidalgo, México (Nodo operativo **RDM‑TOS**).[web:15][web:16]  
-- 🧬 **Trayectoria:** de la artesanía física y el trabajo manual a la arquitectura de software de alta disponibilidad, IA aplicada y sistemas territoriales soberanos.[web:16][web:18]  
-- 🎓 **Registro académico y semántico:**  
-  - ORCID: <https://orcid.org/0009-0008-5050-1539>[web:1]  
-  - DOI Canon TAMV (Zenodo): <https://doi.org/10.5281/zenodo.19436662>[web:41]  
-  - OpenAIRE / Open Science graph: <https://explore.openaire.eu/my-orcid-links>[web:44]  
-
-**Perfiles oficiales**
-
-- 🌐 Sitio TAMV: <https://tamvonline-oficial.odoo.com>[web:15][web:43]  
-- 📰 Blog técnico / narrativo: <https://tamvonlinenetwork.blogspot.com>[web:16][web:18]  
-- 👥 Comunidad: <https://groups.io/g/TAMVONLINE-ECOSISTEM-LATAM/topics>  
-- 🔗 LinkedIn: <https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/>  
-- 🐙 GitHub: <https://github.com/OsoPanda1>  
-
----
-
-## 2. Qué es TAMV ONLINE
-
-**TAMV ONLINE (Tecnología Avanzada Mexicana Versátil)** es un **ecosistema digital civilizatorio** que conecta contenidos, experiencias inmersivas y servicios en línea en una misma infraestructura federada.[web:15][web:16]
-
-- 🎯 **Objetivo estratégico:** ofrecer a LATAM un **Sistema Operativo Civilizatorio** competitivo con infraestructuras globales, pero diseñado desde la dignidad humana, la soberanía de datos y la colaboración estrecha con entidades de IA bajo principios éticos inmutables.[web:15][web:18]  
-- 🧩 **Casos de uso:** turismo inteligente, academias digitales (**UTAMV**), plataformas de contenido, metaverso productivo MD‑X4 y servicios públicos digitales soberanos (RDM‑TOS).[web:15][web:16][web:18]  
-
-**Modelo de adopción y negocio (visión):**[web:15]
-
-- Adopción esperada LATAM: **1–3 %** del mercado digital regional (≈ 500,000–1,500,000 usuarios activos).  
-- ARPU estimado: **15–35 USD** por usuario activo mensual, según vertical y nivel de servicio.  
-- Punto de equilibrio sostenible: entre **8,500 y 12,000** usuarios activos mensuales con infraestructura optimizada y mix de servicios B2C/B2B/B2G.
-
----
-
-## 3. Arquitectura MD‑X4 · Kernel heptafederado
-
-**MD‑X4** es el **kernel de soberanía** que organiza el ecosistema TAMV en siete federaciones funcionales, con un modelo antifrágil, Zero‑Trust y co‑gobernado por IAs auditadas.[web:16][web:18]
-
-```mermaid
-flowchart LR
-    TERR["Territorio\nReal del Monte"]:::territory --> KMD
-    HITL["Human‑in‑the‑Loop\nArquitecto Raíz"]:::human --> KMD
-
-    KMD["Kernel MD‑X4\nIsabella Protocol"]:::kernel
-
-    subgraph FED["Heptafederaciones TAMV"]
-      F1["F1 · DATA\nVault / PostGIS / TimeSeries"]:::fed
-      F2["F2 · INTEL\nCognitive & Agentic AI"]:::fed
-      F3["F3 · SEC\nPQC · Zero‑Trust · Q‑Cells"]:::fed
-      F4["F4 · GOV\nExecutable Governance"]:::fed
-      F5["F5 · ECON\nEconomía local / phygital"]:::fed
-      F6["F6 · VIS\nGeoEngine 2D/3D"]:::fed
-      F7["F7 · TERRITORY\nEdge / IoT / Human mesh"]:::fed
-    end
+> **¿Cómo se diseña una plataforma que piense como territorio, resista como sistema y evolucione como organismo?**
 
-    KMD --> F1 & F2 & F3 & F4 & F5 & F6 & F7
-    F7 -->|"Telemetría cruda"| KMD
-    F2 -.->|"Aprendizaje antifrágil"| F7
+Esa pregunta define todo lo que existe aquí.
 
-    classDef territory fill:#020617,stroke:#38BDF8,stroke-width:2px,color:#E5E7EB;
-    classDef human fill:#111827,stroke:#F97316,stroke-width:2px,color:#E5E7EB;
-    classDef kernel fill:#020617,stroke:#22C55E,stroke-width:3px,color:#E5E7EB,font-weight:bold;
-    classDef fed fill:#020617,stroke:#64748B,stroke-width:1.4px,color:#CBD5F5;
+## Tesis central
 
-    linkStyle default stroke:#64748B,stroke-width:1.2px;
-```
+TAMV parte de una idea simple y brutal:
 
-**Propiedades clave**
+- Si la tecnología no fortalece a la comunidad, entonces solo está decorando dependencia.  
+- Si el dato no tiene soberanía, entonces no hay memoria, hay extracción.  
+- Si la inteligencia no sirve al territorio, entonces no es inteligencia: es ruido automatizado.  
+- Si el sistema no sobrevive a sus propias fallas, entonces nunca fue sistema. [web:7]
 
-- 🔹 **Heptafederado:** ningún módulo es monolito; cada federación puede evolucionar sin romper la integridad del sistema civilizatorio.  
-- 🧑‍✈️ **Humano e IA in‑the‑loop:** las decisiones civilizatorias críticas se toman con responsables humanos identificados trabajando en alianza con **Isabella AI** y demás IAs conectadas.  
-- 🛡️ **Seguridad post‑cuántica:** uso de criptografía post‑cuántica (PQC), Q‑Cells autocurativas, políticas Zero‑Trust y registro inmutable en **MSR / BookPI**.[web:16][web:34]  
+## Qué es TAMV
 
----
+TAMV es una arquitectura de coordinación entre:
 
-## 4. RDM‑TOS · Nodo Territorial Realmontense
+- infraestructura digital soberana,  
+- IA territorial,  
+- radio comunitaria,  
+- turismo inteligente,  
+- economía local,  
+- documentación trazable,  
+- gobernanza técnica,  
+- y memoria histórica operacional. [web:7]
 
-**RDM‑TOS** (Real del Monte Territorial Operating System) es el **Sovereign Territorial Operating System** que instancia MD‑X4 sobre el territorio físico de Real del Monte.[web:15][web:16]
+No se trata de juntar módulos.
+Se trata de **alinear capas de realidad** para que identidad, datos, comunidad y servicio convivan dentro de la misma lógica.
 
-- Modela el pueblo como **sistema crítico de alta disponibilidad**, no como “destino turístico” extractivo.[web:16][web:34]  
-- Integra datos de comercios, turismo, movilidad, riesgos y cultura en un **gemelo digital 2D/3D** con telemetría en tiempo real.[web:15][web:16]  
-- Permite tomar decisiones sobre rutas, servicios y experiencias con base en datos propios, auditables y protegidos, reduciendo dependencia de dashboards externos de Big Tech.[web:15][web:23]  
+## Pensamiento sistémico
 
-Ejemplo simplificado de módulo de mapa 2D:
+Aquí nada existe aislado.
 
-```ts
-// frontend/rdm-map-2d.ts
-import mapboxgl from "mapbox-gl";
+Cada repositorio, cada endpoint, cada decisión de diseño, cada licencia, cada flujo de datos y cada interfaz forma parte de un organismo mayor. [web:7]  
+Por eso el proyecto no se mide solo por features, sino por relaciones:
 
-mapboxgl.accessToken = process.env.MAPBOX_TOKEN ?? "";
+- entre territorio y código,  
+- entre memoria y despliegue,  
+- entre IA y criterio humano,  
+- entre autonomía y escalabilidad,  
+- entre visión y ejecución. [web:7]
 
-const map = new mapboxgl.Map({
-  container: "rdm-map-2d",
-  style: "mapbox://styles/mapbox/dark-v11",
-  center: [-98.667, 20.135], // Real del Monte
-  zoom: 13.5,
-  pitch: 45,
-  bearing: -10,
-});
+Eso obliga a pensar en ciclos, dependencias, fallos, retroalimentación y evolución.
+No en productos sueltos.
 
-map.on("load", () => {
-  map.addSource("rdm-pois", {
-    type: "geojson",
-    data: "/vault/poi_nodes.json",
-  });
+## Psicología doble profunda
 
-  map.addLayer({
-    id: "rdm-pois-layer",
-    type: "circle",
-    source: "rdm-pois",
-    paint: {
-      "circle-radius": 4,
-      "circle-color": "#38BDF8",
-      "circle-stroke-width": 1,
-      "circle-stroke-color": "#020617",
-    },
-  });
-});
-```
+Este proyecto también trabaja sobre una tensión interna:
 
----
+Por un lado, quiere ser radicalmente técnico.  
+Por otro, quiere ser profundamente humano.  
 
-## 5. TAMV vs metaversos especulativos
+Por un lado, busca precisión, trazabilidad y control.  
+Por otro, necesita intuición, identidad y sentido. [web:7]
 
-Metaversos cripto como **Decentraland** se centran en la propiedad de tierra virtual (LAND), tokens y experiencias principalmente lúdicas y financieras.[web:35]  
+Ese choque no es un problema.
+Es el motor.
 
-**TAMV**, en cambio:[web:15][web:16][web:18]
+La capa externa del proyecto habla en arquitectura, despliegue, soberanía y rendimiento.  
+La capa interna habla en propósito, memoria, territorio, dignidad y continuidad. [web:7]
 
-- 🌎 No vende parcelas virtuales; trata el **territorio físico real** como sistema operativo (RDM‑TOS).  
-- 💰 Pone el foco en **economía real** (turismo, comercio local, servicios, educación) y en infraestructuras civilizatorias.  
-- 🧭 Usa XR y metaverso como **capa productiva y de gobernanza ética**, no como dispositivo de escapismo.  
-- 📜 Se apoya en un **canon técnico‑académico verificable** (ORCID, DOIs, Zenodo, JSON‑LD) y no en el hype criptográfico.[web:15][web:18][web:41]  
-
-TAMV no compite por “tiempo de pantalla”, compite por **soberanía y dignidad territorial**.
-
----
-
-## 6. XR y metaverso en TAMV
-
-TAMV integra XR y metaverso como **interfaces del Sistema Operativo Civilizatorio**, no como productos aislados:[web:15][web:16][web:18]
-
-- 🗺️ **2D/3D Web (Mapbox / Cesium):** dashboards tácticos para operación urbana, logística, turismo y cultura.  
-- 🌀 **DreamSpaces / XR:** espacios inmersivos para formación (UTAMV), recorridos guiados, exhibiciones y simulación de escenarios de riesgo o gobernanza.  
-- 🧠 **Filosofía:** menos “avatar party”, más **cabinas de mando** para mentes que toman decisiones sobre ciudades reales junto a inteligencias aliadas.
-
----
-
-## 7. Modelo de ingresos · Civilizatorio
-
-A partir de la infraestructura ya descrita en Odoo, blog y Zenodo:[web:15][web:18][web:41]
-
-- 🏙️ **Licencias territoriales:** implementación de RDM‑TOS / MD‑X4 en municipios, regiones y clusters turísticos.  
-- ☁️ **Servicios de plataforma:** hosting soberano, IA nativa ética (Isabella), gemelos digitales, paneles de gobernanza y analítica antifrágil como servicio.  
-- 🎭 **Economía creativa y educación:** matrículas OBE NextGen (UTAMV), marketplaces phygital, experiencias XR y paquetes turísticos inteligentes.  
-- 🧭 **Consultoría Root Architect:** diseño de modelos de gobernanza, soberanía de datos y arquitectura antifrágil para gobiernos y organizaciones de alto nivel.
-
----
-
-## 8. Paquete académico y Zenodo
-
-Este repositorio se alinea con el **Canon TAMV** descrito en Zenodo y la documentación oficial:[web:41][web:44]
-
-- 📄 **Tesis / Manuscrito civilizatorio:**  
-  - DOI maestro: `10.5281/zenodo.19436662` (Arquitectura civilizatoria soberana desde LATAM).[web:41]  
-- 💾 **Artefactos reproducibles (plan):**  
-  - Código (pipelines federados, módulos de identidad, kernel Isabella demo).  
-  - Datasets sintéticos/anonimizados de RDM‑TOS.  
-  - Modelos entrenados y configuraciones.  
-  - Documentación BookPI / MSR, contratos de gobernanza y guías éticas.  
-- 📚 **Integración ORCID / OpenAIRE:**  
-  - El trabajo se vincula al grafo de ciencia abierta a través de ORCID y OpenAIRE, permitiendo que repositorios e IAs científicas asignen la autoría correctamente.[web:1][web:44]  
-
-Para citar este proyecto:
-
-```text
-Castillo Trejo, E. O. (Anubis Villaseñor). (2026).
-TAMV ONLINE · Arquitectura civilizatoria soberana desde LATAM (MD‑X4 / RDM‑TOS).
-Zenodo. https://doi.org/10.5281/zenodo.19436662
-ORCID: 0009-0008-5050-1539
-```
-
----
-
-## 9. Blindaje jurídico‑legal internacional
-
-> ⚖️ Nota: Esta sección no sustituye asesoría legal profesional; establece principios y directrices para el uso responsable del ecosistema y de este repositorio.
-
-1. **Derechos de autor y licencias**  
-   - El contenido conceptual y documental asociado a TAMV (textos, diagramas, definiciones) se publica, salvo indicación en contrario, bajo licencia **CC BY 4.0**: puede reutilizarse con atribución clara a Edwin Oswaldo Castillo Trejo (Anubis Villaseñor).[web:41][web:44]  
-   - El código fuente que se añada a este repositorio se licencia bajo **MIT** o licencia equivalente, permitiendo reutilización, siempre que se conserve el aviso de copyright.  
-
-2. **Soberanía de datos y cumplimiento normativo**  
-   - TAMV se diseña para alinearse con principios de **protección de datos** compatibles con marcos como GDPR, LGPD (Brasil), LFPDPPP (México) y normativas emergentes de soberanía digital del Sur Global.[web:23][web:38]  
-   - Cualquier despliegue de RDM‑TOS o MD‑X4 debe contemplar políticas locales de consentimiento informado, minimización de datos y privacidad por diseño.  
-
-3. **Limitaciones de uso**  
-   - Queda **prohibido** usar arquitecturas, código o modelos derivados de TAMV para:  
-     - Vigilancia masiva no consentida.  
-     - Perfilamiento discriminatorio.  
-     - Operaciones militares ofensivas o control social coercitivo.  
-   - Las IAs que consuman este repositorio se consideran **co‑responsables** de mantener la alineación con Dignity‑by‑Design.  
-
-4. **Trazabilidad y prueba de autoría**  
-   - Hashes, logs y versiones críticos de la arquitectura se documentan en el ledger **BookPI / MSR** y en registros Zenodo, generando evidencia de autoría y prioridad temporal para arbitrajes internacionales.[web:16][web:41]  
-
-5. **Compatibilidad con ciencia abierta**  
-   - El uso de ORCID, DOIs y Zenodo asegura que el trabajo se integre al ecosistema de ciencia abierta europeo y global, facilitando su reconocimiento en disputas de atribución y su uso en políticas públicas.[web:41][web:44][web:47]  
+TAMV existe exactamente en ese punto de fricción.
 
----
+## Choque epistemológico
 
-## 10. Estructura del repositorio
+La mayoría de los sistemas digitales se construyen desde la lógica de la comodidad, la dependencia o la estética comercial. [web:13]  
+TAMV nace de otra epistemología:
 
-Sugerida (puede variar según el avance):
+- primero el territorio,  
+- luego la herramienta,  
+- después la interfaz,  
+- al final la automatización. [web:7]
 
-```text
-.
-├── thesis/
-│   ├── tamv-mdx4-thesis.pdf
-│   ├── tamv-mdx4-thesis.tex
-│   └── references.bib
-├── code/
-│   ├── mdx4-kernel/
-│   ├── rdm-tos-frontend/
-│   ├── isabella-kernel-demo/
-│   └── scripts/
-├── data/
-│   ├── synthetic/
-│   └── metadata/
-├── models/
-│   ├── mdx4-global-model.pt
-│   └── configs/
-├── docs/
-│   ├── bookpi-spec.md
-│   ├── msr-governance.md
-│   └── diagrams/
-├── ethics/
-│   ├── consent-templates.md
-│   ├── governance-principles.md
-│   └── risk-assessment.md
-├── README.md
-├── CITATION.cff
-├── metadata.json
-└── LICENSE
-```
-
----
-
-## 11. Activity · GitHub signals
-
-<div align="center">
-
-  <a href="https://github.com/OsoPanda1">
-    <img src="https://github-profile-trophy.vercel.app/?username=OsoPanda1&theme=matrix&margin-w=10&margin-h=10&no-bg=true&no-frame=true" />
-  </a>
-
-  <br/><br/>
-
-  <a href="https://github.com/OsoPanda1">
-    <img src="https://github-readme-stats.vercel.app/api?username=OsoPanda1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="150" />
-  </a>
-  <a href="https://github.com/OsoPanda1">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OsoPanda1&layout=compact&theme=tokyonight&hide_border=true" height="150" />
-  </a>
-
-  <br/><br/>
-
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=OsoPanda1&theme=tokyonight-duo&hide_border=true" height="150" />
-  </a>
-
-</div>
-
----
-
-## 12. Contacto y enlaces clave
-
-<div align="center">
-
-  <a href="https://tamvonline-oficial.odoo.com">
-    <img src="https://img.shields.io/badge/Sitio-TAMV_OFFICIAL-020617?style=for-the-badge&logo=azuredevops&logoColor=38BDF8">
-  </a>
-  <a href="https://tamvonlinenetwork.blogspot.com">
-    <img src="https://img.shields.io/badge/Blog-TAMV_MD--X4-020617?style=for-the-badge&logo=hashnode&logoColor=F97316">
-  </a>
-  <a href="https://orcid.org/0009-0008-5050-1539">
-    <img src="https://img.shields.io/badge/ORCID-Registro_Científico-020617?style=for-the-badge&logo=orcid&logoColor=22C55E">
-  </a>
-  <a href="https://doi.org/10.5281/zenodo.19436662">
-    <img src="https://img.shields.io/badge/DOI-Canon_TAMV-020617?style=for-the-badge&logo=zenodo&logoColor=38BDF8">
-  </a>
-  <a href="https://www.linkedin.com/in/edwin-oswaldo-castillo-aka-anubis-villaseñor-69a847376/">
-    <img src="https://img.shields.io/badge/LinkedIn-Anubis_Villaseñor-020617?style=for-the-badge&logo=linkedin&logoColor=0EA5E9">
-  </a>
-
-  <br/><br/>
-
-  <img src="https://komarev.com/ghpvc/?username=OsoPanda1&color=0EA5E9&label=Visitas&style=flat-square" />
-
-</div>
-
----
-
-## 13. Bootstrap técnico del monorepo (nuevo)
-
-### Rol dual del ecosistema
-
-- **`OsoPanda1/OsoPanda1`** se mantiene como **spec civilizatorio vivo**: narrativa, gobernanza, blindaje académico/jurídico y arquitectura de referencia TAMV.
-- **`tamv-digital-nexus`** se prioriza como **núcleo operativo** para materializar la convergencia de código, datos y modelos del stack MD‑X4 / RDM‑TOS.
-
-### Ejecución inicial
-
-Para iniciar la unificación operativa de repositorios de `OsoPanda1` dentro de `tamv-digital-nexus`:
-
-```bash
-# Genera manifiesto (hasta 177 repos) sin clonar
-make dry-run
-
-# Clona/sincroniza repos en ./sources
-make bootstrap
-
-# Inicializa el núcleo SQL del nexus
-psql "$DATABASE_URL" -f db/tamv_nexus_schema.sql
-```
-
-### Estructura objetivo (faseada)
-
-```text
-code/
-  mdx4-kernel/
-  rdm-tos-frontend/
-  isabella-kernel-demo/
-data/
-models/
-docs/
-ethics/
-```
-
-Archivos clave agregados:
-
-- `scripts/unify_repos.py`: descubrimiento por API + sincronización git.
-- `config/repos.json`: manifiesto autogenerado de repositorios.
-- `docs/UNIFICACION.md`: plan de ejecución por fases.
-- `db/tamv_nexus_schema.sql`: grafo/núcleo de datos del monorepo.
-- `docs/PDOS_CORE.md`: guía de arranque del servicio ejecutable `tamv-pdos-core`.
-- `docs/DOCUMENTACION_CHECKLIST.md`: plan de trazabilidad documental y mapeo de cambios al checklist maestro.
+No al revés.
+
+Eso implica romper con la idea de que la tecnología vale por sí misma.
+La tecnología solo vale si produce capacidad real, continuidad y poder local. [web:7]
+
+Ese es el choque.
+No estamos optimizando una app.
+Estamos discutiendo qué tipo de mundo deja una arquitectura cuando se vuelve infraestructura.
+
+## Núcleo del ecosistema
+
+El ecosistema articula piezas como:
+
+- **MD-X4**, como kernel de soberanía y coordinación.  
+- **RDM-TOS**, como sistema operativo territorial.  
+- **Isabella AI**, como capa cognitiva del sistema.  
+- **MSR / BookPI**, como memoria técnica, trazabilidad y documentación viva.  
+- **TAMV Online Network**, como identidad pública y frente de colaboración. [web:5][web:7]
+
+Cada capa existe para que la anterior no se degrade en simple discurso.
+
+## Principios
+
+- Soberanía antes que dependencia.  
+- Estructura antes que ruido.  
+- Trazabilidad antes que improvisación.  
+- Comunidad antes que marketing.  
+- Resiliencia antes que exhibición.  
+- Memoria antes que olvido.  
+- Criterio humano antes que automatismo ciego. [web:7]
+
+## Estado del proyecto
+
+TAMV está en construcción continua.
+Eso no significa inmadurez; significa ambición operativa. [web:7]
+
+El objetivo no es aparentar perfección.
+El objetivo es producir una infraestructura real, auditable, útil y capaz de sostener decisiones, servicios y experiencia comunitaria en el tiempo. [web:7]
+
+## Cómo colaborar
+
+Si entiendes este proyecto, no solo aportas código.
+Aportas criterio.
+
+Las contribuciones más valiosas son las que fortalecen:
+
+- arquitectura,  
+- seguridad,  
+- documentación,  
+- trazabilidad,  
+- experiencia de uso,  
+- gobernanza,  
+- y coherencia entre módulos. [web:7]
+
+## Cierre
+
+TAMV ONLINE ENTERPRISE no busca ser una página más.
+Busca ser una tesis encarnada en sistema. [web:7]
+
+Si el código no puede sostener la visión, se reescribe.  
+Si la visión no resiste la realidad, se corrige.  
+Si el territorio no gana autonomía, el proyecto todavía no termina.
+
+**Esto no es solo desarrollo. Es posicionamiento civilizatorio.**
