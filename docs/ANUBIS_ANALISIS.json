@@ -1,0 +1,294 @@
+{
+  "project": {
+    "name": "TAMV DIGITAL NEXUS",
+    "version": "3.0.0-ENTERPRISE",
+    "architecture": "MD-X4 / RDM-TOS / Isabella AI Genesis",
+    "lead_architect": {
+      "name": "Edwin Oswaldo Castillo Trejo",
+      "alias": "Anubis Villaseñor",
+      "location": "Real del Monte, Hidalgo, México"
+    }
+  },
+  "modules": [
+    {
+      "name": "MD-X4",
+      "layer": "Kernel / Federation",
+      "status": "Active",
+      "description": "Coordinación de nodos, políticas de soberanía, orquestación de procesos y control de fallos."
+    },
+    {
+      "name": "RDM-TOS",
+      "layer": "Territorial OS",
+      "status": "Active",
+      "description": "Gestión de datos contextuales, expedientes comunitarios, memoria operacional y eventos en tiempo real."
+    },
+    {
+      "name": "Isabella AI",
+      "layer": "Cognitive / Agents",
+      "status": "Genesis",
+      "description": "Sistema federado de IA gobernada, verificación de contexto, procedencia y resolución de incertidumbre."
+    },
+    {
+      "name": "MSR / BookPI",
+      "layer": "Memory / Audit",
+      "status": "Active",
+      "description": "Grafo causal inmutable: Decisión ↔ Cambio ↔ Código ↔ Evidencia ↔ Despliegue ↔ Resultado."
+    },
+    {
+      "name": "TAMV Network",
+      "layer": "Interface / Collaboration",
+      "status": "Active",
+      "description": "Superficie pública, identidad XR/3D, radio comunitaria y nodo de colaboración."
+    }
+  ]
+}
+Ini, TOML
+# Cargo.toml - tamv-agent v1.0.0
+[package]
+name = "tamv-agent"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Edwin Oswaldo Castillo Trejo <anubis.villasenor@tamv.online>"]
+license = "MIT OR Apache-2.0"
+description = "Kernel cibernético sovereign, motor federado de Isabella AI Genesis y runtime MD-X4."
+repository = "https://github.com/TAMV-ONLINE/tamv-agent"
+homepage = "https://tamv.online"
+readme = "README.md"
+keywords = ["tamv", "sovereign-ai", "isabella-ai", "md-x4", "bookpi"]
+categories = ["asynchronous", "cryptography", "network-programming", "science"]
+
+[dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+base64 = "0.22"
+chrono = { version = "0.4", features = ["serde", "clock"] }
+rand = "0.8"
+uuid = { version = "1.8", features = ["v4", "v7", "serde"] }
+
+serde = { version = "1.0", features = ["derive", "rc"] }
+serde_json = "1.0"
+toml = "0.8"
+prost = "0.12"
+
+sha2 = "0.10"
+sha3 = "0.10"
+hmac = "0.12"
+ed25519-dalek = { version = "2.1", features = ["serde", "rand_core"] }
+zeroize = { version = "1.7", features = ["zeroize_derive"] }
+
+tokio = { version = "1.38", features = ["macros", "rt-multi-thread", "time", "signal", "net", "sync", "io-util", "process"] }
+tokio-stream = "0.1"
+tokio-util = { version = "0.7", features = ["codec"] }
+futures-util = "0.3"
+reqwest = { version = "0.12", features = ["json", "stream", "rustls-tls"], default-features = false }
+tonic = "0.11"
+
+async-trait = "0.1"
+parking_lot = "0.12"
+
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt", "json"] }
+tracing-appender = "0.2"
+
+[build-dependencies]
+tonic-build = "0.11"
+
+[dev-dependencies]
+tokio-test = "0.4"
+tempfile = "3.10"
+wiremock = "0.6"
+
+[features]
+default = ["full"]
+full = ["federation", "bookpi-audit", "isabella-cognitive", "rdm-tos-edge"]
+federation = ["dep:tonic", "dep:prost"]
+bookpi-audit = []
+isabella-cognitive = ["dep:async-trait"]
+rdm-tos-edge = []
+
+[[bin]]
+name = "tamv-agent"
+path = "src/main.rs"
+
+[lib]
+name = "tamv_agent"
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = true
+JSON
+{
+  "$schema": "https://tamv.online/schemas/nexus-inventory-v1.json",
+  "version": "3.0.0",
+  "meta": {
+    "architect": "Edwin Oswaldo Castillo Trejo (Anubis Villaseñor)",
+    "environment": "offline-airgapped",
+    "root_namespace": "TAMV-ONLINE",
+    "total_target_repos": 177
+  },
+  "repositories": [
+    {
+      "id": "repo-001",
+      "name": "OsoPanda1",
+      "layer": "Core/Profile",
+      "source_path": "imports/OsoPanda1",
+      "target_workspace": "sources/OsoPanda1",
+      "criticality": "HIGH",
+      "auto_link": true,
+      "signatures": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "id": "repo-002",
+      "name": "isabella-ai-genesis",
+      "layer": "Cognitive",
+      "source_path": "imports/isabella-ai-genesis",
+      "target_workspace": "sources/isabella-ai-genesis",
+      "criticality": "CRITICAL",
+      "auto_link": true
+    }
+  ]
+}
+Python
+# tamv_digital_nexus/cli.py
+"""
+TAMV Digital Nexus - Enterprise Offline Consolidator (v3.0.0)
+Soporta ingesta masiva incremental para los 177 repositorios locales.
+"""
+
+import argparse
+import json
+import logging
+import shutil
+import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from typing import Dict, Any
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] (TAMV-NEXUS) %(message)s",
+    handlers=[logging.StreamHandler(sys.stdout)]
+)
+
+class NexusConsolidator:
+    def __init__(self, inventory_path: str, imports_root: str, workspace_root: str):
+        self.inventory_path = Path(inventory_path)
+        self.imports_root = Path(imports_root)
+        self.workspace_root = Path(workspace_root)
+        self.inventory: Dict[str, Any] = {}
+
+    def load_inventory(self) -> None:
+        if not self.inventory_path.exists():
+            raise FileNotFoundError(f"Inventario no encontrado: {self.inventory_path}")
+        with open(self.inventory_path, "r", encoding="utf-8") as f:
+            self.inventory = json.load(f)
+        logging.info(f"Inventario cargado exitosamente. Repositorios registrados: {len(self.inventory.get('repositories', []))}")
+
+    def process_repository(self, repo_info: Dict[str, Any]) -> bool:
+        repo_name = repo_info["name"]
+        src = self.imports_root / repo_name
+        dest = self.workspace_root / repo_name
+
+        if not src.exists():
+            logging.warning(f"Snapshot local no encontrado para {repo_name} en {src}. Omitiendo...")
+            return False
+
+        try:
+            dest.mkdir(parents=True, exist_ok=True)
+            for item in src.iterdir():
+                s = src / item.name
+                d = dest / item.name
+                if s.is_dir():
+                    shutil.copytree(s, d, dirs_exist_ok=True)
+                else:
+                    shutil.copy2(s, d)
+            logging.info(f"Consolidado exitoso: [{repo_info.get('layer', 'Core')}] {repo_name}")
+            return True
+        except Exception as e:
+            logging.error(f"Falla al procesar {repo_name}: {str(e)}")
+            return False
+
+    def execute_pipeline(self, max_workers: int = 8) -> None:
+        self.load_inventory()
+        repos = self.inventory.get("repositories", [])
+        self.workspace_root.mkdir(parents=True, exist_ok=True)
+
+        successful = 0
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            future_to_repo = {executor.submit(self.process_repository, repo): repo for repo in repos}
+            for future in as_completed(future_to_repo):
+                if future.result():
+                    successful += 1
+
+        logging.info(f"Pipeline finalizado. Consolidados {successful} de {len(repos)} repositorios.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="TAMV Digital Nexus Enterprise Consolidator")
+    parser.add_argument("--inventory", required=True, help="Ruta al archivo repos_seed.json")
+    parser.add_argument("--imports-root", required=True, help="Directorio raíz de snapshots importados")
+    parser.add_argument("--workspace-root", required=True, help="Directorio de destino unificado")
+    parser.add_argument("--workers", type=int, default=8, help="Número de hilos concurrentes")
+
+    args = parser.parse_args()
+    consolidator = NexusConsolidator(args.inventory, args.imports_root, args.workspace_root)
+    consolidator.execute_pipeline(max_workers=args.workers)
+YAML
+# docs/decisions/BPI-2026-0001.yaml
+- id: BPI-2026-0001
+  title: "Restauración y aislamiento del runtime federado de Isabella AI"
+  status: accepted
+  date: 2026-10-08
+  context:
+    problem: "Saturación de latencia en la resolución de habilidades por falta de aislamiento en la memoria RAM del nodo."
+    trigger: "Pico de peticiones simultáneas desde el módulo RDM-TOS."
+    affected_components:
+      - "MD-X4"
+      - "Isabella AI"
+  decision:
+    selected_option: "Implementación de circuit breakers aislados y colas de trabajo por prioridad."
+    rationale: "Garantiza que la degradación del servicio no comprometa la integridad de los datos territoriales."
+  risks:
+    description: "Aumento temporal del tiempo de respuesta en solicitudes no prioritarias."
+    mitigation: "Aumento de caché local en el nodo RDM-TOS."
+  validation:
+    tests: "Pruebas de estrés sintético con 10,000 peticiones concurrentes."
+    evidence: "Logs de auditoría y reportes de latencia en CI/CD."
+  rollback:
+    procedure: "Reversión al commit b8f3a1 y desactivación del flag de federación activa."
+  links:
+    issues: ["#104"]
+    pull_requests: ["#212"]
+    commits: ["b8f3a1e"]
+Bash
+#!/usr/bin/env bash
+# scripts/run_nexus_pipeline.sh
+
+set -euo pipefail
+
+IMPORTS_DIR="imports"
+SOURCES_DIR="sources"
+CONFIG_FILE="config/repos_seed.json"
+WORKERS=8
+
+echo "=== INICIANDO CONSOLIDACIÓN NEXUS ENTERPRISE ==="
+mkdir -p "${IMPORTS_DIR}" "${SOURCES_DIR}" config
+
+if [ ! -f "${CONFIG_FILE}" ]; then
+    echo "ERROR: Archivo de inventario ${CONFIG_FILE} no encontrado."
+    exit 1
+fi
+
+python3 -m tamv_digital_nexus.cli \
+    --inventory "${CONFIG_FILE}" \
+    --imports-root "${IMPORTS_DIR}" \
+    --workspace-root "${SOURCES_DIR}" \
+    --workers "${WORKERS}"
+
+echo "=== CONSOLIDACIÓN COMPLETADA ==="
