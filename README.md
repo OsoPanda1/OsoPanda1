@@ -16,23 +16,29 @@ Nacido en **Mineral del Monte (Real del Monte), Hidalgo, México**, TAMV ONLINE 
 
 Si la tecnología no fortalece a la comunidad, solo está decorando dependencia. TAMV opera bajo la convicción de que los datos sin soberanía constituyen extractivismo, la inteligencia sin territorio es ruido automatizado, y los sistemas incapaces de sobrevivir a sus propias fallas nunca fueron realmente sistemas.
 
-```MERMAID
+flowchart TD
+    T["TERRITORIO<br/>&amp; COMUNIDAD"]
+    I["CAPA COGNITIVA<br/>ISABELLA AI"]
+    M["KERNEL DE SOBERANÍA<br/>MD-X4"]
+    R["SISTEMA OPERATIVO TERRITORIAL<br/>RDM-TOS"]
+    B["MEMORIA Y AUDITORÍA<br/>MSR / BOOKPI"]
 
-    [ TERRITORIO & COMUNIDAD ]
-               │
-               ▼
-   [ CAPA COGNITIVA: ISABELLA AI ]
-               │
-               ▼
-   [ KERNEL DE SOBERANÍA: MD-X4 ]
-               │
-               ▼
-   [ SISTEMA OPERATIVO: RDM-TOS ]
-               │
-               ▼
-   [ MEMORIA Y AUDITORÍA: MSR / BOOKPI ]
+    T --> I
+    I --> M
+    M --> R
+    R --> B
 
-```
+    classDef territory fill:#07111f,stroke:#d8dee9,color:#f8fafc,stroke-width:2px;
+    classDef cognitive fill:#101827,stroke:#60a5fa,color:#f8fafc,stroke-width:2px;
+    classDef kernel fill:#0b1624,stroke:#38bdf8,color:#f8fafc,stroke-width:3px;
+    classDef operating fill:#0c1f2a,stroke:#67e8f9,color:#f8fafc,stroke-width:2px;
+    classDef memory fill:#171321,stroke:#e9d5ff,color:#f8fafc,stroke-width:2px;
+
+    class T territory;
+    class I cognitive;
+    class M kernel;
+    class R operating;
+    class B memory;
 
 ---
 
