@@ -1,169 +1,131 @@
 # TAMV ONLINE ENTERPRISE
+> **Infraestructura Civilizatoria, Soberanía Digital e Inteligencia Territorial**
 
-No construyo una marca. Construyo una **infraestructura civilizatoria**.
-
-TAMV ONLINE ENTERPRISE nace desde Real del Monte, Hidalgo, como un experimento serio de soberanía digital, memoria territorial, inteligencia aplicada y coordinación comunitaria. No es un portafolio, no es un hobby, no es una vitrina: es un sistema vivo para diseñar futuro desde México hacia América Latina.
-
-## Identidad
-
-Soy Edwin Oswaldo Castillo Trejo, también conocido como Anubis Villaseñor.
-Soy Latino, Mexicano y Orgullosamente Realmontense.
-Soy un ser humano común y corriente que soñó con crear una app.  
-El rechazo institucional me dio visión y guía: me obligó a ver más allá del ego y de la validación externa. 
-Hoy no se trata de mí; se trata de lo que el conocimiento, a través de mí, puede crear para guiar a los que vienen detrás. 
+[![Ecosistema: TAMV](https://img.shields.io/badge/Ecosistema-TAMV_Online_Enterprise-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TAMV-ONLINE)
+[![Kernel: MD-X4](https://img.shields.io/badge/Kernel-MD--X4_Federated-00f0ff?style=for-the-badge)](docs/ARCHITECTURE.md)
+[![Cognitive: Isabella AI](https://img.shields.io/badge/AI-Isabella_Genesis_Governance-7000ff?style=for-the-badge)](docs/ISABELLA.md)
+[![Audit: BookPI](https://img.shields.io/badge/Memory-MSR_%2F_BookPI_Traceable-00ff66?style=for-the-badge)](docs/BOOKPI.md)
 
 ---
 
-Mi trabajo no gira alrededor de “hacer software bonito”, sino de resolver una pregunta más dura:
+## Manifiesto Técnico
 
-> **¿Cómo se diseña una plataforma que piense como territorio, resista como sistema y evolucione como organismo?**
+> **No construyo una marca. Construyo una infraestructura civilizatoria.**
 
-Esa pregunta define todo lo que existe aquí.
+Nacido en **Mineral del Monte (Real del Monte), Hidalgo, México**, TAMV ONLINE ENTERPRISE es un sistema vivo de soberanía digital, memoria territorial, inteligencia aplicada y coordinación comunitaria. 
 
-## Tesis central
+Si la tecnología no fortalece a la comunidad, solo está decorando dependencia. TAMV opera bajo la convicción de que los datos sin soberanía constituyen extractivismo, la inteligencia sin territorio es ruido automatizado, y los sistemas incapaces de sobrevivir a sus propias fallas nunca fueron realmente sistemas.
 
-TAMV parte de una idea simple y brutal:
-
-- Si la tecnología no fortalece a la comunidad, entonces solo está decorando dependencia.  
-- Si el dato no tiene soberanía, entonces no hay memoria, hay extracción.  
-- Si la inteligencia no sirve al territorio, entonces no es inteligencia: es ruido automatizado.  
-- Si el sistema no sobrevive a sus propias fallas, entonces nunca fue sistema.
-
-  ---
-
-## Qué es TAMV
-
-TAMV es una arquitectura de coordinación entre:
-
-- infraestructura digital soberana,  
-- IA territorial,  
-- radio comunitaria,  
-- turismo inteligente,  
-- economía local,  
-- documentación trazable,  
-- gobernanza técnica,  
-- y memoria histórica operacional.
-
-  ---
-
-No se trata de juntar módulos. No se trata de impresionar con repos mega extensos
-Se trata de **alinear capas de realidad** para que identidad, datos, comunidad y servicio convivan dentro de la misma lógica.
+ [ TERRITORIO & COMUNIDAD ]
+               │
+               ▼
+   [ CAPA COGNITIVA: ISABELLA AI ]
+               │
+               ▼
+   [ KERNEL DE SOBERANÍA: MD-X4 ]
+               │
+               ▼
+   [ SISTEMA OPERATIVO: RDM-TOS ]
+               │
+               ▼
+   [ MEMORIA Y AUDITORÍA: MSR / BOOKPI ]
 
 ---
 
-## Pensamiento sistémico: Una frase que definio mi camino, como se genera muy simple, busca el porque de las cosas.
+## Módulos del Ecosistema
 
-Aquí nada existe aislado.
+| Componente | Capa | Función Arquitectónica | Estado |
+| :--- | :--- | :--- | :--- |
+| **MD-X4** | *Kernel / Federación* | Coordinación de nodos, políticas de soberanía, orquestación y contratos runtime. | `Active` |
+| **RDM-TOS** | *OS Territorial* | Gestión de datos contextuales, expedientes comunitarios, eventos y memoria operacional. | `Active` |
+| **Isabella AI** | *Inteligencia / Agentes* | Sistema federado de IA gobernada, verificación, procedencia y resolución de incertidumbre. | `Genesis` |
+| **MSR / BookPI** | *Memoria & Auditoría* | Grafo de trazabilidad inmutable: Decisión ↔ Código ↔ Evidencia ↔ Despliegue. | `Active` |
+| **TAMV Network** | *Interfaz & Colaboración* | Superficie pública, identidad XR/multimedia, radio comunitaria y nodo de integración. | `Active` |
 
-Cada repositorio, cada endpoint, cada decisión de diseño, cada licencia, cada flujo de datos y cada interfaz forma parte de un organismo mayor. [web:7]  
-Por eso el proyecto no se mide solo por features, sino por relaciones:
+---
 
-- entre territorio y código,  
-- entre memoria y despliegue,  
-- entre IA y criterio humano,  
-- entre autonomía y escalabilidad,  
-- entre visión y ejecución.
+## Principios Operativos Exigibles
 
-  ---
+1. **Soberanía sobre dependencia:** Ninguna dependencia crítica carecerá de estrategia de reemplazo o plan de degradación sin pérdida de datos.
+2. **Defensa por capas:** Todo módulo implementa prevención, detección, contención (circuit breakers), corrección idempotente y aprendizaje automático.
+3. **Auditabilidad BookPI:** Todo cambio arquitectónico o de modelo debe registrarse en la cadena causal de decisiones con metadatos verificables.
+4. **Criterio Humano:** La automatización expande la capacidad de acción comunitaria; nunca oculta la responsabilidad técnica o ética.
 
-Eso obliga a pensar en ciclos, dependencias, fallos, retroalimentación y evolución.
-No en productos sueltos.
+---
 
-Porque fallo el disparador: Buscas el error, pones un parche fin del problema. "YO NO LO VEO ASI"
-En primer lugar, porque tiene que existir un disparador, que hace que se active, porque no se crea un filtro
-que evite se llegue al error que hace se active el disparador y eliminando el disparador no hay problema
-pero si lo llegase a haber, como nos daremos cuenta, como se implementa un metodo de monitoreo que registre el error 
-pero que sepa como corregirlo sin intervencion, esa es mi mente, por ello soy capaz de lograr vivir en un bucle inmenso
+## Estructura de Documentación
 
-## Psicología doble profunda
+Para profundizar en la arquitectura, reglas de gobernanza y guías de contribución:
 
-Este proyecto también trabaja sobre una tensión interna:
+* 🗺️ [**Arquitectura de Sistema (`docs/ARCHITECTURE.md`)**](docs/ARCHITECTURE.md)
+* 🏛️ [**Modelo de Gobernanza (`docs/GOVERNANCE.md`)**](docs/GOVERNANCE.md)
+* 🤝 [**Guía de Contribución (`docs/CONTRIBUTING.md`)**](docs/CONTRIBUTING.md)
+* 🔒 [**Políticas de Seguridad y Soberanía (`docs/SECURITY.md`)**](docs/SECURITY.md)
+* 📜 [**Libro de Decisiones BookPI (`docs/BOOKPI.md`)**](docs/BOOKPI.md)
 
-Por un lado, quiere ser radicalmente técnico.  
-Por otro, quiere ser profundamente humano.  
+---
 
-Por un lado, busca precisión, trazabilidad y control.  
-Por otro, necesita intuición, identidad y sentido.
+**Fundador & Arquitecto:** Edwin Oswaldo Castillo Trejo (*Anubis Villaseñor*)  
+**Origen:** Real del Monte, Hidalgo, México 🇲🇽  
+**Ámbito:** Latinoamérica hacia el mundo.
+Dashboard Interactivo de Arquitectura Ecosistémica TAMVNormas y Código de Gobernanza (docs/GOVERNANCE.md)Markdown# Código de Gobernanza y Gestión de Cambios (TAMV-GOV-01)
 
-Ese choque no es un problema.
-Es el motor.
+## 1. Niveles de Cambios y Versionado
+Todo cambio dentro de los repositorios del ecosistema TAMV ONLINE ENTERPRISE se clasifica bajo la especificación SemVer modificada para infraestructuras soberanas:
 
-La capa externa del proyecto habla en arquitectura, despliegue, soberanía y rendimiento.  
-La capa interna habla en propósito, memoria, territorio, dignidad y continuidad.
+* **PATCH (x.x.N):** Correcciones internas de código, parches de seguridad sin alteración de esquemas o contratos API.
+* **MINOR (x.N.0):** Adición de nuevas capacidades, endpoints o agentes de Isabella AI que mantienen compatibilidad hacia atrás.
+* **MAJOR (N.0.0):** Cambios incompatibles en contratos API, reestructuración del Kernel MD-X4, modificaciones en esquemas de datos RDM-TOS o cambios en el protocolo de consenso. Requieren registro BookPI obligatorio.
+* **EMERGENCY (HOTFIX):** Despliegue de urgencia por vulnerabilidad de seguridad activa. Exige auditoría post-mortem en menos de 72 horas.
 
-TAMV existe exactamente en ese punto de fricción.
+## 2. Reglas de Merge y Aprobación
+1. **Verificación Estricta:** Ningún Pull Request será integrado sin superar el pipeline CI/CD (linting, tests unitarios, tests de contrato e inspección de secretos).
+2. **Registro BookPI:** Cambios clasificados como MINOR o MAJOR requieren un archivo de decisión en `docs/decisions/` siguiendo el estándar `BPI-YYYY-XXXX`.
+3. **Prohibición de Parches Ciegos:** Se rechaza cualquier PR que resuelva un síntoma sin documentar el disparador y la causa raíz en el vector de fallas.
 
-## Choque epistemológico
+## 3. Gobernanza Algorítmica y Control de IA
+1. **Transparencia Cognitiva:** Isabella AI no responderá ni ejecutará herramientas sin registrar la trazabilidad de su contexto y grado de incertidumbre.
+2. **Human-in-the-Loop:** Toda acción con impacto económico, borrado de datos o reconfiguración de infraestructura territorial requerirá autorización explícita firmada por un operador humano calificado.
+3. **Aislamiento de Prompts:** Separación estricta entre las directivas del sistema y las entradas no confiables del usuario para evitar ataques de inyección.
+Manifiesto Técnico de GitHub (docs/TAMV-ONLINE-ENTERPRISE.md)Markdown# MANIFIESTO Y MANUAL DE ARQUITECTURA TÉCNICA
+## TAMV ONLINE ENTERPRISE: INFRAESTRUCTURA CIVILIZATORIA SOBERANA
 
-La mayoría de los sistemas digitales se construyen desde la lógica de la comodidad, la dependencia o la estética comercial. 
-TAMV nace de otra epistemología:
+### Preámbulo
+TAMV ONLINE ENTERPRISE no es una startup, ni una vitrina tecnológica, ni una marca comercial. Es una infraestructura civilizatoria desarrollada desde Real del Monte, Hidalgo, diseñada para dotar a las comunidades de Latinoamérica de capacidad cibernética autónoma, memoria histórica inalterable e inteligencia territorial gobernada.
 
-- primero el territorio,  
-- luego la herramienta,  
-- después la interfaz,  
-- al final la automatización.
+---
 
-No al revés.
+### Tesis Fundamental
+> **Si la tecnología no fortalece a la comunidad, solo está decorando dependencia.**
 
-Eso implica romper con la idea de que la tecnología vale por sí misma.
-La tecnología solo vale si produce capacidad real, continuidad y poder local.
+Frente a la centralización tecnológica extractiva, TAMV contrapone:
+1. **Soberanía de Datos:** Los datos pertenecen al territorio que los genera.
+2. **Defensa Sistémica:** Diseñar asumiendo la falla continua como estado natural; la resiliencia es el único indicador real de madurez.
+3. **Memoria Operacional:** Toda acción técnica o algorítmica debe ser auditable en tiempo y origen mediante BookPI.
 
-Ese es el choque.
-No estamos optimizando una app.
-Estamos discutiendo qué tipo de mundo deja una arquitectura cuando se vuelve infraestructura.
+---
 
-## Núcleo del ecosistema
+### Análisis Causal de Fallas (Matriz de Defensa)
 
-El ecosistema articula piezas como:
+TAMV rechaza la ingeniería basada en parches superficiales. Todo error en el ecosistema debe analizarse bajo el vector lineal de propagación:
 
-- **MD-X4**, como kernel de soberanía y coordinación.  
-- **RDM-TOS**, como sistema operativo territorial.  
-- **Isabella AI**, como capa cognitiva del sistema.  
-- **MSR / BookPI**, como memoria técnica, trazabilidad y documentación viva.  
-- **TAMV Online Network**, como identidad pública y frente de colaboración. [web:5][web:7]
+$$\text{Condición Previa} \rightarrow \text{Disparador} \rightarrow \text{Vulnerabilidad} \rightarrow \text{Error Observable} \rightarrow \text{Impacto} \rightarrow \text{Detección} \rightarrow \text{Corrección} \rightarrow \text{Aprendizaje}$$
 
-Cada capa existe para que la anterior no se degrade en simple discurso.
+#### Capas de Resiliencia Exigidas:
+* **Prevención:** Tipado estricto, contratos inmutables, validación de esquemas en frontera.
+* **Detección:** Health checks sintéticos, monitoreo de métricas doradas (latencia, tráfico, errores, saturación).
+* **Contención:** Isolation boundary, degradación elegante de interfaz, circuit breakers activos.
+* **Corrección:** Rollback automatizado, retries con backoff exponencial e idempotencia estricta.
 
-## Principios
+---
 
-- Soberanía antes que dependencia.  
-- Estructura antes que ruido.  
-- Trazabilidad antes que improvisación.  
-- Comunidad antes que marketing.  
-- Resiliencia antes que exhibición.  
-- Memoria antes que olvido.  
-- Criterio humano antes que automatismo ciego. [web:7]
+### Protocolo de Contribución
+Para contribuir a TAMV ONLINE ENTERPRISE, el desarrollador debe aportar **criterio técnico y compromiso territorial**, no solo líneas de código.
 
-## Estado del proyecto
+1. **Comprensión del Sistema:** Identificar los contratos consumidos y producidos por el módulo a modificar.
+2. **Aislamiento:** Trabajar en ramas temáticas (`feature/`, `fix/`, `audit/`).
+3. **Verificación de Invariantes:** Garantizar que los tests de no regresión se ejecuten localmente.
+4. **Firma de Compromiso:** Documentar el riesgo aceptado y el procedimiento de reversión (*rollback*) en la descripción del Pull Request.
 
-TAMV está en construcción continua.
-Eso no significa inmadurez; significa ambición operativa. [web:7]
-
-El objetivo no es aparentar perfección.
-El objetivo es producir una infraestructura real, auditable, útil y capaz de sostener decisiones, servicios y experiencia comunitaria en el tiempo. [web:7]
-
-## Cómo colaborar
-
-Si entiendes este proyecto, no solo aportas código.
-Aportas criterio.
-
-Las contribuciones más valiosas son las que fortalecen:
-
-- arquitectura,  
-- seguridad,  
-- documentación,  
-- trazabilidad,  
-- experiencia de uso,  
-- gobernanza,  
-- y coherencia entre módulos. [web:7]
-
-## Cierre
-
-TAMV ONLINE ENTERPRISE no busca ser una página más.
-Busca ser una tesis encarnada en sistema. [web:7]
-
-Si el código no puede sostener la visión, se reescribe.  
-Si la visión no resiste la realidad, se corrige.  
-Si el territorio no gana autonomía, el proyecto todavía no termina.
-
-**Esto no es solo desarrollo. Es posicionamiento civilizatorio.**
+---
+*Diseñado, codificado y sostenido desde Real del Monte, Hidalgo, México.*
