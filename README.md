@@ -8,6 +8,10 @@
 
 ---
 
+## No somos el futuro. Somos la fuerza del presente, que a despertado desde LATAM.
+
+---
+
 ## Manifiesto Técnico
 
 > **No construyo una marca. Construyo una infraestructura civilizatoria.**
