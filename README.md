@@ -16,6 +16,7 @@ Nacido en **Mineral del Monte (Real del Monte), Hidalgo, México**, TAMV ONLINE 
 
 Si la tecnología no fortalece a la comunidad, solo está decorando dependencia. TAMV opera bajo la convicción de que los datos sin soberanía constituyen extractivismo, la inteligencia sin territorio es ruido automatizado, y los sistemas incapaces de sobrevivir a sus propias fallas nunca fueron realmente sistemas.
 
+```MERMAID
 flowchart TD
     T["TERRITORIO<br/>&amp; COMUNIDAD"]
     I["CAPA COGNITIVA<br/>ISABELLA AI"]
@@ -39,6 +40,7 @@ flowchart TD
     class M kernel;
     class R operating;
     class B memory;
+```
 
 ---
 
