@@ -1,16 +1,60 @@
 [package]
 name = "tamv-agent"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
+authors = ["Edwin Oswaldo Castillo Trejo <anubis.villasenor@tamv.online>"]
+license = "MIT, Apache-2.0, TAMV Private 1.0"
+description = "Kernel cibernético y motor federado de Isabella AI / MD-X4 para el ecosistema TAMV ONLINE ENTERPRISE"
+repository = "https://github.com/TAMV-ONLINE/tamv-agent"
+homepage = "https://tamv.online"
+readme = "README.md"
+keywords = ["tamv", "sovereign-ai", "isabella-ai", "md-x4", "federated"]
+categories = ["asynchronous", "cryptography", "network-programming"]
 
 [dependencies]
-anyhow = "1"
+# Error Handling & Core Utilities
+anyhow = "1.0"
+thiserror = "1.0"
 base64 = "0.22"
 chrono = { version = "0.4", features = ["serde"] }
-hmac = "0.12"
 rand = "0.8"
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
-sha2 = "0.10"
-tokio = { version = "1", features = ["macros", "rt-multi-thread", "time", "signal", "net"] }
+uuid = { version = "1.8", features = ["v4", "serde"] }
+
+# Serialization & Config
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 toml = "0.8"
+
+# Cryptography & Sovereign Audit
+sha2 = "0.10"
+hmac = "0.12"
+ed25519-dalek = { version = "2.1", features = ["serde"] }
+
+# Asynchronous Runtime & Networking
+tokio = { version = "1.38", features = ["macros", "rt-multi-thread", "time", "signal", "net", "sync", "io-util"] }
+tokio-stream = "0.1"
+futures-util = "0.3"
+reqwest = { version = "0.12", features = ["json"] }
+
+# Observability, Tracing & BookPI Telemetry
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
+tempfile = "3.10"
+
+[features]
+default = ["full"]
+full = ["federation", "bookpi-audit", "isabella-cognitive"]
+federation = []
+bookpi-audit = []
+isabella-cognitive = []
+
+[[bin]]
+name = "tamv-agent"
+path = "src/main.rs"
+
+[lib]
+name = "tamv_agent"
+path = "src/lib.rs"
