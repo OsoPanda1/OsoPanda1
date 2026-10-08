@@ -1,147 +1,895 @@
-# TAMV ONLINE ENTERPRISE
-> **Infraestructura Civilizatoria, Soberanía Digital e Inteligencia Territorial**
+TAMV ONLINE ENTERPRISE
+Infraestructura civilizatoria, soberanía digital e inteligencia territorial
 
-[![Ecosistema: TAMV](https://img.shields.io/badge/Ecosistema-TAMV_Online_Enterprise-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TAMV-ONLINE)
-[![Kernel: MD-X4](https://img.shields.io/badge/Kernel-MD--X4_Federated-00f0ff?style=for-the-badge)](docs/ARCHITECTURE.md)
-[![Cognitive: Isabella AI](https://img.shields.io/badge/AI-Isabella_Genesis_Governance-7000ff?style=for-the-badge)](docs/ISABELLA.md)
-[![Audit: BookPI](https://img.shields.io/badge/Memory-MSR_%2F_BookPI_Traceable-00ff66?style=for-the-badge)](docs/BOOKPI.md)
 
----
 
-## No somos el futuro. Somos la fuerza del presente, que a despertado desde LATAM.
 
----
 
-## Manifiesto Técnico
+No construyo una marca. Construyo una infraestructura civilizatoria.
 
-> **No construyo una marca. Construyo una infraestructura civilizatoria.**
+No somos el futuro: somos la fuerza del presente que ha despertado desde Latinoamérica.
 
-Nacido en **Mineral del Monte (Real del Monte), Hidalgo, México**, TAMV ONLINE ENTERPRISE es un sistema vivo de soberanía digital, memoria territorial, inteligencia aplicada y coordinación comunitaria. 
+TAMV ONLINE ENTERPRISE es un ecosistema tecnológico de raíz territorial, nacido en Mineral del Monte —Real del Monte—, Hidalgo, México, y orientado al diseño de infraestructura digital soberana, memoria territorial, inteligencia artificial gobernada y coordinación comunitaria.
 
-Si la tecnología no fortalece a la comunidad, solo está decorando dependencia. TAMV opera bajo la convicción de que los datos sin soberanía constituyen extractivismo, la inteligencia sin territorio es ruido automatizado, y los sistemas incapaces de sobrevivir a sus propias fallas nunca fueron realmente sistemas.
+No es un portafolio. No es un hobby. No es una vitrina tecnológica.
 
-```MERMAID
-flowchart TD
-    T["TERRITORIO<br/>&amp; COMUNIDAD"]
-    I["CAPA COGNITIVA<br/>ISABELLA AI"]
-    M["KERNEL DE SOBERANÍA<br/>MD-X4"]
-    R["SISTEMA OPERATIVO TERRITORIAL<br/>RDM-TOS"]
-    B["MEMORIA Y AUDITORÍA<br/>MSR / BOOKPI"]
+Es un sistema vivo para investigar, documentar, construir y desplegar capacidades digitales desde México hacia América Latina.
 
-    T --> I
-    I --> M
-    M --> R
-    R --> B
+Origen y propósito
+TAMV nace desde un territorio concreto y desde una experiencia concreta: la de una comunidad que trabaja, resuelve, emprende, crea y resiste diariamente para sostener la vida.
 
-    classDef territory fill:#07111f,stroke:#d8dee9,color:#f8fafc,stroke-width:2px;
-    classDef cognitive fill:#101827,stroke:#60a5fa,color:#f8fafc,stroke-width:2px;
-    classDef kernel fill:#0b1624,stroke:#38bdf8,color:#f8fafc,stroke-width:3px;
-    classDef operating fill:#0c1f2a,stroke:#67e8f9,color:#f8fafc,stroke-width:2px;
-    classDef memory fill:#171321,stroke:#e9d5ff,color:#f8fafc,stroke-width:2px;
+Es un proyecto dedicado:
 
-    class T territory;
-    class I cognitive;
-    class M kernel;
-    class R operating;
-    class B memory;
-```
+A los barrios.
 
----
+A las raíces.
 
-## Módulos del Ecosistema
+A la memoria local.
 
-| Componente | Capa | Función Arquitectónica | Estado |
-| :--- | :--- | :--- | :--- |
-| **MD-X4** | *Kernel / Federación* | Coordinación de nodos, políticas de soberanía, orquestación y contratos runtime. | `Active` |
-| **RDM-TOS** | *OS Territorial* | Gestión de datos contextuales, expedientes comunitarios, eventos y memoria operacional. | `Active` |
-| **Isabella AI** | *Inteligencia / Agentes* | Sistema federado de IA gobernada, verificación, procedencia y resolución de incertidumbre. | `Genesis` |
-| **MSR / BookPI** | *Memoria & Auditoría* | Grafo de trazabilidad inmutable: Decisión ↔ Código ↔ Evidencia ↔ Despliegue. | `Active` |
-| **TAMV Network** | *Interfaz & Colaboración* | Superficie pública, identidad XR/multimedia, radio comunitaria y nodo de integración. | `Active` |
+A quienes sostienen negocios y familias.
 
----
+A quienes innovan sin ser reconocidos como innovadores.
 
-## Principios Operativos Exigibles
+A quienes luchan todos los días por llevar comida a sus mesas.
 
-1. **Soberanía sobre dependencia:** Ninguna dependencia crítica carecerá de estrategia de reemplazo o plan de degradación sin pérdida de datos.
-2. **Defensa por capas:** Todo módulo implementa prevención, detección, contención (circuit breakers), corrección idempotente y aprendizaje automático.
-3. **Auditabilidad BookPI:** Todo cambio arquitectónico o de modelo debe registrarse en la cadena causal de decisiones con metadatos verificables.
-4. **Criterio Humano:** La automatización expande la capacidad de acción comunitaria; nunca oculta la responsabilidad técnica o ética.
+A quienes construyen soluciones con recursos limitados.
 
----
+A quienes desean participar en el futuro digital sin renunciar a su identidad.
 
-## Estructura de Documentación
+Por eso, TAMV es orgullosamente realmontense. No como un adorno discursivo, sino como una declaración de origen, responsabilidad y criterio.
 
-Para profundizar en la arquitectura, reglas de gobernanza y guías de contribución:
+La tecnología de TAMV debe responder ante el territorio que la inspira y ante las comunidades que pretende servir.
 
-* 🗺️ [**Arquitectura de Sistema (`docs/ARCHITECTURE.md`)**](docs/ARCHITECTURE.md)
-* 🏛️ [**Modelo de Gobernanza (`docs/GOVERNANCE.md`)**](docs/GOVERNANCE.md)
-* 🤝 [**Guía de Contribución (`docs/CONTRIBUTING.md`)**](docs/CONTRIBUTING.md)
-* 🔒 [**Políticas de Seguridad y Soberanía (`docs/SECURITY.md`)**](docs/SECURITY.md)
-* 📜 [**Libro de Decisiones BookPI (`docs/BOOKPI.md`)**](docs/BOOKPI.md)
+Tesis fundamental
+Si la tecnología no fortalece a la comunidad, solo está decorando dependencia.
 
----
+TAMV parte de cinco proposiciones:
 
-**Fundador & Arquitecto:** Edwin Oswaldo Castillo Trejo (*Anubis Villaseñor*)  
-**Origen:** Real del Monte, Hidalgo, México 🇲🇽  
-**Ámbito:** Latinoamérica hacia el mundo.
-Dashboard Interactivo de Arquitectura Ecosistémica TAMVNormas y Código de Gobernanza (docs/GOVERNANCE.md)Markdown# Código de Gobernanza y Gestión de Cambios (TAMV-GOV-01)
+Si los datos no conservan soberanía, la memoria se convierte en extracción.
 
-## 1. Niveles de Cambios y Versionado
-Todo cambio dentro de los repositorios del ecosistema TAMV ONLINE ENTERPRISE se clasifica bajo la especificación SemVer modificada para infraestructuras soberanas:
+Si la inteligencia no sirve al territorio, se convierte en ruido automatizado.
 
-* **PATCH (x.x.N):** Correcciones internas de código, parches de seguridad sin alteración de esquemas o contratos API.
-* **MINOR (x.N.0):** Adición de nuevas capacidades, endpoints o agentes de Isabella AI que mantienen compatibilidad hacia atrás.
-* **MAJOR (N.0.0):** Cambios incompatibles en contratos API, reestructuración del Kernel MD-X4, modificaciones en esquemas de datos RDM-TOS o cambios en el protocolo de consenso. Requieren registro BookPI obligatorio.
-* **EMERGENCY (HOTFIX):** Despliegue de urgencia por vulnerabilidad de seguridad activa. Exige auditoría post-mortem en menos de 72 horas.
+Si un sistema no puede sobrevivir a sus propias fallas, no ha alcanzado madurez operativa.
 
-## 2. Reglas de Merge y Aprobación
-1. **Verificación Estricta:** Ningún Pull Request será integrado sin superar el pipeline CI/CD (linting, tests unitarios, tests de contrato e inspección de secretos).
-2. **Registro BookPI:** Cambios clasificados como MINOR o MAJOR requieren un archivo de decisión en `docs/decisions/` siguiendo el estándar `BPI-YYYY-XXXX`.
-3. **Prohibición de Parches Ciegos:** Se rechaza cualquier PR que resuelva un síntoma sin documentar el disparador y la causa raíz en el vector de fallas.
+Si una decisión técnica no puede reconstruirse, la infraestructura carece de memoria.
 
-## 3. Gobernanza Algorítmica y Control de IA
-1. **Transparencia Cognitiva:** Isabella AI no responderá ni ejecutará herramientas sin registrar la trazabilidad de su contexto y grado de incertidumbre.
-2. **Human-in-the-Loop:** Toda acción con impacto económico, borrado de datos o reconfiguración de infraestructura territorial requerirá autorización explícita firmada por un operador humano calificado.
-3. **Aislamiento de Prompts:** Separación estricta entre las directivas del sistema y las entradas no confiables del usuario para evitar ataques de inyección.
-Manifiesto Técnico de GitHub (docs/TAMV-ONLINE-ENTERPRISE.md)Markdown# MANIFIESTO Y MANUAL DE ARQUITECTURA TÉCNICA
-## TAMV ONLINE ENTERPRISE: INFRAESTRUCTURA CIVILIZATORIA SOBERANA
+Si una comunidad no puede comprender ni cuestionar el sistema que la afecta, la tecnología está reproduciendo dependencia.
 
-### Preámbulo
-TAMV ONLINE ENTERPRISE no es una startup, ni una vitrina tecnológica, ni una marca comercial. Es una infraestructura civilizatoria desarrollada desde Real del Monte, Hidalgo, diseñada para dotar a las comunidades de Latinoamérica de capacidad cibernética autónoma, memoria histórica inalterable e inteligencia territorial gobernada.
+Pregunta de investigación
+El ecosistema TAMV se articula alrededor de una pregunta central:
 
----
+¿Cómo se diseña una plataforma que piense como territorio, resista como sistema y evolucione como organismo?
 
-### Tesis Fundamental
-> **Si la tecnología no fortalece a la comunidad, solo está decorando dependencia.**
+Esta pregunta orienta:
 
-Frente a la centralización tecnológica extractiva, TAMV contrapone:
-1. **Soberanía de Datos:** Los datos pertenecen al territorio que los genera.
-2. **Defensa Sistémica:** Diseñar asumiendo la falla continua como estado natural; la resiliencia es el único indicador real de madurez.
-3. **Memoria Operacional:** Toda acción técnica o algorítmica debe ser auditable en tiempo y origen mediante BookPI.
+La arquitectura del kernel.
 
----
+La organización de los datos.
 
-### Análisis Causal de Fallas (Matriz de Defensa)
+La gobernanza algorítmica.
 
-TAMV rechaza la ingeniería basada en parches superficiales. Todo error en el ecosistema debe analizarse bajo el vector lineal de propagación:
+La documentación de decisiones.
 
-$$\text{Condición Previa} \rightarrow \text{Disparador} \rightarrow \text{Vulnerabilidad} \rightarrow \text{Error Observable} \rightarrow \text{Impacto} \rightarrow \text{Detección} \rightarrow \text{Corrección} \rightarrow \text{Aprendizaje}$$
+La observabilidad.
 
-#### Capas de Resiliencia Exigidas:
-* **Prevención:** Tipado estricto, contratos inmutables, validación de esquemas en frontera.
-* **Detección:** Health checks sintéticos, monitoreo de métricas doradas (latencia, tráfico, errores, saturación).
-* **Contención:** Isolation boundary, degradación elegante de interfaz, circuit breakers activos.
-* **Corrección:** Rollback automatizado, retries con backoff exponencial e idempotencia estricta.
+La seguridad.
 
----
+La experiencia de usuario.
 
-### Protocolo de Contribución
-Para contribuir a TAMV ONLINE ENTERPRISE, el desarrollador debe aportar **criterio técnico y compromiso territorial**, no solo líneas de código.
+La relación entre inteligencia artificial y criterio humano.
 
-1. **Comprensión del Sistema:** Identificar los contratos consumidos y producidos por el módulo a modificar.
-2. **Aislamiento:** Trabajar en ramas temáticas (`feature/`, `fix/`, `audit/`).
-3. **Verificación de Invariantes:** Garantizar que los tests de no regresión se ejecuten localmente.
-4. **Firma de Compromiso:** Documentar el riesgo aceptado y el procedimiento de reversión (*rollback*) en la descripción del Pull Request.
+Arquitectura ecosistémica
 
----
-*Diseñado, codificado y sostenido desde Real del Monte, Hidalgo, México.*
+
+
+Módulos principales
+Componente	Capa	Función arquitectónica	Estado
+MD-X4	Kernel / Federación	Coordina nodos, políticas, contratos y procesos de ejecución.	Active
+RDM-TOS	Sistema operativo territorial	Gestiona datos contextuales, expedientes, eventos y memoria operacional.	Active
+Isabella AI	Cognición / Agentes	Interpreta contexto, recupera conocimiento, verifica, recomienda y coordina capacidades.	Genesis
+MSR / BookPI	Memoria / Auditoría	Relaciona decisiones, código, evidencia, despliegues y resultados.	Active
+TAMV Online Network	Interfaz / Colaboración	Expone identidad pública, experiencias digitales, colaboración e integración comunitaria.	Active
+MD-X4
+MD-X4 es el kernel de soberanía y coordinación del ecosistema.
+
+Responsabilidades:
+
+Contratos de datos y APIs.
+
+Federación entre módulos.
+
+Gestión de políticas.
+
+Orquestación de procesos.
+
+Compatibilidad entre versiones.
+
+Propagación controlada de estados.
+
+Gestión de fallos y degradación.
+
+Protección contra regresiones arquitectónicas.
+
+RDM-TOS
+RDM-TOS es la capa de operación y memoria territorial.
+
+Gestiona:
+
+Datos.
+
+Casos.
+
+Expedientes.
+
+Eventos.
+
+Flujos.
+
+Alertas.
+
+Servicios.
+
+Relaciones.
+
+Versiones.
+
+Políticas de acceso.
+
+RDM-TOS no reduce el territorio a indicadores. Busca conservar el contexto que permite comprender los datos.
+
+Isabella AI
+Isabella AI es un sistema federado de inteligencia artificial gobernada.
+
+Sus capacidades deben incluir:
+
+Recuperación de conocimiento.
+
+Verificación de contexto.
+
+Resolución de incertidumbre.
+
+Detección de anomalías.
+
+Explicación de resultados.
+
+Coordinación de agentes y skills.
+
+Registro de procedencia.
+
+Control de herramientas.
+
+Escalamiento de decisiones sensibles.
+
+Isabella no debe presentarse como una autoridad infalible. Su confiabilidad depende de su capacidad para:
+
+Mostrar qué sabe.
+
+Mostrar qué no sabe.
+
+Indicar qué fuentes utilizó.
+
+Diferenciar hechos de inferencias.
+
+Registrar sus acciones.
+
+Permitir revisión humana.
+
+MSR / BookPI
+MSR / BookPI es la memoria técnica y causal del ecosistema.
+
+Su modelo principal es:
+
+text
+Decisión
+   ↔ Cambio
+   ↔ Código
+   ↔ Evidencia
+   ↔ Despliegue
+   ↔ Resultado
+BookPI debe preservar:
+
+Decisiones de arquitectura.
+
+Cambios de contratos.
+
+Incidentes.
+
+Causas raíz.
+
+Correcciones.
+
+Rollbacks.
+
+Riesgos aceptados.
+
+Resultados de validación.
+
+Historial de versiones.
+
+TAMV Online Network
+TAMV Online Network es la superficie pública y colaborativa.
+
+Conecta:
+
+Repositorios.
+
+Documentación.
+
+Comunidades.
+
+Servicios.
+
+Proyectos.
+
+Publicaciones.
+
+Experimentos.
+
+Experiencias XR y multimedia.
+
+Principios operativos exigibles
+1. Soberanía sobre dependencia
+Toda dependencia crítica debe tener:
+
+Justificación.
+
+Responsable.
+
+Evaluación de riesgo.
+
+Estrategia de sustitución.
+
+Plan de degradación.
+
+Procedimiento de migración.
+
+2. Defensa por capas
+Todo módulo crítico debe implementar:
+
+Prevención.
+
+Detección.
+
+Contención.
+
+Corrección.
+
+Verificación.
+
+Aprendizaje.
+
+3. Auditabilidad BookPI
+Todo cambio arquitectónico, algorítmico, contractual o de seguridad debe conservar:
+
+Identificador.
+
+Contexto.
+
+Autoría.
+
+Evidencia.
+
+Fecha.
+
+Riesgo.
+
+Validación.
+
+Rollback.
+
+4. Criterio humano
+La automatización debe ampliar la capacidad de acción comunitaria; nunca debe ocultar la responsabilidad técnica, institucional o ética.
+
+5. Interoperabilidad sin subordinación
+TAMV debe poder integrarse con servicios y estándares externos sin perder control sobre:
+
+Datos.
+
+Identidad.
+
+Memoria.
+
+Contratos.
+
+Reglas.
+
+Capacidad de migración.
+
+Análisis causal de fallas
+TAMV rechaza la ingeniería basada únicamente en parches superficiales.
+
+Todo incidente debe analizarse mediante el siguiente vector:
+
+𝑡
+𝑒
+𝑥
+𝑡
+𝐶
+𝑜
+𝑛
+𝑑
+𝑖
+𝑐
+𝑖
+𝑜
+ˊ
+𝑛
+𝑝
+𝑟
+𝑒
+𝑣
+𝑖
+𝑎
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐷
+𝑖
+𝑠
+𝑝
+𝑎
+𝑟
+𝑎
+𝑑
+𝑜
+𝑟
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝑉
+𝑢
+𝑙
+𝑛
+𝑒
+𝑟
+𝑎
+𝑏
+𝑖
+𝑙
+𝑖
+𝑑
+𝑎
+𝑑
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐸
+𝑟
+𝑟
+𝑜
+𝑟
+𝑜
+𝑏
+𝑠
+𝑒
+𝑟
+𝑣
+𝑎
+𝑏
+𝑙
+𝑒
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐼
+𝑚
+𝑝
+𝑎
+𝑐
+𝑡
+𝑜
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐷
+𝑒
+𝑡
+𝑒
+𝑐
+𝑐
+𝑖
+𝑜
+ˊ
+𝑛
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐶
+𝑜
+𝑛
+𝑡
+𝑒
+𝑛
+𝑐
+𝑖
+𝑜
+ˊ
+𝑛
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐶
+𝑜
+𝑟
+𝑟
+𝑒
+𝑐
+𝑐
+𝑖
+𝑜
+ˊ
+𝑛
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝑉
+𝑒
+𝑟
+𝑖
+𝑓
+𝑖
+𝑐
+𝑎
+𝑐
+𝑖
+𝑜
+ˊ
+𝑛
+𝑟
+𝑖
+𝑔
+ℎ
+𝑡
+𝑎
+𝑟
+𝑟
+𝑜
+𝑤
+𝑡
+𝑒
+𝑥
+𝑡
+𝐴
+𝑝
+𝑟
+𝑒
+𝑛
+𝑑
+𝑖
+𝑧
+𝑎
+𝑗
+𝑒
+textCondici 
+o
+ˊ
+ nprevia
+rightarrow
+textDisparador
+rightarrow
+textVulnerabilidad
+rightarrow
+textErrorobservable
+rightarrow
+textImpacto
+rightarrow
+textDetecci 
+o
+ˊ
+ n
+rightarrow
+textContenci 
+o
+ˊ
+ n
+rightarrow
+textCorrecci 
+o
+ˊ
+ n
+rightarrow
+textVerificaci 
+o
+ˊ
+ n
+rightarrow
+textAprendizaje
+Capas de resiliencia
+Prevención
+Tipado estricto.
+
+Validación de esquemas.
+
+Contratos versionados.
+
+Límites de entrada.
+
+Migraciones controladas.
+
+Validación de permisos.
+
+Detección
+Health checks.
+
+Synthetic monitoring.
+
+Métricas doradas.
+
+Alertas.
+
+Logs estructurados.
+
+Auditorías periódicas.
+
+Contención
+Circuit breakers.
+
+Timeouts.
+
+Aislamiento de componentes.
+
+Degradación elegante.
+
+Desactivación de features.
+
+Separación de datos corruptos.
+
+Corrección
+Rollback automatizado.
+
+Reintentos con backoff.
+
+Idempotencia.
+
+Reconciliación.
+
+Reparación controlada.
+
+Verificación post-incidente.
+
+Gobernanza
+El ecosistema se rige por cambios documentados, versionado y responsabilidad explícita.
+
+Niveles de cambio
+PATCH x.x.N: correcciones internas sin alterar contratos.
+
+MINOR x.N.0: nuevas capacidades compatibles.
+
+MAJOR N.0.0: cambios incompatibles en APIs, esquemas, kernel o protocolos.
+
+EMERGENCY / HOTFIX: respuesta urgente ante vulnerabilidad o incidente crítico.
+
+Reglas de merge
+Ningún Pull Request crítico se integra sin:
+
+CI/CD exitoso.
+
+Linting.
+
+Tests unitarios.
+
+Tests de integración.
+
+Tests de contrato.
+
+Inspección de secretos.
+
+Revisión de seguridad.
+
+Plan de rollback.
+
+Actualización documental cuando corresponda.
+
+Prohibición de parches ciegos
+Se rechaza cualquier cambio que:
+
+Corrija únicamente el síntoma.
+
+No identifique el disparador.
+
+No explique la causa raíz.
+
+No incluya una prueba de no regresión.
+
+Oculte errores mediante silenciamiento indiscriminado.
+
+Elimine observabilidad para aparentar estabilidad.
+
+Gobernanza algorítmica
+Transparencia cognitiva
+Isabella AI debe registrar, conforme a la sensibilidad del caso:
+
+Contexto utilizado.
+
+Fuentes recuperadas.
+
+Herramientas invocadas.
+
+Nivel de incertidumbre.
+
+Resultado producido.
+
+Reglas aplicadas.
+
+Decisión final o recomendación.
+
+Human-in-the-loop
+Requieren autorización humana explícita:
+
+Borrado de datos.
+
+Cambios de permisos.
+
+Reconfiguración de infraestructura.
+
+Operaciones económicas.
+
+Publicación irreversible.
+
+Modificación de políticas territoriales.
+
+Acciones que puedan afectar derechos, identidad o acceso de usuarios.
+
+Aislamiento de prompts
+Las instrucciones del sistema deben permanecer separadas de:
+
+Entradas del usuario.
+
+Documentos recuperados.
+
+Contenido externo.
+
+Datos no confiables.
+
+Salidas de herramientas.
+
+Toda entrada externa debe considerarse no confiable hasta ser validada.
+
+Protocolo de contribución
+Para contribuir a TAMV ONLINE ENTERPRISE, el desarrollador debe aportar criterio técnico y compromiso territorial, no solamente líneas de código.
+
+Antes de modificar un módulo
+Identificar los contratos que consume.
+
+Identificar los contratos que produce.
+
+Revisar dependencias.
+
+Localizar los puntos de observabilidad.
+
+Buscar decisiones BookPI relacionadas.
+
+Reproducir el problema o validar la necesidad.
+
+Definir impacto y rollback.
+
+Flujo de trabajo
+text
+Issue / RFC
+   ↓
+Análisis causal
+   ↓
+Branch temática
+   ↓
+Implementación
+   ↓
+Pruebas
+   ↓
+Revisión
+   ↓
+BookPI / documentación
+   ↓
+Merge
+   ↓
+Despliegue controlado
+   ↓
+Monitoreo
+Ramas recomendadas
+text
+feature/
+fix/
+security/
+audit/
+docs/
+experiment/
+release/
+Un Pull Request debe explicar
+Qué problema resuelve.
+
+Por qué existe.
+
+Qué cambió.
+
+Qué no cambió.
+
+Qué contratos fueron afectados.
+
+Qué riesgos introduce.
+
+Cómo se probó.
+
+Cómo se revierte.
+
+Qué documentación se actualizó.
+
+Estructura documental
+text
+docs/
+├── ARCHITECTURE.md
+├── ISABELLA.md
+├── GOVERNANCE.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── BOOKPI.md
+├── CHANGE_MANAGEMENT.md
+├── OPERATIONS.md
+├── RUNBOOKS/
+├── decisions/
+└── contracts/
+Formato de decisión BookPI
+text
+id: BPI-2026-0001
+title: "Descripción de la decisión"
+status: proposed
+date: 2026-10-08
+
+context:
+  problem: "..."
+  trigger: "..."
+  affected_components:
+    - "MD-X4"
+    - "RDM-TOS"
+
+decision:
+  selected_option: "..."
+  rationale: "..."
+
+risks:
+  - description: "..."
+    mitigation: "..."
+
+validation:
+  tests:
+    - "..."
+  evidence:
+    - "..."
+
+rollback:
+  procedure: "..."
+
+links:
+  issues: []
+  pull_requests: []
+  commits: []
+Identidad
+Fundador y arquitecto: Edwin Oswaldo Castillo Trejo
+Nombre utilizado en el ecosistema: Anubis Villaseñor
+Origen: Real del Monte, Hidalgo, México
+Ámbito: Latinoamérica hacia el mundo
+Identidad territorial: Orgullosamente realmontense
+
+Declaración final
+Durante más de cuatro décadas se nos dijo que no podíamos. Durante más de cuatro décadas se afirmó que solamente éramos consumidores, usuarios finales o destinatarios de tecnologías diseñadas en otra parte.
+
+Hoy nos plantamos con firme convicción y sin miedo a proponer una nueva era digital.
+
+No desde la imitación.
+
+No desde la dependencia.
+
+No desde la necesidad de pedir permiso para imaginar.
+
+Nos plantamos desde el territorio, desde la memoria y desde el trabajo de quienes han sostenido sus comunidades aun cuando nadie los llamó innovadores.
+
+TAMV ONLINE ENTERPRISE nace orgullosamente realmontense porque su origen no es una marca: es una responsabilidad.
+
+Es la responsabilidad de construir tecnología que recuerde a quién sirve.
+
+Es la responsabilidad de demostrar que la inteligencia también puede surgir desde un barrio, una familia, un taller, una comunidad o una persona que decidió aprender por sí misma.
+
+Es la responsabilidad de convertir el conocimiento en capacidad, la memoria en infraestructura y la visión en sistemas que puedan resistir.
+
+No somos el futuro. Somos la fuerza del presente que ha despertado desde Latinoamérica.
+
+Si el código no sostiene la visión, se reescribe.
+
+Si la visión no resiste la realidad, se corrige.
+
+Si el territorio no gana autonomía, el proyecto todavía no termina.
+
+Esto no es solamente desarrollo de software. Es memoria, soberanía, servicio y posicionamiento civilizatorio.
+
+Licencia y estado
+Este documento constituye la declaración arquitectónica y operativa de TAMV ONLINE ENTERPRISE. Las licencias de código, documentación, datos, marcas y artefactos se especifican por repositorio y por componente.
+
+El proyecto se encuentra en evolución continua. Las definiciones de estado (Active, Genesis, Experimental, Deprecated) deben actualizarse junto con la evidencia técnica correspondiente.
+
+Diseñado, codificado y sostenido desde Real del Monte, Hidalgo, México.
