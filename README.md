@@ -9,6 +9,11 @@
 
 ---
 
+# ISNI: 0000000531699229
+# ORCID: 0009-0008-5050-1539
+
+---
+
 > **No construyo una marca. Construyo una infraestructura civilizatoria.**
 >
 > **No somos el futuro: somos la fuerza del presente que ha despertado desde Latinoamérica.**
